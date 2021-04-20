@@ -19,7 +19,7 @@ mv "$name" "$newname"
 done
 
 for name in SRR4342139*
-do newname=RNA_E4"$(echo "$name" | cut -c11-)"
+do newname=RNA_D3"$(echo "$name" | cut -c11-)"
 mv "$name" "$newname"
 done
 
