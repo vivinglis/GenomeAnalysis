@@ -1,3 +1,14 @@
+#!/bin/bash -l
+#SBATCH -A g2021012
+#SBATCH -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 00:02:00
+#SBATCH -J job_name
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user vivianne.inglis.0395@student.uu.se
+
+
 # trim RNA reads using trimmomatic
 module load bioinfo-tools
 module load trimmomatic
