@@ -16,14 +16,14 @@ module load megahit
 # TAs recommended --kmin-1pass
 
 # Assembly for DNA from site D1
-gunzip ~/genome_analysis/GenomeAnalysis/data/trimmed_data/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz > pe_D1_1.fq
-gunzip ~/genome_analysis/GenomeAnalysis/data/trimmed_data/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz > pe_D1_2.fq 
-megahit --k-min 65 --k-max 105 --k-step 10 --kmin-1pass -1 pe_D1_1.fq -2 pe_D1_2.fq \
--o ~/genome_analysis/GenomeAnalysis/analysis/02_assembly 2>D1_assembly_output
+megahit --k-min 65 --k-max 105 --k-step 10 --kmin-1pass \ 
+-1 ~/genome_analysis/GenomeAnalysis/data/trimmed_data/DNA_trimmed/SRR4342129_1.paired.trimmed.fastq.gz \
+-2 ~/genome_analysis/GenomeAnalysis/data/trimmed_data/DNA_trimmed/SRR4342129_2.paired.trimmed.fastq.gz \
+-o ~/genome_analysis/GenomeAnalysis/analysis/02_assembly/megahit_output 2>D1_assembly_output
 
 
 # Assembly for DNA from site D3
-gunzip ~/genome_analysis/GenomeAnalysis/data/trimmed_data/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz > pe_D3_1.fq
-gunzip ~/genome_analysis/GenomeAnalysis/data/trimmed_data/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz > pe_D3_2.fq
-megahit --k-min 65 --k-max 105 --k-step 10 --kmin-1pass -1 pe_D1_3.fq -2 pe_D1_3.fq \
+megahit --k-min 65 --k-max 105 --k-step 10 --kmin-1pass \
+-1 ~/genome_analysis/GenomeAnalysis/data/trimmed_data/DNA_trimmed/SRR4342133_1.paired.trimmed.fastq.gz \
+-2 ~/genome_analysis/GenomeAnalysis/data/trimmed_data/DNA_trimmed/SRR4342133_2.paired.trimmed.fastq.gz \
 -o ~/genome_analysis/GenomeAnalysis/analysis/02_assembly 2>D3_assembly_output

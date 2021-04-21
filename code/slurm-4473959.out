@@ -1,0 +1,14 @@
+2021-04-21 15:01:37 - MEGAHIT v1.2.9
+2021-04-21 15:01:37 - Using megahit_core with POPCNT support
+2021-04-21 15:01:37 - Convert reads to binary library
+2021-04-21 15:01:37 - INFO  utils/utils.h                 :  152 - Real: 0.0107	user: 0.0009	sys: 0.0037	maxrss: 5736
+2021-04-21 15:01:37 - Start assembly. Number of CPU threads 16 
+2021-04-21 15:01:37 - k list: 65,75,85,95,105 
+2021-04-21 15:01:37 - Memory used: 121485632716
+2021-04-21 15:01:37 - Extracting solid (k+1)-mers and building sdbg for k = 65
+2021-04-21 15:01:37 - Assemble contigs from SdBG for k = 65
+2021-04-21 15:01:37 - Local assembly for k = 65
+2021-04-21 15:01:37 - Extract iterative edges from k = 65 to 75 
+2021-04-21 15:01:37 - Merging to output final contigs 
+2021-04-21 15:01:37 - 0 contigs, total 0 bp, min 0 bp, max 0 bp, avg 0 bp, N50 0 bp
+2021-04-21 15:01:37 - ALL DONE. Time elapsed: 0.508771 seconds 
