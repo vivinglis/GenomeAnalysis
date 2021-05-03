@@ -1,0 +1,260 @@
+/sw/bioinfo/quast/4.5.4/rackham/bin/metaquast.py -o D1_metaquast_out ../D1_megahit_output/final.contigs.fa
+
+Version: 4.5.4
+
+System information:
+  OS: Linux-3.10.0-1160.21.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 2.7.6
+  CPUs number: 16
+
+Started: 2021-04-21 23:21:35
+
+Logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/metaquast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+Contigs:
+  Pre-processing...
+  ../D1_megahit_output/final.contigs.fa ==> final.contigs
+
+No references are provided, starting to search for reference genomes in SILVA 16S rRNA database and to download them from NCBI...
+
+2021-04-21 23:21:38
+
+
+NOTICE: Permission denied accessing /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/silva. Silva will be downloaded to home directory /home/vinglis/.quast
+
+SILVA 16S ribosomal RNA gene database has already been downloaded.
+Processing downloaded file. Logging to /home/vinglis/.quast/silva/blastdb.log...
+Unpacking and replacing " " with "_"...
+gunzip -c /home/vinglis/.quast/silva/SILVA_123_SSURef_Nr99_tax_silva.fasta.gz > /home/vinglis/.quast/silva/SILVA_123_SSURef_Nr99_tax_silva.fasta.unpacked \
+2>> /home/vinglis/.quast/silva/blastdb.log
+Making BLAST database...
+/home/vinglis/.quast/blast/makeblastdb -in /home/vinglis/.quast/silva/SILVA_123_SSURef_Nr99_tax_silva.fasta \
+-dbtype nucl -out /home/vinglis/.quast/silva/silva.123.db >> /home/vinglis/.quast/silva/blastdb.log \
+2>> /home/vinglis/.quast/silva/blastdb.log
+Running BlastN..
+  processing final.contigs
+/home/vinglis/.quast/blast/blastn -query ../D1_megahit_output/final.contigs.fa -db \
+/home/vinglis/.quast/silva/silva.123.db -outfmt 7 -num_threads 4 > D1_metaquast_out/quast_downloaded_references/blast.res_final-contigs \
+2>> D1_metaquast_out/quast_downloaded_references/blast.err
+  BLAST results for final.contigs are saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/blast.res_final-contigs...
+
+
+2021-04-21 23:38:50
+Trying to download found references from NCBI. Totally 50 organisms to try.
+  gamma_proteobacterium_SCGC_AB-629-P17                    | successfully downloaded (total 1, 49 more to go)
+marine metagenome has too fragmented reference genome! It will not be downloaded.
+  marine_metagenome                                        | not found in the NCBI database
+  Synechococcus_sp._KORDI-49                               | successfully downloaded (total 2, 47 more to go)
+  marine_gamma_proteobacterium_HTCC2080                    | successfully downloaded (total 3, 46 more to go)
+  Ilumatobacter_coccineus_YM16-304                         | successfully downloaded (total 4, 45 more to go)
+  Formosa_agariphila_KMM_3901                              | successfully downloaded (total 5, 44 more to go)
+  Aquimarina_sp._22II-S11-z7                               | successfully downloaded (total 6, 43 more to go)
+  Pseudohongiella_spirulinae                               | successfully downloaded (total 7, 42 more to go)
+  Pirellula_sp                                             | not found in the NCBI database
+  Porticoccus_hydrocarbonoclasticus_MCTG13d                | successfully downloaded (total 8, 40 more to go)
+  unidentified_marine_bacterioplankton                     | not found in the NCBI database
+  Spongiibacter_tropicus_DSM_19543                         | successfully downloaded (total 9, 38 more to go)
+  alpha_proteobacterium_SCGC_AAA015-O19                    | successfully downloaded (total 10, 37 more to go)
+  Thioalkalivibrio_sulfidiphilus_HL-EbGr7                  | successfully downloaded (total 11, 36 more to go)
+  Puniceicoccus_vermicola                                  | successfully downloaded (total 12, 35 more to go)
+  Actinomycetales_bacterium_GP-5                           | not found in the NCBI database
+  Planctomyces_maris_DSM_8797                              | successfully downloaded (total 13, 33 more to go)
+  Devosia_sp._Asd_M4A1                                     | not found in the NCBI database
+  magnetic_coccus_MP17                                     | not found in the NCBI database
+  Aminobacter_sp._J41                                      | successfully downloaded (total 14, 30 more to go)
+  Kordiimonas_aquimaris                                    | not found in the NCBI database
+  Psychroserpens_sp._PAMC_27130                            | successfully downloaded (total 15, 28 more to go)
+  Vibrio_sinaloensis                                       | successfully downloaded (total 16, 27 more to go)
+  Photobacterium_halotolerans                              | successfully downloaded (total 17, 26 more to go)
+  Rhodobacteraceae_bacterium_HIMB11                        | successfully downloaded (total 18, 25 more to go)
+  Dehalogenimonas_lykanthroporepellens_BL-DC-9             | successfully downloaded (total 19, 24 more to go)
+  Acidithiomicrobium_sp._P1                                | not found in the NCBI database
+  Oleispira_antarctica_RB-8                                | successfully downloaded (total 20, 22 more to go)
+  Verrucomicrobia_bacterium_WY51                           | not found in the NCBI database
+  Marinimicrobium_sp._LS-A18                               | successfully downloaded (total 21, 20 more to go)
+  bacterium_rJ7                                            | not found in the NCBI database
+  Marinobacter_similis                                     | successfully downloaded (total 22, 18 more to go)
+  Iamia_majanohamensis                                     | not found in the NCBI database
+  Nitrospina_sp._SCGC_AAA288-L16                           | successfully downloaded (total 23, 16 more to go)
+  Nisaea_sp._MOLA_138                                      | not found in the NCBI database
+  Lishizhenia_caseinilytica                                | not found in the NCBI database
+  Pararhodospirillum_sulfurexigens                         | not found in the NCBI database
+  bacterium_K2-75                                          | not found in the NCBI database
+  Shewanella_amazonensis_SB2B                              | successfully downloaded (total 24, 11 more to go)
+  Syntrophus_aciditrophicus                                | successfully downloaded (total 25, 10 more to go)
+  denitrifying_bacterium_enrichment_culture_clone_NOB_2_C9 | not found in the NCBI database
+  Marivirga_tractuosa_DSM_4126                             | successfully downloaded (total 26, 8 more to go)
+  Geopsychrobacter_electrodiphilus_DSM_16401               | successfully downloaded (total 27, 7 more to go)
+  Uncultured_Pseudospirillum_sp                            | not found in the NCBI database
+  Mesorhizobium_sp._LSJC280B00                             | successfully downloaded (total 28, 5 more to go)
+  marine_bacterium_NAMAF003                                | not found in the NCBI database
+  Ruegeria_sp._enrichment_culture_clone_KSE55-3            | not found in the NCBI database
+  Nitrospina_gracilis_3                                    | not found in the NCBI database
+  Polaribacter_sp._KYW_601                                 | not found in the NCBI database
+  Lyngbya_confervoides_BDU141951                           | successfully downloaded (total 29, 0 more to go)
+
+Downloaded reference(s):
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Aminobacter_sp._J41.fasta ==> Aminobacter_sp._J41
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Aquimarina_sp._22II-S11-z7.fasta ==> Aquimarina_sp._22II-S11-z7
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Dehalogenimonas_lykanthroporepellens_BL-DC-9.fasta ==> Dehalogenimonas_lykanthroporepellens_BL-DC-9
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Formosa_agariphila_KMM_3901.fasta ==> Formosa_agariphila_KMM_3901
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Geopsychrobacter_electrodiphilus_DSM_16401.fasta ==> Geopsychrobacter_electrodiphilus_DSM_16401
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Ilumatobacter_coccineus_YM16-304.fasta ==> Ilumatobacter_coccineus_YM16-304
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Lyngbya_confervoides_BDU141951.fasta ==> Lyngbya_confervoides_BDU141951
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Marinimicrobium_sp._LS-A18.fasta ==> Marinimicrobium_sp._LS-A18
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Marinobacter_similis.fasta ==> Marinobacter_similis
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Marivirga_tractuosa_DSM_4126.fasta ==> Marivirga_tractuosa_DSM_4126
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Mesorhizobium_sp._LSJC280B00.fasta ==> Mesorhizobium_sp._LSJC280B00
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Nitrospina_sp._SCGC_AAA288-L16.fasta ==> Nitrospina_sp._SCGC_AAA288-L16
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Oleispira_antarctica_RB-8.fasta ==> Oleispira_antarctica_RB-8
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Photobacterium_halotolerans.fasta ==> Photobacterium_halotolerans
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Planctomyces_maris_DSM_8797.fasta ==> Planctomyces_maris_DSM_8797
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Porticoccus_hydrocarbonoclasticus_MCTG13d.fasta ==> Porticoccus_hydrocarbonoclasticus_MCTG13d
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Pseudohongiella_spirulinae.fasta ==> Pseudohongiella_spirulinae
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Psychroserpens_sp._PAMC_27130.fasta ==> Psychroserpens_sp._PAMC_27130
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Puniceicoccus_vermicola.fasta ==> Puniceicoccus_vermicola
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Rhodobacteraceae_bacterium_HIMB11.fasta ==> Rhodobacteraceae_bacterium_HIMB11
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Shewanella_amazonensis_SB2B.fasta ==> Shewanella_amazonensis_SB2B
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Spongiibacter_tropicus_DSM_19543.fasta ==> Spongiibacter_tropicus_DSM_19543
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Synechococcus_sp._KORDI-49.fasta ==> Synechococcus_sp._KORDI-49
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Syntrophus_aciditrophicus.fasta ==> Syntrophus_aciditrophicus
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Thioalkalivibrio_sulfidiphilus_HL-EbGr7.fasta ==> Thioalkalivibrio_sulfidiphilus_HL-EbGr7
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/Vibrio_sinaloensis.fasta ==> Vibrio_sinaloensis
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/alpha_proteobacterium_SCGC_AAA015-O19.fasta ==> alpha_proteobacterium_SCGC_AAA015-O19
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/gamma_proteobacterium_SCGC_AB-629-P17.fasta ==> gamma_proteobacterium_SCGC_AB-629-P17
+  /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/quast_downloaded_references/marine_gamma_proteobacterium_HTCC2080.fasta ==> marine_gamma_proteobacterium_HTCC2080
+  All references were combined in combined_reference.fasta
+
+Starting quast.py for the combined reference...
+(logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/combined_reference/quast.log)
+
+Excluding downloaded references with low genome fraction from further analysis..
+All downloaded references have low genome fraction. Nothing was excluded for now.
+
+Partitioning contigs into bins aligned to each reference..
+  processing final.contigs
+
+Run QUAST on different references in parallel..
+
+Starting quast.py for the contigs aligned to Aminobacter_sp._J41... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Aminobacter_sp._J41/quast.log)
+
+Starting quast.py for the contigs aligned to Aquimarina_sp._22II-S11-z7... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Aquimarina_sp._22II-S11-z7/quast.log)
+
+No contigs were aligned to the reference Dehalogenimonas_lykanthroporepellens_BL-DC-9, skipping..
+
+Starting quast.py for the contigs aligned to Formosa_agariphila_KMM_3901... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Formosa_agariphila_KMM_3901/quast.log)
+
+No contigs were aligned to the reference Geopsychrobacter_electrodiphilus_DSM_16401, skipping..
+
+Starting quast.py for the contigs aligned to Ilumatobacter_coccineus_YM16-304... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Ilumatobacter_coccineus_YM16-304/quast.log)
+
+Starting quast.py for the contigs aligned to Lyngbya_confervoides_BDU141951... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Lyngbya_confervoides_BDU141951/quast.log)
+
+Starting quast.py for the contigs aligned to Marinimicrobium_sp._LS-A18... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Marinimicrobium_sp._LS-A18/quast.log)
+
+Starting quast.py for the contigs aligned to Marinobacter_similis... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Marinobacter_similis/quast.log)
+
+Starting quast.py for the contigs aligned to Marivirga_tractuosa_DSM_4126... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Marivirga_tractuosa_DSM_4126/quast.log)
+
+Starting quast.py for the contigs aligned to Mesorhizobium_sp._LSJC280B00... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Mesorhizobium_sp._LSJC280B00/quast.log)
+
+No contigs were aligned to the reference Nitrospina_sp._SCGC_AAA288-L16, skipping..
+
+No contigs were aligned to the reference Oleispira_antarctica_RB-8, skipping..
+
+No contigs were aligned to the reference Photobacterium_halotolerans, skipping..
+
+Starting quast.py for the contigs aligned to Planctomyces_maris_DSM_8797... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Planctomyces_maris_DSM_8797/quast.log)
+
+Starting quast.py for the contigs aligned to Porticoccus_hydrocarbonoclasticus_MCTG13d... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Porticoccus_hydrocarbonoclasticus_MCTG13d/quast.log)
+
+Starting quast.py for the contigs aligned to Pseudohongiella_spirulinae... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Pseudohongiella_spirulinae/quast.log)
+
+Starting quast.py for the contigs aligned to Psychroserpens_sp._PAMC_27130... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Psychroserpens_sp._PAMC_27130/quast.log)
+
+No contigs were aligned to the reference Puniceicoccus_vermicola, skipping..
+
+Starting quast.py for the contigs aligned to Rhodobacteraceae_bacterium_HIMB11... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Rhodobacteraceae_bacterium_HIMB11/quast.log)
+
+Starting quast.py for the contigs aligned to Shewanella_amazonensis_SB2B... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Shewanella_amazonensis_SB2B/quast.log)
+
+Starting quast.py for the contigs aligned to Spongiibacter_tropicus_DSM_19543... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Spongiibacter_tropicus_DSM_19543/quast.log)
+
+Starting quast.py for the contigs aligned to Synechococcus_sp._KORDI-49... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Synechococcus_sp._KORDI-49/quast.log)
+
+No contigs were aligned to the reference Syntrophus_aciditrophicus, skipping..
+
+Starting quast.py for the contigs aligned to Thioalkalivibrio_sulfidiphilus_HL-EbGr7... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Thioalkalivibrio_sulfidiphilus_HL-EbGr7/quast.log)
+
+Starting quast.py for the contigs aligned to Vibrio_sinaloensis... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/Vibrio_sinaloensis/quast.log)
+
+Starting quast.py for the contigs aligned to alpha_proteobacterium_SCGC_AAA015-O19... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/alpha_proteobacterium_SCGC_AAA015-O19/quast.log)
+
+Starting quast.py for the contigs aligned to gamma_proteobacterium_SCGC_AB-629-P17... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/gamma_proteobacterium_SCGC_AB-629-P17/quast.log)
+
+Starting quast.py for the contigs aligned to marine_gamma_proteobacterium_HTCC2080... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/runs_per_reference/marine_gamma_proteobacterium_HTCC2080/quast.log)
+
+Starting quast.py for the contigs not aligned anywhere... (logging to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/not_aligned/quast.log)
+
+2021-04-22 00:05:03
+Summarizing results...
+  Drawing # contigs metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/#_contigs.pdf
+  Drawing Largest contig metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/Largest_contig.pdf
+  Drawing Total length metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/Total_length.pdf
+  Drawing Largest alignment metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/Largest_alignment.pdf
+  Drawing Total aligned length metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/Total_aligned_length.pdf
+  Drawing Total length (>= 1000 bp) metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/Total_length_(>=_1000_bp).pdf
+  Drawing Total length (>= 10000 bp) metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/Total_length_(>=_10000_bp).pdf
+  Drawing Total length (>= 50000 bp) metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/Total_length_(>=_50000_bp).pdf
+  Drawing # misassemblies metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/#_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for final.contigs...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/final-contigs_misassemblies.pdf
+  Drawing Misassembled contigs length metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/Misassembled_contigs_length.pdf
+  Drawing # mismatches per 100 kbp metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/#_mismatches_per_100_kbp.pdf
+  Drawing # indels per 100 kbp metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/#_indels_per_100_kbp.pdf
+  Drawing # N's per 100 kbp metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/#_N's_per_100_kbp.pdf
+  Drawing Genome fraction (%) metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/Genome_fraction_(%).pdf
+  Drawing Duplication ratio metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/Duplication_ratio.pdf
+  Drawing Avg contig read support metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/Avg_contig_read_support.pdf
+  Drawing # genes metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/#_genes.pdf
+  Drawing # operons metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/#_operons.pdf
+  Drawing NGA50 metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/NGA50.pdf
+  Drawing LGA50 metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/LGA50.pdf
+  Drawing # predicted genes (unique) metaQUAST summary plot...
+    saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/PDF/#_predicted_genes_(unique).pdf
+
+  Text versions of reports and plots for each metric (for all references and assemblies) are saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/summary/
+  Icarus (contig browser) is saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/icarus.html
+  Drawing interactive Krona plots...
+  Krona chart for final.contigs is saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/krona_charts/final.contigs_taxonomy_chart.html
+  Extended version of HTML-report (for all references and assemblies) is saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/report.html
+
+MetaQUAST finished.
+  Log saved to /domus/h1/vinglis/genome_analysis/GenomeAnalysis/analysis/02_assembly/assembly_QC/D1_metaquast_out/metaquast.log
+
+Finished: 2021-04-22 00:05:22
+Elapsed time: 0:43:46.778061
+Total NOTICEs: 28; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
