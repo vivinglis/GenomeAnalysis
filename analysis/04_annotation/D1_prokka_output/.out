@@ -1,0 +1,40 @@
+[19:34:08] This is prokka 1.14.6
+[19:34:08] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[19:34:08] Homepage is https://github.com/tseemann/prokka
+[19:34:08] Local time is Sun May 23 19:34:08 2021
+[19:34:08] You are vinglis
+[19:34:08] Operating system is linux
+[19:34:08] You have BioPerl 1.007001
+[19:34:08] System has 16 cores.
+[19:34:08] Will use maximum of 2 cores.
+[19:34:08] Annotating as >>> Bacteria <<<
+[19:34:08] Generating locus_tag from 'bin.12.fa' contents.
+[19:34:08] Setting --locustag HEHPHAEO from MD5 1e191ae8379eb554cf532ed1b1510f18
+[19:34:08] Creating new output folder: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.12.fa_prokka_out
+[19:34:08] Running: mkdir -p \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.12\.fa_prokka_out
+[19:34:08] Using filename prefix: PROKKA_05232021.XXX
+[19:34:08] Setting HMMER_NCPU=1
+[19:34:08] Writing log to: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.12.fa_prokka_out/PROKKA_05232021.log
+[19:34:08] Command: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/prokka --outdir /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.12.fa_prokka_out --metagenome --cpus 2 bin.12.fa
+[19:34:08] Appending to PATH: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux
+[19:34:08] Appending to PATH: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/../common
+[19:34:08] Appending to PATH: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin
+[19:34:08] Looking for 'aragorn' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/aragorn
+[19:34:08] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[19:34:08] Looking for 'barrnap' - found /sw/bioinfo/barrnap/0.8/rackham/bin/barrnap
+[19:34:08] Determined barrnap version is 000008 from 'barrnap 0.8'
+[19:34:08] Looking for 'blastp' - found /sw/bioinfo/blast/2.11.0+/rackham/bin/blastp
+[19:34:09] Determined blastp version is 002011 from 'blastp: 2.11.0+'
+[19:34:09] Looking for 'cmpress' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/cmpress
+[19:34:09] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[19:34:09] Looking for 'cmscan' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/cmscan
+[19:34:09] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[19:34:09] Looking for 'egrep' - found /usr/bin/egrep
+[19:34:09] Looking for 'find' - found /usr/bin/find
+[19:34:09] Looking for 'grep' - found /usr/bin/grep
+[19:34:09] Looking for 'hmmpress' - found /sw/apps/bioinfo/hmmer/3.1b2/rackham/bin/hmmpress
+[19:34:09] Determined hmmpress version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
+[19:34:09] Looking for 'hmmscan' - found /sw/apps/bioinfo/hmmer/3.1b2/rackham/bin/hmmscan
+[19:34:09] Determined hmmscan version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
+[19:34:09] Looking for 'java' - found /usr/bin/java
+[19:34:09] Looking for 'makeblastdb' - found /sw/bioinfo/blast/2.11.0+/rackham/bin/makeblastdb

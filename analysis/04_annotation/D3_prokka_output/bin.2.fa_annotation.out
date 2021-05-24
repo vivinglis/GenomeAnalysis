@@ -1,0 +1,400 @@
+[22:50:13] This is prokka 1.14.6
+[22:50:13] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[22:50:13] Homepage is https://github.com/tseemann/prokka
+[22:50:13] Local time is Sun May 23 22:50:13 2021
+[22:50:13] You are vinglis
+[22:50:13] Operating system is linux
+[22:50:13] You have BioPerl 1.007001
+[22:50:13] System has 16 cores.
+[22:50:13] Will use maximum of 2 cores.
+[22:50:13] Annotating as >>> Bacteria <<<
+[22:50:13] Generating locus_tag from 'bin.2.fa' contents.
+[22:50:13] Setting --locustag JPLLNEKE from MD5 39557e4eeb371ba77df915614aacc0a4
+[22:50:13] Creating new output folder: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out
+[22:50:13] Running: mkdir -p \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out
+[22:50:13] Using filename prefix: PROKKA_05232021.XXX
+[22:50:13] Setting HMMER_NCPU=1
+[22:50:13] Writing log to: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.log
+[22:50:13] Command: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/prokka --outdir /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out --metagenome --cpus 2 bin.2.fa
+[22:50:13] Appending to PATH: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux
+[22:50:13] Appending to PATH: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/../common
+[22:50:13] Appending to PATH: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin
+[22:50:13] Looking for 'aragorn' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/aragorn
+[22:50:13] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[22:50:13] Looking for 'barrnap' - found /sw/bioinfo/barrnap/0.8/rackham/bin/barrnap
+[22:50:13] Determined barrnap version is 000008 from 'barrnap 0.8'
+[22:50:13] Looking for 'blastp' - found /sw/bioinfo/blast/2.11.0+/rackham/bin/blastp
+[22:50:13] Determined blastp version is 002011 from 'blastp: 2.11.0+'
+[22:50:13] Looking for 'cmpress' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/cmpress
+[22:50:13] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[22:50:13] Looking for 'cmscan' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/cmscan
+[22:50:13] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[22:50:13] Looking for 'egrep' - found /usr/bin/egrep
+[22:50:13] Looking for 'find' - found /usr/bin/find
+[22:50:13] Looking for 'grep' - found /usr/bin/grep
+[22:50:13] Looking for 'hmmpress' - found /sw/apps/bioinfo/hmmer/3.1b2/rackham/bin/hmmpress
+[22:50:13] Determined hmmpress version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
+[22:50:13] Looking for 'hmmscan' - found /sw/apps/bioinfo/hmmer/3.1b2/rackham/bin/hmmscan
+[22:50:14] Determined hmmscan version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
+[22:50:14] Looking for 'java' - found /usr/bin/java
+[22:50:14] Looking for 'makeblastdb' - found /sw/bioinfo/blast/2.11.0+/rackham/bin/makeblastdb
+[22:50:14] Determined makeblastdb version is 002011 from 'makeblastdb: 2.11.0+'
+[22:50:14] Looking for 'minced' - found /sw/apps/bioinfo/minced/0.2.0/rackham/minced
+[22:50:14] Determined minced version is 002000 from 'minced 0.2.0'
+[22:50:14] Looking for 'parallel' - found /sw/parallel/gnuparallel/20170122/rackham/bin/parallel
+[22:50:14] Determined parallel version is 20170122 from 'GNU parallel 20170122'
+[22:50:14] Looking for 'prodigal' - found /sw/apps/bioinfo/prodigal/2.6.3/rackham/bin/prodigal
+[22:50:15] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[22:50:15] Looking for 'prokka-genbank_to_fasta_db' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/prokka-genbank_to_fasta_db
+[22:50:15] Looking for 'sed' - found /usr/bin/sed
+[22:50:15] Looking for 'signalp' - found /sw/bioinfo/SignalP/4.1f/rackham/signalp
+[22:50:15] Determined signalp version is 004001 from '4.1 4785068'
+[22:50:15] Looking for 'tbl2asn' - found /sw/bioinfo/tbl2asn/25.8/rackham/tbl2asn
+[22:50:15] Determined tbl2asn version is 025008 from 'tbl2asn 25.8   arguments:'
+[22:50:15] Using genetic code table 11.
+[22:50:15] Loading and checking input file: bin.2.fa
+[22:50:15] Wrote 217 contigs totalling 993028 bp.
+[22:50:15] Predicting tRNAs and tmRNAs
+[22:50:15] Running: aragorn -l -gc11  -w \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.fna
+[22:50:15] 1 tRNA-Val [10157,10232] 34 (gac)
+[22:50:15] 1 tRNA-Met [1619,1696] 36 (cat)
+[22:50:15] 1 tRNA-Leu [3165,3250] 36 (taa)
+[22:50:15] 1 tRNA-Ile c[269,346] 36 (gat)
+[22:50:15] 1 tRNA-Lys [687,763] 35 (ctt)
+[22:50:15] 2 tRNA-Gln c[3447,3522] 35 (ttg)
+[22:50:15] 1 tRNA-Ala c[16534,16610] 35 (ggc)
+[22:50:15] 2 tRNA-Arg [18081,18157] 36 (tct)
+[22:50:15] 1 tRNA-Leu c[994,1078] 35 (tag)
+[22:50:15] 1 tRNA-Glu c[319,396] 37 (ttc)
+[22:50:15] 2 tRNA-Val c[5414,5489] 34 (tac)
+[22:50:15] 1 tRNA-Ser c[3420,3506] 36 (gct)
+[22:50:15] 1 tRNA-Ser c[1480,1565] 35 (tga)
+[22:50:15] 1 tRNA-Ala c[9739,9815] 35 (tgc)
+[22:50:15] 1 tRNA-Thr c[3111,3187] 35 (tgt)
+[22:50:15] 1 tRNA-Pro [1010,1087] 37 (tgg)
+[22:50:15] 1 tRNA-Arg c[1813,1889] 36 (gcg)
+[22:50:15] 1 tRNA-Asn [29,104] 34 (gtt)
+[22:50:15] 1 tRNA-Gly c[5363,5437] 34 (gcc)
+[22:50:15] 1 tRNA-Gly c[1440,1513] 33 (tcc)
+[22:50:15] Found 20 tRNAs
+[22:50:15] Predicting Ribosomal RNAs
+[22:50:15] Running Barrnap with 2 threads
+[22:50:16] Found 0 rRNAs
+[22:50:16] Skipping ncRNA search, enable with --rfam if desired.
+[22:50:16] Total of 20 tRNA + rRNA features
+[22:50:16] Searching for CRISPR repeats
+[22:50:16] CRISPR1 k105_43676 2390 with 3 spacers
+[22:50:17] Found 1 CRISPRs
+[22:50:17] Predicting coding sequences
+[22:50:17] Contigs total 993028 bp, so using meta mode
+[22:50:17] Running: prodigal -i \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.fna -c -m -g 11 -p meta -f sco -q
+[22:50:17] Excluding CDS which overlaps existing RNA (CRISPR) at k105_43676:1730..2854 on - strand
+[22:50:18] Excluding CDS which overlaps existing RNA (tRNA) at k105_133204:17998..18120 on + strand
+[22:50:20] Excluding CDS which overlaps existing RNA (tRNA) at k105_7897:690..1838 on - strand
+[22:50:21] Found 859 CDS
+[22:50:21] Connecting features back to sequences
+[22:50:21] Not using genus-specific database. Try --usegenus to enable it.
+[22:50:21] Annotating CDS, please be patient.
+[22:50:21] Will use 2 CPUs for similarity searching.
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_65937]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13216]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13216]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_143831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_81507]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_81507]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_61779]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_61779]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_148415]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_148415]: Terminator codon inside CDS!
+---------------------------------------------------
+[22:50:21] There are still 859 unannotated CDS left (started with 859)
+[22:50:21] Will use blast to search against /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/IS with 2 CPUs
+[22:50:21] Running: cat \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.IS\.tmp\.39359\.faa | parallel --gnu --plain -j 2 --block 64599 --recstart '>' --pipe blastp -query - -db /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.IS\.tmp\.39359\.blast 2> /dev/null
+[22:50:43] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.IS.tmp.39359.faa
+[22:50:43] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.IS.tmp.39359.blast
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_65937]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13216]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13216]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_143831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_81507]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_81507]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_61779]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_61779]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_148415]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_148415]: Terminator codon inside CDS!
+---------------------------------------------------
+[22:50:44] There are still 859 unannotated CDS left (started with 859)
+[22:50:44] Will use blast to search against /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/AMR with 2 CPUs
+[22:50:44] Running: cat \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.AMR\.tmp\.39359\.faa | parallel --gnu --plain -j 2 --block 64599 --recstart '>' --pipe blastp -query - -db /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.AMR\.tmp\.39359\.blast 2> /dev/null
+[22:51:02] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.AMR.tmp.39359.faa
+[22:51:02] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.AMR.tmp.39359.blast
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_65937]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13216]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13216]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_143831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_81507]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_81507]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_61779]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_61779]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_148415]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_148415]: Terminator codon inside CDS!
+---------------------------------------------------
+[22:51:02] There are still 859 unannotated CDS left (started with 859)
+[22:51:02] Will use blast to search against /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/sprot with 2 CPUs
+[22:51:02] Running: cat \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.sprot\.tmp\.39359\.faa | parallel --gnu --plain -j 2 --block 64599 --recstart '>' --pipe blastp -query - -db /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.sprot\.tmp\.39359\.blast 2> /dev/null
+[22:52:31] Modify product: Uncharacterized ABC transporter ATP-binding protein YknY => putative ABC transporter ATP-binding protein YknY
+[22:52:31] Modify product: Probable D-amino-acid oxidase => putative D-amino-acid oxidase
+[22:52:31] Modify product: Uncharacterized ABC transporter ATP-binding protein Rv0986 => putative ABC transporter ATP-binding protein
+[22:52:31] Modify product: Uncharacterized RNA pseudouridine synthase Rv1540 => putative RNA pseudouridine synthase
+[22:52:31] Modify product: Probable glycine dehydrogenase (decarboxylating) subunit 2 => putative glycine dehydrogenase (decarboxylating) subunit 2
+[22:52:31] Modify product: Epimerase family protein SA0724 => Epimerase family protein
+[22:52:32] Modify product: UPF0176 protein lpg2838 => hypothetical protein
+[22:52:32] Modify product: Uncharacterized tRNA/rRNA methyltransferase HI_0380 => putative tRNA/rRNA methyltransferase
+[22:52:32] Modify product: Putative glutamine amidotransferase Rv2859c => Putative glutamine amidotransferase
+[22:52:32] Modify product: Putative glutamine amidotransferase Rv2859c => Putative glutamine amidotransferase
+[22:52:32] Modify product: Probable N-acetyl-LL-diaminopimelate aminotransferase => putative N-acetyl-LL-diaminopimelate aminotransferase
+[22:52:32] Modify product: Probable enoyl-CoA hydratase => putative enoyl-CoA hydratase
+[22:52:32] Modify product: UPF0051 protein Rv1462 => hypothetical protein
+[22:52:32] Modify product: UPF0051 protein SA0778 => hypothetical protein
+[22:52:32] Modify product: Uncharacterized ABC transporter ATP-binding protein Rv0986 => putative ABC transporter ATP-binding protein
+[22:52:32] Modify product: Probable nicotinate-nucleotide pyrophosphorylase [carboxylating] => putative nicotinate-nucleotide pyrophosphorylase [carboxylating]
+[22:52:32] Modify product: Putative peroxiredoxin Rv2521 => Putative peroxiredoxin
+[22:52:32] Modify product: Probable adenylyltransferase/sulfurtransferase MoeZ => putative adenylyltransferase/sulfurtransferase MoeZ
+[22:52:32] Modify product: Probable 3-hydroxybutyryl-CoA dehydrogenase => putative 3-hydroxybutyryl-CoA dehydrogenase
+[22:52:32] Modify product: Putative peroxiredoxin Rv2521 => Putative peroxiredoxin
+[22:52:32] Modify product: Probable peptidyl-prolyl cis-trans isomerase => putative peptidyl-prolyl cis-trans isomerase
+[22:52:32] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[22:52:32] Cleaned 22 /product names
+[22:52:32] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.sprot.tmp.39359.faa
+[22:52:32] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.sprot.tmp.39359.blast
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_65937]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13216]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13216]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_143831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_81507]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_81507]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_61779]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_61779]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_148415]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_148415]: Terminator codon inside CDS!
+---------------------------------------------------
+[22:52:32] There are still 630 unannotated CDS left (started with 859)
+[22:52:32] Will use hmmer3 to search against /sw/bioinfo/prokka/1.45-5b58020/rackham/db/hmm/HAMAP.hmm with 2 CPUs
+[22:52:32] Running: cat \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.HAMAP\.hmm\.tmp\.39359\.faa | parallel --gnu --plain -j 2 --block 46244 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /sw/bioinfo/prokka/1.45-5b58020/rackham/db/hmm/HAMAP.hmm /dev/stdin > \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.HAMAP\.hmm\.tmp\.39359\.hmmer3 2> /dev/null
+[22:53:30] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.HAMAP.hmm.tmp.39359.faa
+[22:53:30] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.HAMAP.hmm.tmp.39359.hmmer3
+[22:53:30] Labelling remaining 542 proteins as 'hypothetical protein'
+[22:53:30] Possible /pseudo 'Putative glutamine amidotransferase' at k105_24461 position 1666
+[22:53:30] Possible /pseudo 'Vitamin B12 import ATP-binding protein BtuD' at k105_133204 position 9255
+[22:53:30] Possible /pseudo 'Fused isobutyryl-CoA mutase' at k105_48217 position 1672
+[22:53:30] Found 261 unique /gene codes.
+[22:53:30] Fixed 2 duplicate /gene - epi_1 epi_2
+[22:53:30] Fixed 2 duplicate /gene - folE_1 folE_2
+[22:53:30] Fixed 2 duplicate /gene - alaS_1 alaS_2
+[22:53:30] Fixed 3 duplicate /gene - fabG_1 fabG_2 fabG_3
+[22:53:30] Fixed 2 duplicate /gene - ftsH_1 ftsH_2
+[22:53:30] Fixed 2 duplicate /gene - mmgC_1 mmgC_2
+[22:53:30] Fixed 3 duplicate /gene - queE_1 queE_2 queE_3
+[22:53:30] Fixed 2 duplicate /gene - pyrE_1 pyrE_2
+[22:53:30] Fixed 3 duplicate /gene - gloB_1 gloB_2 gloB_3
+[22:53:30] Fixed 2 duplicate /gene - rapA_1 rapA_2
+[22:53:30] Fixed 5 duplicate /gene - btuD_1 btuD_2 btuD_3 btuD_4 btuD_5
+[22:53:30] Fixed 2 duplicate /gene - acdA_1 acdA_2
+[22:53:30] Fixed 2 duplicate /gene - gcvH_1 gcvH_2
+[22:53:30] Fixed 2 duplicate /gene - mcm_1 mcm_2
+[22:53:30] Fixed 2 duplicate /gene - queC_1 queC_2
+[22:53:30] Fixed 2 duplicate /gene - moaA_1 moaA_2
+[22:53:30] Fixed 3 duplicate /gene - bcp_1 bcp_2 bcp_3
+[22:53:30] Fixed 2 duplicate /gene - icmF_1 icmF_2
+[22:53:30] Fixed 2 duplicate /gene - hldE_1 hldE_2
+[22:53:30] Fixed 2 duplicate /gene - mntR_1 mntR_2
+[22:53:30] Fixed 20 colliding /gene names.
+[22:53:30] Adding /locus_tag identifiers
+[22:53:30] Assigned 879 locus_tags to CDS and RNA features.
+[22:53:30] Writing outputs to /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/
+
+--------------------- WARNING ---------------------
+MSG: Seq [JPLLNEKE_00079]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [JPLLNEKE_00193]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [JPLLNEKE_00194]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [JPLLNEKE_00272]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [JPLLNEKE_00536]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [JPLLNEKE_00537]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [JPLLNEKE_00688]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [JPLLNEKE_00689]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [JPLLNEKE_00698]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [JPLLNEKE_00699]: Terminator codon inside CDS!
+---------------------------------------------------
+[22:53:30] Generating annotation statistics file
+[22:53:30] Generating Genbank and Sequin files
+[22:53:30] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.err -i \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.fsa 2> /dev/null
+[22:53:32] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/errorsummary.val
+[22:53:32] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.dr
+[22:53:32] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.fixedproducts
+[22:53:32] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.ecn
+[22:53:32] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.val
+[22:53:32] Repairing broken .GBK output that tbl2asn produces...
+[22:53:32] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.gbf > \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D3_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.gbk
+[22:53:32] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.gbf
+[22:53:32] Output files:
+[22:53:32] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.log
+[22:53:32] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.fna
+[22:53:32] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.gff
+[22:53:32] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.faa
+[22:53:32] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.ffn
+[22:53:32] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.tbl
+[22:53:32] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.fsa
+[22:53:32] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.tsv
+[22:53:32] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.txt
+[22:53:32] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.sqn
+[22:53:32] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.gbk
+[22:53:32] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.err
+[22:53:32] Annotation finished successfully.
+[22:53:32] Walltime used: 3.32 minutes
+[22:53:32] If you use this result please cite the Prokka paper:
+[22:53:32] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[22:53:32] Type 'prokka --citation' for more details.
+[22:53:32] Share and enjoy!

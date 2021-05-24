@@ -1,0 +1,1043 @@
+[20:21:51] This is prokka 1.14.6
+[20:21:51] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[20:21:51] Homepage is https://github.com/tseemann/prokka
+[20:21:51] Local time is Sun May 23 20:21:51 2021
+[20:21:51] You are vinglis
+[20:21:51] Operating system is linux
+[20:21:51] You have BioPerl 1.007001
+[20:21:51] System has 16 cores.
+[20:21:51] Will use maximum of 2 cores.
+[20:21:51] Annotating as >>> Bacteria <<<
+[20:21:51] Generating locus_tag from 'bin.2.fa' contents.
+[20:21:51] Setting --locustag KPBANKLD from MD5 49ba745db73858a8703fe38bbe9e3889
+[20:21:51] Creating new output folder: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out
+[20:21:51] Running: mkdir -p \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out
+[20:21:51] Using filename prefix: PROKKA_05232021.XXX
+[20:21:51] Setting HMMER_NCPU=1
+[20:21:51] Writing log to: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.log
+[20:21:51] Command: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/prokka --outdir /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out --metagenome --cpus 2 bin.2.fa
+[20:21:51] Appending to PATH: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux
+[20:21:51] Appending to PATH: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/../common
+[20:21:51] Appending to PATH: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin
+[20:21:51] Looking for 'aragorn' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/aragorn
+[20:21:51] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[20:21:51] Looking for 'barrnap' - found /sw/bioinfo/barrnap/0.8/rackham/bin/barrnap
+[20:21:51] Determined barrnap version is 000008 from 'barrnap 0.8'
+[20:21:51] Looking for 'blastp' - found /sw/bioinfo/blast/2.11.0+/rackham/bin/blastp
+[20:21:52] Determined blastp version is 002011 from 'blastp: 2.11.0+'
+[20:21:52] Looking for 'cmpress' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/cmpress
+[20:21:52] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[20:21:52] Looking for 'cmscan' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/cmscan
+[20:21:52] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[20:21:52] Looking for 'egrep' - found /usr/bin/egrep
+[20:21:52] Looking for 'find' - found /usr/bin/find
+[20:21:52] Looking for 'grep' - found /usr/bin/grep
+[20:21:52] Looking for 'hmmpress' - found /sw/apps/bioinfo/hmmer/3.1b2/rackham/bin/hmmpress
+[20:21:52] Determined hmmpress version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
+[20:21:52] Looking for 'hmmscan' - found /sw/apps/bioinfo/hmmer/3.1b2/rackham/bin/hmmscan
+[20:21:52] Determined hmmscan version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
+[20:21:52] Looking for 'java' - found /usr/bin/java
+[20:21:52] Looking for 'makeblastdb' - found /sw/bioinfo/blast/2.11.0+/rackham/bin/makeblastdb
+[20:21:53] Determined makeblastdb version is 002011 from 'makeblastdb: 2.11.0+'
+[20:21:53] Looking for 'minced' - found /sw/apps/bioinfo/minced/0.2.0/rackham/minced
+[20:21:53] Determined minced version is 002000 from 'minced 0.2.0'
+[20:21:53] Looking for 'parallel' - found /sw/parallel/gnuparallel/20170122/rackham/bin/parallel
+[20:21:53] Determined parallel version is 20170122 from 'GNU parallel 20170122'
+[20:21:53] Looking for 'prodigal' - found /sw/apps/bioinfo/prodigal/2.6.3/rackham/bin/prodigal
+[20:21:53] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[20:21:53] Looking for 'prokka-genbank_to_fasta_db' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/prokka-genbank_to_fasta_db
+[20:21:53] Looking for 'sed' - found /usr/bin/sed
+[20:21:53] Looking for 'signalp' - found /sw/bioinfo/SignalP/4.1f/rackham/signalp
+[20:21:53] Determined signalp version is 004001 from '4.1 4785068'
+[20:21:53] Looking for 'tbl2asn' - found /sw/bioinfo/tbl2asn/25.8/rackham/tbl2asn
+[20:21:53] Determined tbl2asn version is 025008 from 'tbl2asn 25.8   arguments:'
+[20:21:53] Using genetic code table 11.
+[20:21:53] Loading and checking input file: bin.2.fa
+[20:21:54] Wrote 449 contigs totalling 2655046 bp.
+[20:21:54] Predicting tRNAs and tmRNAs
+[20:21:54] Running: aragorn -l -gc11  -w \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.fna
+[20:21:54] 1 tRNA-Val c[6582,6677] 36 (cac)
+[20:21:54] 1 tRNA-Val [3410,3507] 37 (cac)
+[20:21:54] 1 tRNA-Val c[6443,6519] 37 (tac)
+[20:21:54] 1 tRNA-Cys c[3,74] 33 (gca)
+[20:21:54] 1 tRNA-Cys c[4181,4252] 33 (gca)
+[20:21:54] 1 tRNA-Gln [21,94] 35 (ttg)
+[20:21:54] 1 tRNA-Ser c[7295,7381] 35 (gct)
+[20:21:54] 1 tRNA-Gln [4393,4465] 34 (ctg)
+[20:21:54] 1 tRNA-Ala c[28,104] 35 (ggc)
+[20:21:54] 2 tRNA-Ser c[11447,11532] 36 (tga)
+[20:21:54] 1 tRNA-Thr c[1,74] 35 (cgt)
+[20:21:54] 1 tRNA-Arg c[1916,1991] 36 (tct)
+[20:21:54] 1 tRNA-Asp c[5200,5277] 37 (gtc)
+[20:21:54] 1 tRNA-Thr c[6483,6557] 36 (tgt)
+[20:21:54] 1 tRNA-Gly c[12840,12916] 36 (gcc)
+[20:21:54] 1 tRNA-Pro [6751,6824] 35 (ggg)
+[20:21:54] 1 tRNA-Ala c[3139,3211] 33 (cgc)
+[20:21:54] 2 tRNA-Leu c[8273,8360] 38 (tag)
+[20:21:54] 1 tRNA-Pro [2919,2993] 36 (ggg)
+[20:21:54] 1 tRNA-Ala c[4934,5008] 35 (tgc)
+[20:21:54] 1 tRNA-Gly c[2210,2286] 37 (tcc)
+[20:21:54] 1 tRNA-Gly [7823,7899] 37 (tcc)
+[20:21:54] 1 tRNA-Ala c[28,104] 35 (ggc)
+[20:21:54] 1 tRNA-Arg [864,939] 36 (tct)
+[20:21:54] 1 tRNA-Ser [2214,2300] 35 (gct)
+[20:21:54] 1 tRNA-Arg [3457,3532] 36 (tct)
+[20:21:54] 1 tRNA-Ala [447,519] 33 (cgc)
+[20:21:54] 1 tRNA-Asp c[5171,5248] 37 (gtc)
+[20:21:54] 2 tRNA-Lys [5344,5418] 35 (ttt)
+[20:21:54] 1 tRNA-Asn [2401,2475] 35 (gtt)
+[20:21:54] 1 tRNA-Met c[6590,6663] 35 (cat)
+[20:21:54] 1 tRNA-His [3059,3132] 34 (gtg)
+[20:21:54] 1 tRNA-Leu c[8244,8331] 37 (cag)
+[20:21:54] 1 tRNA-Asn c[236,312] 35 (gtt)
+[20:21:54] 1 tRNA-Ala c[4952,5026] 35 (tgc)
+[20:21:54] 1 tRNA-Ser [11202,11285] 34 (cga)
+[20:21:54] 1 tRNA-Asp c[1054,1131] 37 (gtc)
+[20:21:54] 2 tRNA-Lys [1228,1302] 35 (ttt)
+[20:21:54] 1 tRNA-Met c[1459,1533] 35 (cat)
+[20:21:54] 2 tRNA-Glu [2286,2360] 37 (ttc)
+[20:21:54] 1 tRNA-Leu [104,190] 38 (gag)
+[20:21:54] 1 tRNA-Val c[8881,8957] 37 (tac)
+[20:21:54] 2 tRNA-Lys c[15969,16043] 35 (ctt)
+[20:21:54] 1 tRNA-Trp [859,935] 35 (cca)
+[20:21:54] 1 tRNA-Gly c[17,93] 36 (gcc)
+[20:21:54] 2 tRNA-Glu c[2283,2358] 37 (ctc)
+[20:21:54] 1 tRNA-Ser c[2609,2694] 36 (tga)
+[20:21:54] 1 tRNA-Met c[8098,8171] 35 (cat)
+[20:21:54] 2 tRNA-Glu [8927,9005] 37 (ttc)
+[20:21:55] 1 tRNA-Leu [10302,10389] 37 (gag)
+[20:21:55] 1 tRNA-Arg [445,521] 37 (gcg)
+[20:21:55] 1 tRNA-Ser [2509,2592] 34 (cga)
+[20:21:55] 1 tRNA-Thr [2172,2245] 35 (cgt)
+[20:21:55] 1 tRNA-Arg [3111,3187] 37 (gcg)
+[20:21:55] 1 tRNA-Arg [3088,3164] 37 (gcg)
+[20:21:55] 1 tRNA-Trp c[1303,1379] 35 (cca)
+[20:21:55] 1 tRNA-Phe [36425,36500] 36 (gaa)
+[20:21:55] Found 57 tRNAs
+[20:21:55] Predicting Ribosomal RNAs
+[20:21:55] Running Barrnap with 2 threads
+[20:21:57] 1 k105_132297 1005 5S ribosomal RNA
+[20:21:57] 2 k105_25659 1 5S ribosomal RNA
+[20:21:57] 3 k105_79209 1483 5S ribosomal RNA
+[20:21:57] Found 3 rRNAs
+[20:21:57] Skipping ncRNA search, enable with --rfam if desired.
+[20:21:57] Total of 60 tRNA + rRNA features
+[20:21:57] Searching for CRISPR repeats
+[20:21:58] Found 0 CRISPRs
+[20:21:58] Predicting coding sequences
+[20:21:58] Contigs total 2655046 bp, so using meta mode
+[20:21:58] Running: prodigal -i \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.fna -c -m -g 11 -p meta -f sco -q
+[20:21:59] Excluding CDS which overlaps existing RNA (tRNA) at k105_733:3767..4186 on + strand
+[20:22:05] Excluding CDS which overlaps existing RNA (tRNA) at k105_9156:3155..3580 on - strand
+[20:22:05] Found 3122 CDS
+[20:22:05] Connecting features back to sequences
+[20:22:06] Not using genus-specific database. Try --usegenus to enable it.
+[20:22:06] Annotating CDS, please be patient.
+[20:22:06] Will use 2 CPUs for similarity searching.
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_112788]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_112788]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_112788]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_10762]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73030]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73030]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73069]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73069]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73069]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_65389]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_24813]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_118102]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_87386]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_28023]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_18307]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+[20:22:07] There are still 3122 unannotated CDS left (started with 3122)
+[20:22:07] Will use blast to search against /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/IS with 2 CPUs
+[20:22:07] Running: cat \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.IS\.tmp\.41267\.faa | parallel --gnu --plain -j 2 --block 192226 --recstart '>' --pipe blastp -query - -db /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.IS\.tmp\.41267\.blast 2> /dev/null
+[20:23:07] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.IS.tmp.41267.faa
+[20:23:07] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.IS.tmp.41267.blast
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_112788]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_112788]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_112788]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_10762]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73030]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73030]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73069]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73069]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73069]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_65389]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_24813]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_118102]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_87386]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_28023]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_18307]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+[20:23:09] There are still 3122 unannotated CDS left (started with 3122)
+[20:23:09] Will use blast to search against /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/AMR with 2 CPUs
+[20:23:09] Running: cat \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.AMR\.tmp\.41267\.faa | parallel --gnu --plain -j 2 --block 192226 --recstart '>' --pipe blastp -query - -db /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.AMR\.tmp\.41267\.blast 2> /dev/null
+[20:23:58] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.AMR.tmp.41267.faa
+[20:23:58] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.AMR.tmp.41267.blast
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_112788]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_112788]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_112788]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_10762]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73030]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73030]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73069]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73069]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73069]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_65389]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_24813]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_118102]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_87386]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_28023]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_18307]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+[20:23:59] There are still 3122 unannotated CDS left (started with 3122)
+[20:23:59] Will use blast to search against /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/sprot with 2 CPUs
+[20:23:59] Running: cat \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.sprot\.tmp\.41267\.faa | parallel --gnu --plain -j 2 --block 192226 --recstart '>' --pipe blastp -query - -db /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.sprot\.tmp\.41267\.blast 2> /dev/null
+[20:28:13] Modify product: Uncharacterized membrane protein Rv0364 => putative membrane protein
+[20:28:13] Modify product: Uncharacterized oxidoreductase SA2266 => putative oxidoreductase
+[20:28:13] Modify product: Uncharacterized protein YqgN => putative protein YqgN
+[20:28:13] Modify product: Probable dual-specificity RNA methyltransferase RlmN => putative dual-specificity RNA methyltransferase RlmN
+[20:28:13] Modify product: Probable dual-specificity RNA methyltransferase RlmN => putative dual-specificity RNA methyltransferase RlmN
+[20:28:13] Modify product: Probable endonuclease 4 => putative endonuclease 4
+[20:28:13] Modify product: Uncharacterized protein YccU => putative protein YccU
+[20:28:14] Modify product: Putative phosphatase M6_Spy0533 => Putative phosphatase
+[20:28:14] Modify product: Probable membrane transporter protein YfcA => putative membrane transporter protein YfcA
+[20:28:14] Modify product: Uncharacterized acyl-CoA thioester hydrolase HI_0827 => putative acyl-CoA thioester hydrolase
+[20:28:14] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[20:28:14] Modify product: UPF0053 protein HI_0107 => hypothetical protein
+[20:28:14] Modify product: Ribonuclease TTHA0252 => Ribonuclease
+[20:28:14] Modify product: Uncharacterized oxidoreductase SA2266 => putative oxidoreductase
+[20:28:14] Modify product: Probable oxidoreductase CT_610 => putative oxidoreductase CT_610
+[20:28:14] Modify product: Uncharacterized protein MSMEG_2782/MSMEI_2713 => putative protein/MSMEI_2713
+[20:28:14] Modify product: Uncharacterized protein YccU => putative protein YccU
+[20:28:14] Modify product: UPF0126 inner membrane protein YicG => hypothetical protein
+[20:28:14] Modify product: UPF0053 protein HI_0107 => hypothetical protein
+[20:28:14] Modify product: Uncharacterized amino acid permease YhdG => putative amino acid permease YhdG
+[20:28:14] Modify product: Probable membrane transporter protein YfcA => putative membrane transporter protein YfcA
+[20:28:14] Modify product: Probable protein kinase UbiB => putative protein kinase UbiB
+[20:28:14] Modify product: NADH dehydrogenase-like protein SAOUHSC_00878 => NADH dehydrogenase-like protein
+[20:28:14] Modify product: Probable UbiX-like flavin prenyltransferase => putative UbiX-like flavin prenyltransferase
+[20:28:14] Modify product: Uncharacterized protein Rv2715 => putative protein
+[20:28:14] Modify product: Uncharacterized protein Rv2715 => putative protein
+[20:28:14] Modify product: Uncharacterized oxidoreductase SA2266 => putative oxidoreductase
+[20:28:14] Modify product: NADH dehydrogenase-like protein SAOUHSC_00878 => NADH dehydrogenase-like protein
+[20:28:14] Modify product: Uncharacterized amino acid permease YhdG => putative amino acid permease YhdG
+[20:28:15] Modify product: Probable endonuclease 4 => putative endonuclease 4
+[20:28:15] Modify product: Putative universal stress protein SA1532 => Putative universal stress protein
+[20:28:15] Modify product: Probable oxidoreductase CT_610 => putative oxidoreductase CT_610
+[20:28:15] Modify product: Probable polyketide biosynthesis zinc-dependent hydrolase PksB => putative polyketide biosynthesis zinc-dependent hydrolase PksB
+[20:28:15] Modify product: Uncharacterized oxidoreductase SA2266 => putative oxidoreductase
+[20:28:15] Modify product: Uncharacterized protein YqgN => putative protein YqgN
+[20:28:15] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[20:28:15] Modify product: Probable membrane transporter protein YfcA => putative membrane transporter protein YfcA
+[20:28:15] Modify product: Probable nicotinate-nucleotide pyrophosphorylase [carboxylating] => putative nicotinate-nucleotide pyrophosphorylase [carboxylating]
+[20:28:15] Modify product: Uncharacterized protein HI_1163 => putative protein
+[20:28:15] Modify product: Putative peroxiredoxin Rv2521 => Putative peroxiredoxin
+[20:28:15] Modify product: Putative peroxiredoxin Rv2521 => Putative peroxiredoxin
+[20:28:15] Modify product: Probable ATP-dependent DNA helicase YoaA => putative ATP-dependent DNA helicase YoaA
+[20:28:15] Modify product: Putative coenzyme F420-dependent oxidoreductase Rv3520c => Putative coenzyme F420-dependent oxidoreductase
+[20:28:15] Modify product: Probable bacterial non-heme ferritin => putative bacterial non-heme ferritin
+[20:28:15] Modify product: Probable dipeptidase PepE => putative dipeptidase PepE
+[20:28:15] Modify product: Probable dipeptidase PepE => putative dipeptidase PepE
+[20:28:15] Modify product: UPF0126 inner membrane protein YicG => hypothetical protein
+[20:28:16] Modify product: Probable oxidoreductase CT_610 => putative oxidoreductase CT_610
+[20:28:16] Modify product: Probable polyketide biosynthesis zinc-dependent hydrolase PksB => putative polyketide biosynthesis zinc-dependent hydrolase PksB
+[20:28:16] Modify product: UPF0051 protein SA0778 => hypothetical protein
+[20:28:16] Modify product: UPF0051 protein SA0778 => hypothetical protein
+[20:28:16] Modify product: Probable cysteine desulfurase => putative cysteine desulfurase
+[20:28:16] Modify product: Uncharacterized protein YedJ => putative protein YedJ
+[20:28:16] Modify product: Uncharacterized protein MSMEG_2782/MSMEI_2713 => putative protein/MSMEI_2713
+[20:28:16] Modify product: Probable polyketide biosynthesis zinc-dependent hydrolase PksB => putative polyketide biosynthesis zinc-dependent hydrolase PksB
+[20:28:16] Modify product: UPF0126 inner membrane protein YadS => hypothetical protein
+[20:28:16] Modify product: Probable nicotinate-nucleotide pyrophosphorylase [carboxylating] => putative nicotinate-nucleotide pyrophosphorylase [carboxylating]
+[20:28:16] Modify product: Probable bacterial non-heme ferritin => putative bacterial non-heme ferritin
+[20:28:16] Modify product: Probable nicotinate-nucleotide pyrophosphorylase [carboxylating] => putative nicotinate-nucleotide pyrophosphorylase [carboxylating]
+[20:28:16] Modify product: Uncharacterized acyl-CoA thioester hydrolase HI_0827 => putative acyl-CoA thioester hydrolase
+[20:28:16] Modify product: Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit homolog => Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit 
+[20:28:16] Modify product: Uncharacterized protein Rv1480 => putative protein
+[20:28:16] Modify product: UPF0353 protein Rv1481 => hypothetical protein
+[20:28:16] Modify product: Uncharacterized protein Rv1480 => putative protein
+[20:28:16] Modify product: UPF0353 protein Rv1481 => hypothetical protein
+[20:28:16] Cleaned 65 /product names
+[20:28:16] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.sprot.tmp.41267.faa
+[20:28:16] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.sprot.tmp.41267.blast
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_112788]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_112788]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_112788]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_10762]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73030]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73030]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73069]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73069]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_73069]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_13183]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_87386]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_18307]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_163139]: Terminator codon inside CDS!
+---------------------------------------------------
+[20:28:17] There are still 2242 unannotated CDS left (started with 3122)
+[20:28:17] Will use hmmer3 to search against /sw/bioinfo/prokka/1.45-5b58020/rackham/db/hmm/HAMAP.hmm with 2 CPUs
+[20:28:17] Running: cat \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.HAMAP\.hmm\.tmp\.41267\.faa | parallel --gnu --plain -j 2 --block 119700 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /sw/bioinfo/prokka/1.45-5b58020/rackham/db/hmm/HAMAP.hmm /dev/stdin > \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.HAMAP\.hmm\.tmp\.41267\.hmmer3 2> /dev/null
+[20:31:38] Modify product: Uncharacterized Nudix hydrolase NudL => putative Nudix hydrolase NudL
+[20:31:38] Modify product: Uncharacterized Nudix hydrolase NudL => putative Nudix hydrolase NudL
+[20:31:38] Modify product: Uncharacterized MFS-type transporter YcaD => putative MFS-type transporter YcaD
+[20:31:38] Modify product: Uncharacterized Nudix hydrolase NudL => putative Nudix hydrolase NudL
+[20:31:38] Modify product: Uncharacterized MFS-type transporter YcaD => putative MFS-type transporter YcaD
+[20:31:38] Cleaned 5 /product names
+[20:31:38] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.HAMAP.hmm.tmp.41267.faa
+[20:31:38] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.HAMAP.hmm.tmp.41267.hmmer3
+[20:31:38] Labelling remaining 1961 proteins as 'hypothetical protein'
+[20:31:38] Possible /pseudo 'NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic' at k105_155162 position 2634
+[20:31:38] Possible /pseudo 'Ribonuclease PH' at k105_22386 position 562
+[20:31:38] Possible /pseudo 'NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic' at k105_25659 position 9894
+[20:31:38] Possible /pseudo 'Methionine synthase' at k105_46264 position 4279
+[20:31:38] Possible /pseudo 'Methionine synthase' at k105_17464 position 10121
+[20:31:38] Possible /pseudo 'TRAP-T-associated universal stress protein TeaD' at k105_89576 position 10304
+[20:31:38] Possible /pseudo 'NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic' at k105_79209 position 11447
+[20:31:38] Possible /pseudo 'Adaptive-response sensory-kinase SasA' at k105_40671 position 38646
+[20:31:38] Found 508 unique /gene codes.
+[20:31:38] Fixed 2 duplicate /gene - rph_1 rph_2
+[20:31:38] Fixed 2 duplicate /gene - cysM_1 cysM_2
+[20:31:38] Fixed 2 duplicate /gene - obg_1 obg_2
+[20:31:38] Fixed 2 duplicate /gene - truD_1 truD_2
+[20:31:38] Fixed 4 duplicate /gene - rplK_1 rplK_2 rplK_3 rplK_4
+[20:31:38] Fixed 2 duplicate /gene - pyrG_1 pyrG_2
+[20:31:38] Fixed 4 duplicate /gene - nadK_1 nadK_2 nadK_3 nadK_4
+[20:31:38] Fixed 2 duplicate /gene - rnj_1 rnj_2
+[20:31:38] Fixed 2 duplicate /gene - cph1_1 cph1_2
+[20:31:38] Fixed 2 duplicate /gene - groL_1 groL_2
+[20:31:38] Fixed 2 duplicate /gene - pheA_1 pheA_2
+[20:31:38] Fixed 4 duplicate /gene - ilvB_1 ilvB_2 ilvB_3 ilvB_4
+[20:31:38] Fixed 3 duplicate /gene - lysK_1 lysK_2 lysK_3
+[20:31:38] Fixed 2 duplicate /gene - nudF_1 nudF_2
+[20:31:38] Fixed 2 duplicate /gene - ogt_1 ogt_2
+[20:31:38] Fixed 6 duplicate /gene - nnr_1 nnr_2 nnr_3 nnr_4 nnr_5 nnr_6
+[20:31:38] Fixed 2 duplicate /gene - udgB_1 udgB_2
+[20:31:38] Fixed 2 duplicate /gene - nikR_1 nikR_2
+[20:31:38] Fixed 2 duplicate /gene - mntA_1 mntA_2
+[20:31:38] Fixed 8 duplicate /gene - dnaJ_1 dnaJ_2 dnaJ_3 dnaJ_4 dnaJ_5 dnaJ_6 dnaJ_7 dnaJ_8
+[20:31:38] Fixed 4 duplicate /gene - gerN_1 gerN_2 gerN_3 gerN_4
+[20:31:38] Fixed 2 duplicate /gene - ppa_1 ppa_2
+[20:31:38] Fixed 2 duplicate /gene - znuA_1 znuA_2
+[20:31:38] Fixed 2 duplicate /gene - gltP_1 gltP_2
+[20:31:38] Fixed 4 duplicate /gene - thi4_1 thi4_2 thi4_3 thi4_4
+[20:31:38] Fixed 2 duplicate /gene - asd2_1 asd2_2
+[20:31:38] Fixed 6 duplicate /gene - prcB_1 prcB_2 prcB_3 prcB_4 prcB_5 prcB_6
+[20:31:38] Fixed 2 duplicate /gene - yrbG_1 yrbG_2
+[20:31:38] Fixed 3 duplicate /gene - nadA_1 nadA_2 nadA_3
+[20:31:38] Fixed 2 duplicate /gene - thyX_1 thyX_2
+[20:31:38] Fixed 3 duplicate /gene - bzaF_1 bzaF_2 bzaF_3
+[20:31:38] Fixed 4 duplicate /gene - tatA_1 tatA_2 tatA_3 tatA_4
+[20:31:38] Fixed 5 duplicate /gene - thrA_1 thrA_2 thrA_3 thrA_4 thrA_5
+[20:31:38] Fixed 8 duplicate /gene - petE_1 petE_2 petE_3 petE_4 petE_5 petE_6 petE_7 petE_8
+[20:31:38] Fixed 2 duplicate /gene - triA_1 triA_2
+[20:31:38] Fixed 3 duplicate /gene - dxs_1 dxs_2 dxs_3
+[20:31:38] Fixed 2 duplicate /gene - pepE_1 pepE_2
+[20:31:38] Fixed 3 duplicate /gene - fbp_1 fbp_2 fbp_3
+[20:31:38] Fixed 3 duplicate /gene - argF_1 argF_2 argF_3
+[20:31:38] Fixed 2 duplicate /gene - rtcA_1 rtcA_2
+[20:31:38] Fixed 2 duplicate /gene - gatB_1 gatB_2
+[20:31:38] Fixed 2 duplicate /gene - tuf_1 tuf_2
+[20:31:38] Fixed 2 duplicate /gene - nfo_1 nfo_2
+[20:31:38] Fixed 4 duplicate /gene - ilvH_1 ilvH_2 ilvH_3 ilvH_4
+[20:31:38] Fixed 2 duplicate /gene - trpA_1 trpA_2
+[20:31:38] Fixed 3 duplicate /gene - atpC_1 atpC_2 atpC_3
+[20:31:38] Fixed 3 duplicate /gene - lysS_1 lysS_2 lysS_3
+[20:31:38] Fixed 2 duplicate /gene - pdaD_1 pdaD_2
+[20:31:38] Fixed 3 duplicate /gene - ndhC_1 ndhC_2 ndhC_3
+[20:31:38] Fixed 6 duplicate /gene - ndhB_1 ndhB_2 ndhB_3 ndhB_4 ndhB_5 ndhB_6
+[20:31:38] Fixed 2 duplicate /gene - hemL_1 hemL_2
+[20:31:38] Fixed 2 duplicate /gene - mraY_1 mraY_2
+[20:31:38] Fixed 3 duplicate /gene - pyrE_1 pyrE_2 pyrE_3
+[20:31:38] Fixed 2 duplicate /gene - sufC_1 sufC_2
+[20:31:38] Fixed 2 duplicate /gene - mscS_1 mscS_2
+[20:31:38] Fixed 3 duplicate /gene - mdh_1 mdh_2 mdh_3
+[20:31:38] Fixed 2 duplicate /gene - ycaD_1 ycaD_2
+[20:31:38] Fixed 2 duplicate /gene - neoA_1 neoA_2
+[20:31:38] Fixed 2 duplicate /gene - ndhA_1 ndhA_2
+[20:31:38] Fixed 2 duplicate /gene - larC_1 larC_2
+[20:31:38] Fixed 2 duplicate /gene - resA_1 resA_2
+[20:31:38] Fixed 2 duplicate /gene - ychF_1 ychF_2
+[20:31:38] Fixed 2 duplicate /gene - mqnE_1 mqnE_2
+[20:31:38] Fixed 2 duplicate /gene - pfdA_1 pfdA_2
+[20:31:38] Fixed 3 duplicate /gene - truB_1 truB_2 truB_3
+[20:31:38] Fixed 3 duplicate /gene - adhT_1 adhT_2 adhT_3
+[20:31:38] Fixed 2 duplicate /gene - acnA_1 acnA_2
+[20:31:38] Fixed 2 duplicate /gene - aspC_1 aspC_2
+[20:31:38] Fixed 2 duplicate /gene - yqgN_1 yqgN_2
+[20:31:38] Fixed 2 duplicate /gene - mtnP_1 mtnP_2
+[20:31:38] Fixed 2 duplicate /gene - hisS_1 hisS_2
+[20:31:38] Fixed 2 duplicate /gene - ahcY_1 ahcY_2
+[20:31:38] Fixed 3 duplicate /gene - arnC_1 arnC_2 arnC_3
+[20:31:38] Fixed 2 duplicate /gene - ghrB_1 ghrB_2
+[20:31:38] Fixed 3 duplicate /gene - purF_1 purF_2 purF_3
+[20:31:38] Fixed 2 duplicate /gene - arsC2_1 arsC2_2
+[20:31:38] Fixed 2 duplicate /gene - pspA_1 pspA_2
+[20:31:38] Fixed 2 duplicate /gene - ndhI_1 ndhI_2
+[20:31:38] Fixed 4 duplicate /gene - fbiA_1 fbiA_2 fbiA_3 fbiA_4
+[20:31:38] Fixed 2 duplicate /gene - trpG_1 trpG_2
+[20:31:38] Fixed 2 duplicate /gene - cbiT_1 cbiT_2
+[20:31:38] Fixed 2 duplicate /gene - nusA_1 nusA_2
+[20:31:38] Fixed 2 duplicate /gene - mobA_1 mobA_2
+[20:31:38] Fixed 4 duplicate /gene - thrB_1 thrB_2 thrB_3 thrB_4
+[20:31:38] Fixed 4 duplicate /gene - cugP_1 cugP_2 cugP_3 cugP_4
+[20:31:38] Fixed 2 duplicate /gene - cbiL_1 cbiL_2
+[20:31:38] Fixed 2 duplicate /gene - ffh_1 ffh_2
+[20:31:38] Fixed 3 duplicate /gene - aptB_1 aptB_2 aptB_3
+[20:31:38] Fixed 2 duplicate /gene - ndhJ_1 ndhJ_2
+[20:31:38] Fixed 2 duplicate /gene - dppB_1 dppB_2
+[20:31:38] Fixed 2 duplicate /gene - nadX_1 nadX_2
+[20:31:38] Fixed 2 duplicate /gene - ntpB_1 ntpB_2
+[20:31:38] Fixed 2 duplicate /gene - pepN_1 pepN_2
+[20:31:38] Fixed 2 duplicate /gene - tmung_1 tmung_2
+[20:31:38] Fixed 2 duplicate /gene - RBKS_1 RBKS_2
+[20:31:38] Fixed 2 duplicate /gene - atpF_1 atpF_2
+[20:31:38] Fixed 3 duplicate /gene - uvrB_1 uvrB_2 uvrB_3
+[20:31:38] Fixed 3 duplicate /gene - lolD_1 lolD_2 lolD_3
+[20:31:38] Fixed 3 duplicate /gene - recA_1 recA_2 recA_3
+[20:31:38] Fixed 2 duplicate /gene - cbiF_1 cbiF_2
+[20:31:38] Fixed 2 duplicate /gene - murG_1 murG_2
+[20:31:38] Fixed 2 duplicate /gene - phr_1 phr_2
+[20:31:38] Fixed 2 duplicate /gene - atpE_1 atpE_2
+[20:31:38] Fixed 4 duplicate /gene - cobD_1 cobD_2 cobD_3 cobD_4
+[20:31:38] Fixed 2 duplicate /gene - tusA_1 tusA_2
+[20:31:38] Fixed 3 duplicate /gene - dtd3_1 dtd3_2 dtd3_3
+[20:31:38] Fixed 3 duplicate /gene - leuC_1 leuC_2 leuC_3
+[20:31:38] Fixed 3 duplicate /gene - pksB_1 pksB_2 pksB_3
+[20:31:38] Fixed 5 duplicate /gene - aspS2_1 aspS2_2 aspS2_3 aspS2_4 aspS2_5
+[20:31:38] Fixed 2 duplicate /gene - gatA_1 gatA_2
+[20:31:38] Fixed 3 duplicate /gene - ftnA_1 ftnA_2 ftnA_3
+[20:31:38] Fixed 5 duplicate /gene - ilvE_1 ilvE_2 ilvE_3 ilvE_4 ilvE_5
+[20:31:38] Fixed 2 duplicate /gene - hit_1 hit_2
+[20:31:38] Fixed 2 duplicate /gene - cobQ_1 cobQ_2
+[20:31:38] Fixed 2 duplicate /gene - eryG_1 eryG_2
+[20:31:38] Fixed 2 duplicate /gene - dpnA_1 dpnA_2
+[20:31:38] Fixed 2 duplicate /gene - msrB_1 msrB_2
+[20:31:38] Fixed 2 duplicate /gene - dinB_1 dinB_2
+[20:31:38] Fixed 2 duplicate /gene - aqpZ2_1 aqpZ2_2
+[20:31:38] Fixed 3 duplicate /gene - sucC_1 sucC_2 sucC_3
+[20:31:38] Fixed 2 duplicate /gene - ftsZ_1 ftsZ_2
+[20:31:38] Fixed 2 duplicate /gene - yccX_1 yccX_2
+[20:31:38] Fixed 2 duplicate /gene - ppdK_1 ppdK_2
+[20:31:38] Fixed 3 duplicate /gene - atpH_1 atpH_2 atpH_3
+[20:31:38] Fixed 2 duplicate /gene - mvaS_1 mvaS_2
+[20:31:38] Fixed 2 duplicate /gene - speB_1 speB_2
+[20:31:38] Fixed 2 duplicate /gene - dipZ_1 dipZ_2
+[20:31:38] Fixed 2 duplicate /gene - rpsH_1 rpsH_2
+[20:31:38] Fixed 2 duplicate /gene - pepA_1 pepA_2
+[20:31:38] Fixed 4 duplicate /gene - mntB_1 mntB_2 mntB_3 mntB_4
+[20:31:38] Fixed 2 duplicate /gene - purM_1 purM_2
+[20:31:38] Fixed 3 duplicate /gene - pccB_1 pccB_2 pccB_3
+[20:31:38] Fixed 3 duplicate /gene - ccr_1 ccr_2 ccr_3
+[20:31:38] Fixed 2 duplicate /gene - tagD_1 tagD_2
+[20:31:38] Fixed 4 duplicate /gene - acsA_1 acsA_2 acsA_3 acsA_4
+[20:31:38] Fixed 2 duplicate /gene - hom_1 hom_2
+[20:31:38] Fixed 2 duplicate /gene - argK_1 argK_2
+[20:31:38] Fixed 3 duplicate /gene - dmdA_1 dmdA_2 dmdA_3
+[20:31:38] Fixed 4 duplicate /gene - sir_1 sir_2 sir_3 sir_4
+[20:31:38] Fixed 3 duplicate /gene - secY_1 secY_2 secY_3
+[20:31:38] Fixed 2 duplicate /gene - todB_1 todB_2
+[20:31:38] Fixed 3 duplicate /gene - menG_1 menG_2 menG_3
+[20:31:38] Fixed 3 duplicate /gene - guaA_1 guaA_2 guaA_3
+[20:31:38] Fixed 3 duplicate /gene - oppD_1 oppD_2 oppD_3
+[20:31:38] Fixed 3 duplicate /gene - DmdB_1 DmdB_2 DmdB_3
+[20:31:38] Fixed 2 duplicate /gene - proS_1 proS_2
+[20:31:38] Fixed 2 duplicate /gene - pepF1_1 pepF1_2
+[20:31:38] Fixed 2 duplicate /gene - ctaD_1 ctaD_2
+[20:31:38] Fixed 4 duplicate /gene - cpdA_1 cpdA_2 cpdA_3 cpdA_4
+[20:31:38] Fixed 3 duplicate /gene - rpiA_1 rpiA_2 rpiA_3
+[20:31:38] Fixed 3 duplicate /gene - erpA_1 erpA_2 erpA_3
+[20:31:38] Fixed 2 duplicate /gene - sucD_1 sucD_2
+[20:31:38] Fixed 2 duplicate /gene - trpB_1 trpB_2
+[20:31:38] Fixed 2 duplicate /gene - OLA1_1 OLA1_2
+[20:31:38] Fixed 3 duplicate /gene - pyrI_1 pyrI_2 pyrI_3
+[20:31:38] Fixed 3 duplicate /gene - asnB_1 asnB_2 asnB_3
+[20:31:38] Fixed 2 duplicate /gene - fadB_1 fadB_2
+[20:31:38] Fixed 3 duplicate /gene - aqpZ_1 aqpZ_2 aqpZ_3
+[20:31:38] Fixed 2 duplicate /gene - rlmN_1 rlmN_2
+[20:31:38] Fixed 2 duplicate /gene - corA_1 corA_2
+[20:31:38] Fixed 3 duplicate /gene - scpB_1 scpB_2 scpB_3
+[20:31:38] Fixed 2 duplicate /gene - phrB_1 phrB_2
+[20:31:38] Fixed 2 duplicate /gene - pyrH_1 pyrH_2
+[20:31:38] Fixed 3 duplicate /gene - ino1_1 ino1_2 ino1_3
+[20:31:38] Fixed 2 duplicate /gene - hemC_1 hemC_2
+[20:31:38] Fixed 2 duplicate /gene - ywlC_1 ywlC_2
+[20:31:38] Fixed 5 duplicate /gene - rcsC_1 rcsC_2 rcsC_3 rcsC_4 rcsC_5
+[20:31:38] Fixed 3 duplicate /gene - tsaD_1 tsaD_2 tsaD_3
+[20:31:38] Fixed 6 duplicate /gene - ubiD_1 ubiD_2 ubiD_3 ubiD_4 ubiD_5 ubiD_6
+[20:31:38] Fixed 2 duplicate /gene - phaC_1 phaC_2
+[20:31:38] Fixed 3 duplicate /gene - folE_1 folE_2 folE_3
+[20:31:38] Fixed 3 duplicate /gene - ctaA_1 ctaA_2 ctaA_3
+[20:31:38] Fixed 3 duplicate /gene - glmS_1 glmS_2 glmS_3
+[20:31:38] Fixed 5 duplicate /gene - fbiB_1 fbiB_2 fbiB_3 fbiB_4 fbiB_5
+[20:31:38] Fixed 3 duplicate /gene - purL_1 purL_2 purL_3
+[20:31:38] Fixed 2 duplicate /gene - tag_1 tag_2
+[20:31:38] Fixed 3 duplicate /gene - glyA_1 glyA_2 glyA_3
+[20:31:38] Fixed 3 duplicate /gene - crt_1 crt_2 crt_3
+[20:31:38] Fixed 2 duplicate /gene - purQ_1 purQ_2
+[20:31:38] Fixed 4 duplicate /gene - rplA_1 rplA_2 rplA_3 rplA_4
+[20:31:38] Fixed 4 duplicate /gene - pckA_1 pckA_2 pckA_3 pckA_4
+[20:31:38] Fixed 2 duplicate /gene - apt_1 apt_2
+[20:31:38] Fixed 2 duplicate /gene - rnz_1 rnz_2
+[20:31:38] Fixed 3 duplicate /gene - carB_1 carB_2 carB_3
+[20:31:38] Fixed 2 duplicate /gene - argH_1 argH_2
+[20:31:38] Fixed 4 duplicate /gene - mimB_1 mimB_2 mimB_3 mimB_4
+[20:31:38] Fixed 2 duplicate /gene - cobS_1 cobS_2
+[20:31:38] Fixed 2 duplicate /gene - dapE_1 dapE_2
+[20:31:38] Fixed 3 duplicate /gene - mqnC_1 mqnC_2 mqnC_3
+[20:31:38] Fixed 2 duplicate /gene - rutE_1 rutE_2
+[20:31:38] Fixed 2 duplicate /gene - frbC_1 frbC_2
+[20:31:38] Fixed 3 duplicate /gene - yfcA_1 yfcA_2 yfcA_3
+[20:31:38] Fixed 2 duplicate /gene - ribBA_1 ribBA_2
+[20:31:38] Fixed 2 duplicate /gene - nadE_1 nadE_2
+[20:31:38] Fixed 3 duplicate /gene - ileS_1 ileS_2 ileS_3
+[20:31:38] Fixed 3 duplicate /gene - ntpD_1 ntpD_2 ntpD_3
+[20:31:38] Fixed 3 duplicate /gene - serS_1 serS_2 serS_3
+[20:31:38] Fixed 2 duplicate /gene - cutA_1 cutA_2
+[20:31:38] Fixed 2 duplicate /gene - ribE_1 ribE_2
+[20:31:38] Fixed 3 duplicate /gene - cmk_1 cmk_2 cmk_3
+[20:31:38] Fixed 5 duplicate /gene - smc_1 smc_2 smc_3 smc_4 smc_5
+[20:31:38] Fixed 2 duplicate /gene - sad_1 sad_2
+[20:31:38] Fixed 3 duplicate /gene - nqo4_1 nqo4_2 nqo4_3
+[20:31:38] Fixed 2 duplicate /gene - bphA3_1 bphA3_2
+[20:31:38] Fixed 3 duplicate /gene - glnA_1 glnA_2 glnA_3
+[20:31:38] Fixed 4 duplicate /gene - cheY_1 cheY_2 cheY_3 cheY_4
+[20:31:38] Fixed 3 duplicate /gene - gutB_1 gutB_2 gutB_3
+[20:31:38] Fixed 2 duplicate /gene - ilvC_1 ilvC_2
+[20:31:38] Fixed 3 duplicate /gene - lig_1 lig_2 lig_3
+[20:31:38] Fixed 3 duplicate /gene - pyrB_1 pyrB_2 pyrB_3
+[20:31:38] Fixed 2 duplicate /gene - glyQS_1 glyQS_2
+[20:31:38] Fixed 3 duplicate /gene - serB2_1 serB2_2 serB2_3
+[20:31:38] Fixed 3 duplicate /gene - argS_1 argS_2 argS_3
+[20:31:38] Fixed 5 duplicate /gene - dbpA_1 dbpA_2 dbpA_3 dbpA_4 dbpA_5
+[20:31:38] Fixed 2 duplicate /gene - abfD_1 abfD_2
+[20:31:38] Fixed 2 duplicate /gene - fbiC_1 fbiC_2
+[20:31:38] Fixed 3 duplicate /gene - TOP6B_1 TOP6B_2 TOP6B_3
+[20:31:38] Fixed 3 duplicate /gene - mntR_1 mntR_2 mntR_3
+[20:31:38] Fixed 8 duplicate /gene - sasA_1 sasA_2 sasA_3 sasA_4 sasA_5 sasA_6 sasA_7 sasA_8
+[20:31:38] Fixed 2 duplicate /gene - uppS_1 uppS_2
+[20:31:38] Fixed 4 duplicate /gene - hicd_1 hicd_2 hicd_3 hicd_4
+[20:31:38] Fixed 5 duplicate /gene - valS_1 valS_2 valS_3 valS_4 valS_5
+[20:31:38] Fixed 3 duplicate /gene - rtcB_1 rtcB_2 rtcB_3
+[20:31:38] Fixed 2 duplicate /gene - pdxS_1 pdxS_2
+[20:31:38] Fixed 2 duplicate /gene - queE_1 queE_2
+[20:31:38] Fixed 2 duplicate /gene - purA_1 purA_2
+[20:31:38] Fixed 2 duplicate /gene - iscS_1 iscS_2
+[20:31:38] Fixed 3 duplicate /gene - purB_1 purB_2 purB_3
+[20:31:38] Fixed 6 duplicate /gene - btuD_1 btuD_2 btuD_3 btuD_4 btuD_5 btuD_6
+[20:31:38] Fixed 3 duplicate /gene - vgb_1 vgb_2 vgb_3
+[20:31:38] Fixed 3 duplicate /gene - lrp_1 lrp_2 lrp_3
+[20:31:38] Fixed 3 duplicate /gene - hrp1_1 hrp1_2 hrp1_3
+[20:31:38] Fixed 2 duplicate /gene - iolS_1 iolS_2
+[20:31:38] Fixed 2 duplicate /gene - yccU_1 yccU_2
+[20:31:38] Fixed 2 duplicate /gene - yhdG_1 yhdG_2
+[20:31:38] Fixed 3 duplicate /gene - fbiD_1 fbiD_2 fbiD_3
+[20:31:38] Fixed 3 duplicate /gene - cobT_1 cobT_2 cobT_3
+[20:31:38] Fixed 4 duplicate /gene - hemA_1 hemA_2 hemA_3 hemA_4
+[20:31:38] Fixed 2 duplicate /gene - larE_1 larE_2
+[20:31:38] Fixed 3 duplicate /gene - cpoB_1 cpoB_2 cpoB_3
+[20:31:38] Fixed 7 duplicate /gene - ftsH_1 ftsH_2 ftsH_3 ftsH_4 ftsH_5 ftsH_6 ftsH_7
+[20:31:38] Fixed 2 duplicate /gene - hldE_1 hldE_2
+[20:31:38] Fixed 2 duplicate /gene - ssuC_1 ssuC_2
+[20:31:38] Fixed 3 duplicate /gene - carA_1 carA_2 carA_3
+[20:31:38] Fixed 2 duplicate /gene - griI_1 griI_2
+[20:31:38] Fixed 3 duplicate /gene - prs_1 prs_2 prs_3
+[20:31:38] Fixed 2 duplicate /gene - prsA1_1 prsA1_2
+[20:31:38] Fixed 2 duplicate /gene - coaBC_1 coaBC_2
+[20:31:38] Fixed 3 duplicate /gene - nadC_1 nadC_2 nadC_3
+[20:31:38] Fixed 2 duplicate /gene - pat_1 pat_2
+[20:31:38] Fixed 3 duplicate /gene - argG_1 argG_2 argG_3
+[20:31:38] Fixed 2 duplicate /gene - trmI_1 trmI_2
+[20:31:38] Fixed 2 duplicate /gene - catD_1 catD_2
+[20:31:38] Fixed 2 duplicate /gene - COQ5_1 COQ5_2
+[20:31:38] Fixed 4 duplicate /gene - pyrD_1 pyrD_2 pyrD_3 pyrD_4
+[20:31:38] Fixed 3 duplicate /gene - phhB_1 phhB_2 phhB_3
+[20:31:38] Fixed 2 duplicate /gene - rplN_1 rplN_2
+[20:31:38] Fixed 3 duplicate /gene - uvrA_1 uvrA_2 uvrA_3
+[20:31:38] Fixed 5 duplicate /gene - metH_1 metH_2 metH_3 metH_4 metH_5
+[20:31:38] Fixed 6 duplicate /gene - teaD_1 teaD_2 teaD_3 teaD_4 teaD_5 teaD_6
+[20:31:38] Fixed 3 duplicate /gene - atpA_1 atpA_2 atpA_3
+[20:31:38] Fixed 3 duplicate /gene - purD_1 purD_2 purD_3
+[20:31:38] Fixed 3 duplicate /gene - rnhB_1 rnhB_2 rnhB_3
+[20:31:38] Fixed 2 duplicate /gene - infB_1 infB_2
+[20:31:38] Fixed 3 duplicate /gene - cysQ_1 cysQ_2 cysQ_3
+[20:31:38] Fixed 3 duplicate /gene - uvrC_1 uvrC_2 uvrC_3
+[20:31:38] Fixed 3 duplicate /gene - epi_1 epi_2 epi_3
+[20:31:38] Fixed 2 duplicate /gene - nrgA_1 nrgA_2
+[20:31:38] Fixed 3 duplicate /gene - lysJ_1 lysJ_2 lysJ_3
+[20:31:38] Fixed 2 duplicate /gene - rpoB_1 rpoB_2
+[20:31:38] Fixed 2 duplicate /gene - tmk_1 tmk_2
+[20:31:38] Fixed 2 duplicate /gene - hflX_1 hflX_2
+[20:31:38] Fixed 2 duplicate /gene - aspA_1 aspA_2
+[20:31:38] Fixed 2 duplicate /gene - mqnD_1 mqnD_2
+[20:31:38] Fixed 3 duplicate /gene - alaS_1 alaS_2 alaS_3
+[20:31:38] Fixed 3 duplicate /gene - nudL_1 nudL_2 nudL_3
+[20:31:38] Fixed 2 duplicate /gene - fieF_1 fieF_2
+[20:31:38] Fixed 2 duplicate /gene - panB_1 panB_2
+[20:31:38] Fixed 2 duplicate /gene - mprA_1 mprA_2
+[20:31:38] Fixed 5 duplicate /gene - glnB_1 glnB_2 glnB_3 glnB_4 glnB_5
+[20:31:38] Fixed 3 duplicate /gene - pyrK_1 pyrK_2 pyrK_3
+[20:31:38] Fixed 3 duplicate /gene - phnE_1 phnE_2 phnE_3
+[20:31:38] Fixed 2 duplicate /gene - bioF_1 bioF_2
+[20:31:38] Fixed 5 duplicate /gene - leuA_1 leuA_2 leuA_3 leuA_4 leuA_5
+[20:31:38] Fixed 5 duplicate /gene - ctaB_1 ctaB_2 ctaB_3 ctaB_4 ctaB_5
+[20:31:38] Fixed 4 duplicate /gene - rhdA_1 rhdA_2 rhdA_3 rhdA_4
+[20:31:38] Fixed 3 duplicate /gene - fusA_1 fusA_2 fusA_3
+[20:31:38] Fixed 2 duplicate /gene - lrpC_1 lrpC_2
+[20:31:38] Fixed 3 duplicate /gene - nrtD_1 nrtD_2 nrtD_3
+[20:31:38] Fixed 2 duplicate /gene - gpt_1 gpt_2
+[20:31:38] Fixed 3 duplicate /gene - msrA_1 msrA_2 msrA_3
+[20:31:38] Fixed 2 duplicate /gene - asnC_1 asnC_2
+[20:31:38] Fixed 2 duplicate /gene - larB_1 larB_2
+[20:31:38] Fixed 2 duplicate /gene - folD_1 folD_2
+[20:31:38] Fixed 4 duplicate /gene - sodA_1 sodA_2 sodA_3 sodA_4
+[20:31:38] Fixed 2 duplicate /gene - mntC_1 mntC_2
+[20:31:38] Fixed 3 duplicate /gene - birA_1 birA_2 birA_3
+[20:31:38] Fixed 2 duplicate /gene - ndhK_1 ndhK_2
+[20:31:38] Fixed 3 duplicate /gene - lysZ_1 lysZ_2 lysZ_3
+[20:31:38] Fixed 2 duplicate /gene - pstC_1 pstC_2
+[20:31:38] Fixed 2 duplicate /gene - bioB_1 bioB_2
+[20:31:38] Fixed 2 duplicate /gene - cfiB_1 cfiB_2
+[20:31:38] Fixed 4 duplicate /gene - lysX_1 lysX_2 lysX_3 lysX_4
+[20:31:38] Fixed 2 duplicate /gene - fdtC_1 fdtC_2
+[20:31:38] Fixed 6 duplicate /gene - bcp_1 bcp_2 bcp_3 bcp_4 bcp_5 bcp_6
+[20:31:38] Fixed 3 duplicate /gene - rpoC_1 rpoC_2 rpoC_3
+[20:31:38] Fixed 2 duplicate /gene - btuF_1 btuF_2
+[20:31:38] Fixed 2 duplicate /gene - desV_1 desV_2
+[20:31:38] Fixed 3 duplicate /gene - ttuD_1 ttuD_2 ttuD_3
+[20:31:38] Fixed 3 duplicate /gene - leuD1_1 leuD1_2 leuD1_3
+[20:31:38] Fixed 3 duplicate /gene - glmM_1 glmM_2 glmM_3
+[20:31:38] Fixed 3 duplicate /gene - ilvD_1 ilvD_2 ilvD_3
+[20:31:38] Fixed 2 duplicate /gene - pabB_1 pabB_2
+[20:31:38] Fixed 3 duplicate /gene - metG_1 metG_2 metG_3
+[20:31:38] Fixed 3 duplicate /gene - coxM_1 coxM_2 coxM_3
+[20:31:38] Fixed 5 duplicate /gene - prcA_1 prcA_2 prcA_3 prcA_4 prcA_5
+[20:31:38] Fixed 2 duplicate /gene - ribH_1 ribH_2
+[20:31:38] Fixed 2 duplicate /gene - pstA_1 pstA_2
+[20:31:38] Fixed 10 duplicate /gene - IMPDH_1 IMPDH_2 IMPDH_3 IMPDH_4 IMPDH_5 IMPDH_6 IMPDH_7 IMPDH_8 IMPDH_9 IMPDH_10
+[20:31:38] Fixed 2 duplicate /gene - frdB_1 frdB_2
+[20:31:38] Fixed 2 duplicate /gene - trpD_1 trpD_2
+[20:31:38] Fixed 3 duplicate /gene - mcm_1 mcm_2 mcm_3
+[20:31:38] Fixed 3 duplicate /gene - cmoA_1 cmoA_2 cmoA_3
+[20:31:38] Fixed 2 duplicate /gene - tal_1 tal_2
+[20:31:38] Fixed 4 duplicate /gene - drgA_1 drgA_2 drgA_3 drgA_4
+[20:31:38] Fixed 2 duplicate /gene - purC_1 purC_2
+[20:31:38] Fixed 2 duplicate /gene - ribD2_1 ribD2_2
+[20:31:38] Fixed 327 colliding /gene names.
+[20:31:38] Adding /locus_tag identifiers
+[20:31:38] Assigned 3182 locus_tags to CDS and RNA features.
+[20:31:38] Writing outputs to /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00088]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00089]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00090]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00215]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00494]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00495]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00508]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00509]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00510]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00864]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00865]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00866]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_00867]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_01161]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_01294]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_01642]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_01682]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_02377]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_02447]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_02967]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_02968]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_02969]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [KPBANKLD_02970]: Terminator codon inside CDS!
+---------------------------------------------------
+[20:31:41] Generating annotation statistics file
+[20:31:41] Generating Genbank and Sequin files
+[20:31:41] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.err -i \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.fsa 2> /dev/null
+[20:31:47] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/errorsummary.val
+[20:31:47] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.dr
+[20:31:47] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.fixedproducts
+[20:31:47] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.ecn
+[20:31:47] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.val
+[20:31:47] Repairing broken .GBK output that tbl2asn produces...
+[20:31:47] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.gbf > \/home\/vinglis\/genome_analysis\/GenomeAnalysis\/analysis\/04_annotation\/D1_prokka_output\/bin\.2\.fa_prokka_out\/PROKKA_05232021\.gbk
+[20:31:47] Deleting unwanted file: /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.gbf
+[20:31:47] Output files:
+[20:31:47] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.log
+[20:31:47] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.fna
+[20:31:47] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.gff
+[20:31:47] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.faa
+[20:31:47] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.ffn
+[20:31:47] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.tbl
+[20:31:47] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.fsa
+[20:31:47] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.tsv
+[20:31:47] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.txt
+[20:31:47] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.gbk
+[20:31:47] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.sqn
+[20:31:47] /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_prokka_output/bin.2.fa_prokka_out/PROKKA_05232021.err
+[20:31:47] Annotation finished successfully.
+[20:31:47] Walltime used: 9.93 minutes
+[20:31:47] If you use this result please cite the Prokka paper:
+[20:31:47] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[20:31:47] Type 'prokka --citation' for more details.
+[20:31:47] Thank you, come again.
