@@ -1,0 +1,6027 @@
+>Feature k105_119594
+37	1767	CDS
+			EC_number	1.3.5.4
+			gene	frdA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:V3TQ67
+			locus_tag	JENIMKAA_00001
+			product	Fumarate reductase flavoprotein subunit
+1770	2534	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00002
+			product	hypothetical protein
+2951	2688	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00003
+			product	hypothetical protein
+3371	3138	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00004
+			product	hypothetical protein
+3488	4129	CDS
+			EC_number	3.2.1.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0DN70
+			locus_tag	JENIMKAA_00005
+			product	Protein-ADP-ribose hydrolase
+4892	4140	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00006
+			product	hypothetical protein
+5081	5683	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00007
+			product	hypothetical protein
+5961	5692	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00008
+			product	hypothetical protein
+5991	7505	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00009
+			product	hypothetical protein
+8339	7533	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00010
+			product	hypothetical protein
+9253	8336	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00011
+			product	hypothetical protein
+9361	12381	CDS
+			EC_number	3.6.4.13
+			gene	rhlB_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00661
+			locus_tag	JENIMKAA_00012
+			product	ATP-dependent RNA helicase RhlB
+12338	12973	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00013
+			product	hypothetical protein
+13429	12992	CDS
+			EC_number	3.5.4.33
+			gene	tadA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00972
+			locus_tag	JENIMKAA_00014
+			product	tRNA-specific adenosine deaminase
+13762	13439	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00015
+			product	hypothetical protein
+15003	13798	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00016
+			product	hypothetical protein
+15050	16177	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00017
+			product	hypothetical protein
+16252	17532	CDS
+			EC_number	6.1.1.11
+			gene	serS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P99178
+			locus_tag	JENIMKAA_00018
+			product	Serine--tRNA ligase
+18103	17555	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00019
+			product	hypothetical protein
+18708	18208	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00020
+			product	hypothetical protein
+20259	18718	CDS
+			db_xref	COG:COG4770
+			gene	accA1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WPQ3
+			locus_tag	JENIMKAA_00021
+			product	Acetyl-/propionyl-coenzyme A carboxylase alpha chain
+21156	20284	CDS
+			EC_number	4.2.1.150
+			db_xref	COG:COG1024
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q0AVM1
+			locus_tag	JENIMKAA_00022
+			product	Crotonyl-CoA hydratase
+22785	21175	CDS
+			EC_number	6.4.1.3
+			db_xref	COG:COG4799
+			gene	pccB_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q3J4E3
+			locus_tag	JENIMKAA_00023
+			product	Propionyl-CoA carboxylase beta chain
+24130	22853	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00024
+			product	hypothetical protein
+24277	24873	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00025
+			product	hypothetical protein
+25647	24919	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00026
+			product	hypothetical protein
+26555	25674	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00027
+			product	hypothetical protein
+27121	26561	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00028
+			product	hypothetical protein
+28875	27196	CDS
+			EC_number	7.1.1.-
+			db_xref	COG:COG1007
+			gene	nuoN
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AFF0
+			locus_tag	JENIMKAA_00029
+			product	NADH-quinone oxidoreductase subunit N
+29273	28875	CDS
+			EC_number	7.1.1.-
+			gene	ndhB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00445
+			locus_tag	JENIMKAA_00030
+			product	NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic
+>Feature k105_65383
+97	2451	CDS
+			EC_number	6.1.1.5
+			db_xref	COG:COG0060
+			gene	ileS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P56690
+			locus_tag	JENIMKAA_00031
+			product	Isoleucine--tRNA ligase
+3931	2477	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00032
+			product	hypothetical protein
+4046	6625	CDS
+			EC_number	3.5.4.31
+			gene	dadD
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01281
+			locus_tag	JENIMKAA_00033
+			product	5'-deoxyadenosine deaminase
+8154	6688	CDS
+			EC_number	6.1.1.16
+			db_xref	COG:COG0215
+			gene	cysS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21888
+			locus_tag	JENIMKAA_00034
+			product	Cysteine--tRNA ligase
+8855	8154	CDS
+			EC_number	2.4.2.-
+			db_xref	COG:COG2071
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O33341
+			locus_tag	JENIMKAA_00035
+			product	Putative glutamine amidotransferase
+9606	8920	CDS
+			EC_number	2.4.2.-
+			db_xref	COG:COG2071
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O33341
+			locus_tag	JENIMKAA_00036
+			product	Putative glutamine amidotransferase
+9973	9614	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00037
+			product	hypothetical protein
+12031	9992	CDS
+			EC_number	1.18.-.-
+			db_xref	COG:COG0247
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q0AZ32
+			locus_tag	JENIMKAA_00038
+			product	EtfAB:quinone oxidoreductase
+12176	13174	CDS
+			EC_number	2.7.1.6
+			gene	galK
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00246
+			locus_tag	JENIMKAA_00039
+			product	Galactokinase
+13261	13974	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00040
+			product	hypothetical protein
+14221	17796	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00041
+			product	hypothetical protein
+17876	18358	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00042
+			product	hypothetical protein
+19182	18352	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00043
+			product	hypothetical protein
+19671	19183	CDS
+			EC_number	1.11.1.15
+			db_xref	COG:COG1225
+			gene	bcp_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q83CY8
+			locus_tag	JENIMKAA_00044
+			product	Putative peroxiredoxin bcp
+19700	20032	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00045
+			product	hypothetical protein
+20741	20094	CDS
+			EC_number	4.2.99.18
+			db_xref	COG:COG0177
+			gene	nth
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AB83
+			locus_tag	JENIMKAA_00046
+			product	Endonuclease III
+20947	20741	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00047
+			product	hypothetical protein
+22942	21008	CDS
+			db_xref	COG:COG1387
+			gene	polX
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P94544
+			locus_tag	JENIMKAA_00048
+			product	DNA polymerase/3'-5' exonuclease PolX
+22980	23381	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00049
+			product	hypothetical protein
+23686	23405	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00050
+			product	hypothetical protein
+23774	24652	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00051
+			product	hypothetical protein
+24734	26797	CDS
+			EC_number	7.2.3.-
+			db_xref	COG:COG3808
+			gene	hppA1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q2RIS7
+			locus_tag	JENIMKAA_00052
+			product	Putative K(+)-stimulated pyrophosphate-energized sodium pump
+26865	27824	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00053
+			product	hypothetical protein
+27834	28427	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00054
+			product	hypothetical protein
+28712	28452	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00055
+			product	hypothetical protein
+28842	28696	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00056
+			product	hypothetical protein
+>Feature k105_97986
+757	32	CDS
+			db_xref	COG:COG0730
+			gene	yfcA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AD30
+			locus_tag	JENIMKAA_00057
+			product	putative membrane transporter protein YfcA
+1808	867	CDS
+			EC_number	2.5.1.47
+			gene	cysK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P63871
+			locus_tag	JENIMKAA_00058
+			product	Cysteine synthase
+2104	1805	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00059
+			product	hypothetical protein
+3218	2109	CDS
+			db_xref	COG:COG0117
+			gene	ribD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P25539
+			locus_tag	JENIMKAA_00060
+			product	Riboflavin biosynthesis protein RibD
+3275	4306	CDS
+			EC_number	2.7.1.107
+			db_xref	COG:COG1597
+			gene	dagK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O31502
+			locus_tag	JENIMKAA_00061
+			product	Diacylglycerol kinase
+4317	4586	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00062
+			product	hypothetical protein
+4694	4609	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00063
+			product	tRNA-Ser(tga)
+5112	4747	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00064
+			product	hypothetical protein
+6089	5124	CDS
+			EC_number	1.9.3.1
+			db_xref	COG:COG1845
+			gene	ctaE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P06030
+			locus_tag	JENIMKAA_00065
+			product	Cytochrome c oxidase subunit 3
+8497	6185	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00066
+			product	hypothetical protein
+9229	8510	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00067
+			product	hypothetical protein
+9296	9655	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00068
+			product	hypothetical protein
+9655	10164	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00069
+			product	hypothetical protein
+10617	10168	CDS
+			db_xref	COG:COG1522
+			gene	decR
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ACJ5
+			locus_tag	JENIMKAA_00070
+			product	DNA-binding transcriptional activator DecR
+12355	10700	CDS
+			EC_number	2.1.1.178
+			gene	rsmF
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01579
+			locus_tag	JENIMKAA_00071
+			product	Ribosomal RNA small subunit methyltransferase F
+12510	12866	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00072
+			product	hypothetical protein
+12959	13156	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00073
+			product	hypothetical protein
+14014	13157	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00074
+			product	hypothetical protein
+15486	14314	CDS
+			gene	xerC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01808
+			locus_tag	JENIMKAA_00075
+			product	Tyrosine recombinase XerC
+16723	15770	CDS
+			EC_number	6.3.2.-
+			db_xref	COG:COG0189
+			gene	rimK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0C0U4
+			locus_tag	JENIMKAA_00076
+			product	Ribosomal protein S6--L-glutamate ligase
+16927	19257	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00077
+			product	hypothetical protein
+19350	20303	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00078
+			product	hypothetical protein
+20821	20255	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00079
+			product	hypothetical protein
+>Feature k105_76496
+43	603	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00080
+			product	hypothetical protein
+621	1505	CDS
+			EC_number	2.5.1.39
+			gene	plqA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q55500
+			locus_tag	JENIMKAA_00081
+			product	4-hydroxybenzoate solanesyltransferase
+1571	3883	CDS
+			db_xref	COG:COG0556
+			gene	uvrB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37954
+			locus_tag	JENIMKAA_00082
+			product	UvrABC system protein B
+3880	4938	CDS
+			EC_number	2.5.-.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00640
+			locus_tag	JENIMKAA_00083
+			product	Deoxyhypusine synthase-like protein
+5060	5308	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00084
+			product	hypothetical protein
+5560	5928	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00085
+			product	hypothetical protein
+7804	6164	CDS
+			EC_number	2.6.1.17
+			gene	argD
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01107
+			locus_tag	JENIMKAA_00086
+			product	Acetylornithine/succinyldiaminopimelate aminotransferase
+8021	8605	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00087
+			product	hypothetical protein
+>Feature k105_11580
+425	499	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00088
+			product	tRNA-Gly(ccc)
+2207	552	CDS
+			EC_number	1.2.1.5
+			gene	aldHT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P42329
+			locus_tag	JENIMKAA_00089
+			product	Aldehyde dehydrogenase, thermostable
+2323	4548	CDS
+			EC_number	3.4.24.-
+			gene	ftsH
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01458
+			locus_tag	JENIMKAA_00090
+			product	ATP-dependent zinc metalloprotease FtsH
+4558	4800	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00091
+			product	hypothetical protein
+4890	6533	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00092
+			product	hypothetical protein
+6533	7786	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00093
+			product	hypothetical protein
+7803	9020	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00094
+			product	hypothetical protein
+9341	9063	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00095
+			product	hypothetical protein
+9398	10399	CDS
+			EC_number	2.8.1.-
+			db_xref	COG:COG0037
+			gene	ttuA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9WY40
+			locus_tag	JENIMKAA_00096
+			product	tRNA-5-methyluridine(54) 2-sulfurtransferase
+10479	10321	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00097
+			product	hypothetical protein
+10861	10463	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00098
+			product	hypothetical protein
+11338	10871	CDS
+			db_xref	COG:COG1781
+			gene	pyrI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A7F3
+			locus_tag	JENIMKAA_00099
+			product	Aspartate carbamoyltransferase regulatory chain
+12267	11335	CDS
+			EC_number	2.1.3.2
+			db_xref	COG:COG0540
+			gene	pyrB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A786
+			locus_tag	JENIMKAA_00100
+			product	Aspartate carbamoyltransferase catalytic subunit
+12402	13364	CDS
+			EC_number	2.7.1.168
+			gene	hddA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9AGY8
+			locus_tag	JENIMKAA_00101
+			product	D-glycero-alpha-D-manno-heptose 7-phosphate kinase
+13365	15443	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00102
+			product	hypothetical protein
+15518	17236	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00103
+			product	hypothetical protein
+19228	17276	CDS
+			EC_number	6.1.1.3
+			db_xref	COG:COG0441
+			gene	thrS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P18255
+			locus_tag	JENIMKAA_00104
+			product	Threonine--tRNA ligase 1
+20201	19293	CDS
+			EC_number	2.7.2.2
+			gene	arcC1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7A627
+			locus_tag	JENIMKAA_00105
+			product	Carbamate kinase 1
+20255	21415	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00106
+			product	hypothetical protein
+>Feature k105_152673
+106	1425	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00107
+			product	hypothetical protein
+1560	1850	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00108
+			product	hypothetical protein
+1856	2209	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00109
+			product	hypothetical protein
+2346	2915	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00110
+			product	hypothetical protein
+2930	3802	CDS
+			EC_number	2.1.1.182
+			gene	rsmA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00607
+			locus_tag	JENIMKAA_00111
+			product	Ribosomal RNA small subunit methyltransferase A
+3926	5017	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00112
+			product	hypothetical protein
+5196	5483	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00113
+			product	hypothetical protein
+5493	5654	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00114
+			product	hypothetical protein
+5660	6019	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00115
+			product	hypothetical protein
+6327	6034	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00116
+			product	hypothetical protein
+6899	6366	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00117
+			product	hypothetical protein
+8236	6896	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00118
+			product	hypothetical protein
+8265	9500	CDS
+			db_xref	COG:COG0126
+			gene	pgk/tpi
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P36204
+			locus_tag	JENIMKAA_00119
+			product	Bifunctional PGK/TIM
+9587	9512	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00120
+			product	tRNA-Thr(cgt)
+9638	10201	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00121
+			product	hypothetical protein
+11624	10242	CDS
+			EC_number	5.4.2.2
+			db_xref	COG:COG1109
+			gene	algC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26276
+			locus_tag	JENIMKAA_00122
+			product	Phosphomannomutase/phosphoglucomutase
+12074	11697	CDS
+			EC_number	3.5.99.10
+			db_xref	COG:COG0251
+			gene	ridA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7CP78
+			locus_tag	JENIMKAA_00123
+			product	2-iminobutanoate/2-iminopropanoate deaminase
+12581	12105	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q55928
+			locus_tag	JENIMKAA_00124
+			product	Bifunctional NMN adenylyltransferase/Nudix hydrolase
+13461	12571	CDS
+			EC_number	2.5.1.89
+			gene	uppS
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01139
+			locus_tag	JENIMKAA_00125
+			product	Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific)
+14113	13568	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00126
+			product	hypothetical protein
+14256	15494	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00127
+			product	hypothetical protein
+16159	15551	CDS
+			EC_number	5.4.2.11
+			gene	gpmA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:B4RIY7
+			locus_tag	JENIMKAA_00128
+			product	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+17484	16198	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00129
+			product	hypothetical protein
+17495	19618	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00130
+			product	hypothetical protein
+19618	21423	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00131
+			product	hypothetical protein
+21435	21908	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00132
+			product	hypothetical protein
+21905	23191	CDS
+			EC_number	6.1.1.21
+			db_xref	COG:COG0124
+			gene	hisS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8YMC2
+			locus_tag	JENIMKAA_00133
+			product	Histidine--tRNA ligase
+23835	23224	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00134
+			product	hypothetical protein
+>Feature k105_131039
+50	244	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00135
+			product	hypothetical protein
+393	1136	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00136
+			product	hypothetical protein
+3923	1137	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00137
+			product	hypothetical protein
+4891	3929	CDS
+			EC_number	2.7.7.9
+			gene	cugP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P74285
+			locus_tag	JENIMKAA_00138
+			product	UTP--glucose-1-phosphate uridylyltransferase
+5001	6209	CDS
+			EC_number	6.2.1.5
+			db_xref	COG:COG0045
+			gene	sucC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P80886
+			locus_tag	JENIMKAA_00139
+			product	Succinate--CoA ligase [ADP-forming] subunit beta
+6209	7132	CDS
+			EC_number	6.2.1.5
+			gene	sucD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P99070
+			locus_tag	JENIMKAA_00140
+			product	Succinate--CoA ligase [ADP-forming] subunit alpha
+7296	8741	CDS
+			EC_number	1.3.5.5
+			db_xref	COG:COG3349
+			gene	pds
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26294
+			locus_tag	JENIMKAA_00141
+			product	15-cis-phytoene desaturase
+8726	9820	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00142
+			product	hypothetical protein
+9907	11157	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00143
+			product	hypothetical protein
+11228	13006	CDS
+			EC_number	7.6.2.8
+			gene	btuD_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01005
+			locus_tag	JENIMKAA_00144
+			product	Vitamin B12 import ATP-binding protein BtuD
+13003	13581	CDS
+			gene	grpE
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01151
+			locus_tag	JENIMKAA_00145
+			product	Protein GrpE
+13655	14944	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00146
+			product	hypothetical protein
+15584	14970	CDS
+			EC_number	2.7.7.1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00243
+			locus_tag	JENIMKAA_00147
+			product	Nicotinamide-nucleotide adenylyltransferase
+15919	15581	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00148
+			product	hypothetical protein
+>Feature k105_163802
+2473	212	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00149
+			product	hypothetical protein
+2841	4136	CDS
+			EC_number	1.1.1.88
+			gene	mvaA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13702
+			locus_tag	JENIMKAA_00150
+			product	3-hydroxy-3-methylglutaryl-coenzyme A reductase
+4814	4182	CDS
+			gene	scpB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01804
+			locus_tag	JENIMKAA_00151
+			product	Segregation and condensation protein B
+5817	4807	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00152
+			product	hypothetical protein
+9794	5823	CDS
+			db_xref	COG:COG1196
+			gene	smc
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P51834
+			locus_tag	JENIMKAA_00153
+			product	Chromosome partition protein Smc
+10047	11693	CDS
+			EC_number	1.4.3.16
+			db_xref	COG:COG0029
+			gene	nadB_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8ZMX9
+			locus_tag	JENIMKAA_00154
+			product	L-aspartate oxidase
+12663	11710	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00155
+			product	hypothetical protein
+15113	12663	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00156
+			product	hypothetical protein
+15816	15199	CDS
+			gene	ntpD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P43435
+			locus_tag	JENIMKAA_00157
+			product	V-type sodium ATPase subunit D
+17237	15858	CDS
+			db_xref	COG:COG1156
+			gene	atpB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q56404
+			locus_tag	JENIMKAA_00158
+			product	V-type ATP synthase beta chain
+18987	17248	CDS
+			EC_number	7.1.2.2
+			db_xref	COG:COG1155
+			gene	atpA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q56403
+			locus_tag	JENIMKAA_00159
+			product	V-type ATP synthase alpha chain
+19314	19015	CDS
+			gene	atpF
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00312
+			locus_tag	JENIMKAA_00160
+			product	V-type ATP synthase subunit F
+20368	19328	CDS
+			gene	atpC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00314
+			locus_tag	JENIMKAA_00161
+			product	V-type ATP synthase subunit C
+20946	20383	CDS
+			gene	atpE
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00311
+			locus_tag	JENIMKAA_00162
+			product	V-type proton ATPase subunit E
+21304	20999	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00163
+			product	hypothetical protein
+23362	21344	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00164
+			product	hypothetical protein
+23689	23372	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00165
+			product	hypothetical protein
+>Feature k105_141883
+2889	24	rRNA
+			locus_tag	JENIMKAA_00166
+			product	23S ribosomal RNA
+			score	0
+3823	3170	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00167
+			product	hypothetical protein
+5689	4058	CDS
+			db_xref	COG:COG1055
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WPD7
+			locus_tag	JENIMKAA_00168
+			product	putative transporter
+6042	5767	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00169
+			product	hypothetical protein
+6365	6039	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00170
+			product	hypothetical protein
+7090	6383	CDS
+			EC_number	2.7.4.3
+			gene	adk
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27142
+			locus_tag	JENIMKAA_00171
+			product	Adenylate kinase
+11835	7048	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00172
+			product	hypothetical protein
+13055	11979	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00173
+			product	hypothetical protein
+13188	14729	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00174
+			product	hypothetical protein
+14787	16493	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00175
+			product	hypothetical protein
+16681	16502	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00176
+			product	hypothetical protein
+16776	19610	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00177
+			product	hypothetical protein
+19626	20363	CDS
+			gene	rnhB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00052_A
+			locus_tag	JENIMKAA_00178
+			product	Ribonuclease HII
+20411	22126	CDS
+			EC_number	6.1.1.-
+			gene	gluQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01428
+			locus_tag	JENIMKAA_00179
+			product	Glutamyl-Q tRNA(Asp) synthetase
+22267	24267	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00180
+			product	hypothetical protein
+25173	24295	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00181
+			product	hypothetical protein
+25755	25300	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00182
+			product	hypothetical protein
+27639	25831	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00183
+			product	hypothetical protein
+27702	29846	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00184
+			product	hypothetical protein
+30995	29850	CDS
+			db_xref	COG:COG0484
+			gene	dnaJ_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08622
+			locus_tag	JENIMKAA_00185
+			product	Chaperone protein DnaJ
+31967	31050	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00186
+			product	hypothetical protein
+32020	32580	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00187
+			product	hypothetical protein
+33678	32584	CDS
+			EC_number	3.4.19.3
+			gene	pcp
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00417
+			locus_tag	JENIMKAA_00188
+			product	Pyrrolidone-carboxylate peptidase
+33836	33675	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00189
+			product	hypothetical protein
+34039	34854	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5ZRP2
+			locus_tag	JENIMKAA_00190
+			note	UPF0176 protein lpg2838
+			product	hypothetical protein
+35344	34874	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00191
+			product	hypothetical protein
+41145	35395	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00192
+			product	hypothetical protein
+41414	42223	CDS
+			EC_number	3.-.-.-
+			db_xref	COG:COG1235
+			gene	yycJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:C0SP91
+			locus_tag	JENIMKAA_00193
+			product	Putative metallo-hydrolase YycJ
+44847	42319	CDS
+			gene	malT
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01247
+			locus_tag	JENIMKAA_00194
+			product	HTH-type transcriptional regulator MalT
+49153	44909	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00195
+			product	hypothetical protein
+50504	49254	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00196
+			product	hypothetical protein
+60084	50575	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00197
+			product	hypothetical protein
+61459	60206	CDS
+			EC_number	6.3.4.13
+			db_xref	COG:COG0151
+			gene	purD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P15640
+			locus_tag	JENIMKAA_00198
+			product	Phosphoribosylamine--glycine ligase
+62310	61624	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00199
+			product	hypothetical protein
+62321	64093	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00200
+			product	hypothetical protein
+65311	64100	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00201
+			product	hypothetical protein
+66307	65405	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00202
+			product	hypothetical protein
+66587	66511	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00203
+			product	tRNA-Met(cat)
+66725	68284	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00204
+			product	hypothetical protein
+68294	69949	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00205
+			product	hypothetical protein
+70047	72803	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00206
+			product	hypothetical protein
+72867	77468	CDS
+			EC_number	2.7.8.-
+			gene	clsB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01917
+			locus_tag	JENIMKAA_00207
+			product	Cardiolipin synthase B
+77465	78742	CDS
+			EC_number	2.4.2.4
+			db_xref	COG:COG0213
+			gene	deoA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P07650
+			locus_tag	JENIMKAA_00208
+			product	Thymidine phosphorylase
+78747	79802	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00209
+			product	hypothetical protein
+83785	79826	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00210
+			product	hypothetical protein
+85135	83855	CDS
+			EC_number	2.1.2.1
+			gene	glyA2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q3JGP5
+			locus_tag	JENIMKAA_00211
+			product	Serine hydroxymethyltransferase 2
+85287	87560	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00212
+			product	hypothetical protein
+87617	90232	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00213
+			product	hypothetical protein
+90310	90235	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00214
+			product	tRNA-Asn(gtt)
+91492	90545	CDS
+			EC_number	6.3.5.2
+			gene	guaA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P99105
+			locus_tag	JENIMKAA_00215
+			product	GMP synthase [glutamine-hydrolyzing]
+91971	91498	CDS
+			EC_number	5.4.99.18
+			db_xref	COG:COG0041
+			gene	purE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9WYS7
+			locus_tag	JENIMKAA_00216
+			product	N5-carboxyaminoimidazole ribonucleotide mutase
+92745	92032	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00217
+			product	hypothetical protein
+94459	92951	CDS
+			EC_number	1.4.4.2
+			gene	gcvPB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P99168
+			locus_tag	JENIMKAA_00218
+			product	putative glycine dehydrogenase (decarboxylating) subunit 2
+95766	94435	CDS
+			EC_number	1.4.4.2
+			db_xref	COG:COG0403
+			gene	gcvPA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q72C59
+			locus_tag	JENIMKAA_00219
+			product	putative glycine dehydrogenase (decarboxylating) subunit 1
+95935	96780	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00220
+			product	hypothetical protein
+98682	96808	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00221
+			product	hypothetical protein
+99977	98826	CDS
+			EC_number	2.1.2.10
+			db_xref	COG:COG0404
+			gene	gcvT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P54378
+			locus_tag	JENIMKAA_00222
+			product	Aminomethyltransferase
+100169	101146	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00223
+			product	hypothetical protein
+101223	101147	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00224
+			product	tRNA-Ala(tgc)
+101891	101280	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00225
+			product	hypothetical protein
+101938	103689	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00226
+			product	hypothetical protein
+104160	104291	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00227
+			product	hypothetical protein
+>Feature k105_22757
+1	1251	CDS
+			EC_number	6.3.4.14
+			db_xref	COG:COG0439
+			gene	accC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P43873
+			locus_tag	JENIMKAA_00228
+			product	Biotin carboxylase
+1261	2226	CDS
+			EC_number	2.7.1.15
+			gene	RBKS
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01987
+			locus_tag	JENIMKAA_00229
+			product	Ribokinase
+4149	2251	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00230
+			product	hypothetical protein
+5333	4272	CDS
+			gene	tuf_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00118_A
+			locus_tag	JENIMKAA_00231
+			product	Elongation factor Tu
+6226	5750	CDS
+			EC_number	3.1.2.-
+			db_xref	COG:COG1607
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P44886
+			locus_tag	JENIMKAA_00232
+			product	putative acyl-CoA thioester hydrolase
+6315	7124	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00233
+			product	hypothetical protein
+7127	7657	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00234
+			product	hypothetical protein
+7654	8547	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00235
+			product	hypothetical protein
+8752	8549	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00236
+			product	hypothetical protein
+8852	8926	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00237
+			product	tRNA-Gly(tcc)
+9201	11087	CDS
+			EC_number	7.6.2.8
+			gene	btuD_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01005
+			locus_tag	JENIMKAA_00238
+			product	Vitamin B12 import ATP-binding protein BtuD
+11125	11838	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00239
+			product	hypothetical protein
+12256	11927	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00240
+			product	hypothetical protein
+>Feature k105_44308
+76	357	CDS
+			EC_number	4.4.1.13
+			db_xref	COG:COG0626
+			gene	metC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A2RM21
+			locus_tag	JENIMKAA_00241
+			product	Cystathionine beta-lyase
+367	966	CDS
+			db_xref	COG:COG1280
+			gene	eamB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P38101
+			locus_tag	JENIMKAA_00242
+			product	Cysteine/O-acetylserine efflux protein
+2668	968	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00243
+			product	hypothetical protein
+3556	2693	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00244
+			product	hypothetical protein
+3558	4736	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00245
+			product	hypothetical protein
+4845	4770	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00246
+			product	tRNA-Asp(gtc)
+4980	5564	CDS
+			EC_number	6.3.5.2
+			gene	guaA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P99105
+			locus_tag	JENIMKAA_00247
+			product	GMP synthase [glutamine-hydrolyzing]
+5710	5561	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00248
+			product	hypothetical protein
+5962	7101	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00249
+			product	hypothetical protein
+7254	7177	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00250
+			product	tRNA-Arg(cct)
+7361	8824	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00251
+			product	hypothetical protein
+8940	10370	CDS
+			EC_number	1.4.3.16
+			db_xref	COG:COG0029
+			gene	nadB_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P10902
+			locus_tag	JENIMKAA_00252
+			product	L-aspartate oxidase
+10380	10799	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00253
+			product	hypothetical protein
+10839	12329	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00254
+			product	hypothetical protein
+12350	13003	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00255
+			product	hypothetical protein
+13168	18264	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00256
+			product	hypothetical protein
+19037	18300	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00257
+			product	hypothetical protein
+19849	19133	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00258
+			product	hypothetical protein
+21102	20002	CDS
+			EC_number	5.6.2.2
+			gene	TOP6A
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00132
+			locus_tag	JENIMKAA_00259
+			product	DNA topoisomerase 6 subunit A
+23267	21099	CDS
+			EC_number	5.6.2.2
+			gene	TOP6B
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00322
+			locus_tag	JENIMKAA_00260
+			product	DNA topoisomerase 6 subunit B
+24055	23399	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00261
+			product	hypothetical protein
+26077	24089	CDS
+			EC_number	4.2.1.33
+			gene	leuC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01027
+			locus_tag	JENIMKAA_00262
+			product	3-isopropylmalate dehydratase large subunit
+26250	27176	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00263
+			product	hypothetical protein
+27191	28525	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00264
+			product	hypothetical protein
+32176	28526	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00265
+			product	hypothetical protein
+32262	32432	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00266
+			product	hypothetical protein
+32743	32351	CDS
+			db_xref	COG:COG1765
+			gene	yhfA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ADX1
+			locus_tag	JENIMKAA_00267
+			product	Protein YhfA
+32768	34045	CDS
+			EC_number	1.1.1.42
+			db_xref	COG:COG0538
+			gene	icd
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08200
+			locus_tag	JENIMKAA_00268
+			product	Isocitrate dehydrogenase [NADP]
+34055	35452	CDS
+			EC_number	3.6.4.13
+			gene	rhlE
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00968
+			locus_tag	JENIMKAA_00269
+			product	ATP-dependent RNA helicase RhlE
+35533	36267	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00270
+			product	hypothetical protein
+36242	36370	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00271
+			product	hypothetical protein
+36458	37591	CDS
+			EC_number	2.3.1.16
+			db_xref	COG:COG0183
+			gene	fadA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O32177
+			locus_tag	JENIMKAA_00272
+			product	3-ketoacyl-CoA thiolase
+37601	40021	CDS
+			EC_number	1.1.1.35
+			db_xref	COG:COG1024
+			gene	fadN
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O32178
+			locus_tag	JENIMKAA_00273
+			product	putative 3-hydroxyacyl-CoA dehydrogenase
+40031	41833	CDS
+			EC_number	1.3.8.-
+			db_xref	COG:COG1960
+			gene	dmdC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5LLW7
+			locus_tag	JENIMKAA_00274
+			product	3-methylmercaptopropionyl-CoA dehydrogenase
+41833	42888	CDS
+			EC_number	4.2.99.20
+			gene	menH
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01660
+			locus_tag	JENIMKAA_00275
+			product	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase
+42893	43171	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00276
+			product	hypothetical protein
+43258	43674	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00277
+			product	hypothetical protein
+43699	44670	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00278
+			product	hypothetical protein
+48252	44842	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00279
+			product	hypothetical protein
+48381	48839	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00280
+			product	hypothetical protein
+49901	48864	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00281
+			product	hypothetical protein
+50018	50446	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00282
+			product	hypothetical protein
+51089	50472	CDS
+			EC_number	2.5.1.17
+			db_xref	COG:COG2096
+			gene	yvqK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O34899
+			locus_tag	JENIMKAA_00283
+			product	Corrinoid adenosyltransferase
+51872	51120	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00284
+			product	hypothetical protein
+52198	51869	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00285
+			product	hypothetical protein
+52280	52714	CDS
+			EC_number	2.1.1.177
+			gene	rlmH
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00658
+			locus_tag	JENIMKAA_00286
+			product	Ribosomal RNA large subunit methyltransferase H
+53192	52812	CDS
+			EC_number	4.1.1.11
+			db_xref	COG:COG0853
+			gene	panD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9X4N0
+			locus_tag	JENIMKAA_00287
+			product	Aspartate 1-decarboxylase
+53479	61347	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00288
+			product	hypothetical protein
+61498	61863	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00289
+			product	hypothetical protein
+61856	62344	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00290
+			product	hypothetical protein
+62344	62778	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00291
+			product	hypothetical protein
+62785	62991	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00292
+			product	hypothetical protein
+63046	63123	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00293
+			product	tRNA-Pro(ggg)
+63318	65453	CDS
+			EC_number	6.5.1.2
+			db_xref	COG:COG0272
+			gene	ligA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P43813
+			locus_tag	JENIMKAA_00294
+			product	DNA ligase
+66277	65468	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00295
+			product	hypothetical protein
+66298	67632	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00296
+			product	hypothetical protein
+68366	67551	CDS
+			EC_number	3.1.-.-
+			gene	dinG_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02206
+			locus_tag	JENIMKAA_00297
+			product	3'-5' exonuclease DinG
+68458	69624	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00298
+			product	hypothetical protein
+69691	70041	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00299
+			product	hypothetical protein
+70096	70172	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00300
+			product	tRNA-Arg(gcg)
+70295	71584	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00301
+			product	hypothetical protein
+71642	72058	CDS
+			EC_number	3.1.2.28
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02101
+			locus_tag	JENIMKAA_00302
+			product	1,4-dihydroxy-2-naphthoyl-CoA hydrolase
+72491	72066	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00303
+			product	hypothetical protein
+73033	72488	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00304
+			product	hypothetical protein
+73288	73938	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00305
+			product	hypothetical protein
+74539	73979	CDS
+			db_xref	COG:COG0316
+			gene	nfuA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P63020
+			locus_tag	JENIMKAA_00306
+			product	Fe/S biogenesis protein NfuA
+74768	75682	CDS
+			EC_number	4.1.99.22
+			db_xref	COG:COG2896
+			gene	moaA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P69848
+			locus_tag	JENIMKAA_00307
+			product	GTP 3',8-cyclase
+76350	75679	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00308
+			product	hypothetical protein
+76738	76340	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00309
+			product	hypothetical protein
+>Feature k105_22958
+246	1184	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00310
+			product	hypothetical protein
+1239	2117	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00311
+			product	hypothetical protein
+2187	3317	CDS
+			EC_number	2.6.1.1
+			gene	aspC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q55128
+			locus_tag	JENIMKAA_00312
+			product	Aspartate aminotransferase
+3369	3800	CDS
+			EC_number	4.1.1.50
+			gene	speH
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00464
+			locus_tag	JENIMKAA_00313
+			product	S-adenosylmethionine decarboxylase proenzyme
+>Feature k105_153119
+2267	648	CDS
+			EC_number	1.2.1.88
+			gene	rocA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P99076
+			locus_tag	JENIMKAA_00314
+			product	1-pyrroline-5-carboxylate dehydrogenase
+2836	2546	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00315
+			product	hypothetical protein
+4237	2891	CDS
+			EC_number	6.3.4.4
+			db_xref	COG:COG0104
+			gene	purA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0QQH7
+			locus_tag	JENIMKAA_00316
+			product	Adenylosuccinate synthetase
+4741	5349	CDS
+			db_xref	COG:COG1279
+			gene	argO
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P11667
+			locus_tag	JENIMKAA_00317
+			product	Arginine exporter protein ArgO
+5491	6231	CDS
+			db_xref	COG:COG2846
+			gene	scdA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5HJB7
+			locus_tag	JENIMKAA_00318
+			product	Iron-sulfur cluster repair protein ScdA
+6541	6218	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00319
+			product	hypothetical protein
+7420	6566	CDS
+			EC_number	3.4.19.5
+			db_xref	COG:COG1446
+			gene	iaaA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7CQV5
+			locus_tag	JENIMKAA_00320
+			product	Isoaspartyl peptidase
+9513	7483	CDS
+			EC_number	3.4.21.53
+			gene	lon
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01973
+			locus_tag	JENIMKAA_00321
+			product	Lon protease
+12758	9585	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00322
+			product	hypothetical protein
+12905	13741	CDS
+			EC_number	2.1.1.220
+			db_xref	COG:COG2519
+			gene	trmI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WFZ1
+			locus_tag	JENIMKAA_00323
+			product	tRNA (adenine(58)-N(1))-methyltransferase TrmI
+14830	13748	CDS
+			EC_number	1.1.1.-
+			db_xref	COG:COG0667
+			gene	gpr
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q46851
+			locus_tag	JENIMKAA_00324
+			product	L-glyceraldehyde 3-phosphate reductase
+14925	16334	CDS
+			EC_number	6.1.1.23
+			db_xref	COG:COG0017
+			gene	aspS2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9RVH4
+			locus_tag	JENIMKAA_00325
+			product	Aspartate--tRNA(Asp/Asn) ligase
+16431	16892	CDS
+			gene	petE
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00566
+			locus_tag	JENIMKAA_00326
+			product	Plastocyanin
+16876	17664	CDS
+			EC_number	2.1.2.9
+			gene	fmt
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00182
+			locus_tag	JENIMKAA_00327
+			product	Methionyl-tRNA formyltransferase
+17673	18470	CDS
+			EC_number	1.1.1.100
+			gene	fabG_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9KQH7
+			locus_tag	JENIMKAA_00328
+			product	3-oxoacyl-[acyl-carrier-protein] reductase FabG
+18483	19727	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00329
+			product	hypothetical protein
+19724	20902	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00330
+			product	hypothetical protein
+20899	22434	CDS
+			EC_number	1.2.1.32
+			gene	amnC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9KWS5
+			locus_tag	JENIMKAA_00331
+			product	2-aminomuconic 6-semialdehyde dehydrogenase
+22482	23462	CDS
+			EC_number	2.3.1.180
+			db_xref	COG:COG0332
+			gene	fabH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O67185
+			locus_tag	JENIMKAA_00332
+			product	3-oxoacyl-[acyl-carrier-protein] synthase 3
+24334	23459	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00333
+			product	hypothetical protein
+24810	24508	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00334
+			product	hypothetical protein
+25133	24792	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00335
+			product	hypothetical protein
+25200	25460	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00336
+			product	hypothetical protein
+30426	25339	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00337
+			product	hypothetical protein
+32285	30498	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00338
+			product	hypothetical protein
+33656	32334	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00339
+			product	hypothetical protein
+34344	33751	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00340
+			product	hypothetical protein
+35519	34386	CDS
+			EC_number	1.2.1.11
+			db_xref	COG:COG0136
+			gene	asd2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P23247
+			locus_tag	JENIMKAA_00341
+			product	Aspartate-semialdehyde dehydrogenase 2
+35671	36942	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00342
+			product	hypothetical protein
+36968	37552	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00343
+			product	hypothetical protein
+38586	37546	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00344
+			product	hypothetical protein
+39641	38589	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00345
+			product	hypothetical protein
+39913	39773	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00346
+			product	hypothetical protein
+40620	39910	CDS
+			db_xref	COG:COG0755
+			gene	ccmC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0ABM1
+			locus_tag	JENIMKAA_00347
+			product	Heme exporter protein C
+42033	40630	CDS
+			EC_number	7.6.2.8
+			gene	btuD_3
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01005
+			locus_tag	JENIMKAA_00348
+			product	Vitamin B12 import ATP-binding protein BtuD
+42132	43169	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00349
+			product	hypothetical protein
+43296	48131	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00350
+			product	hypothetical protein
+48142	48792	CDS
+			EC_number	3.6.1.9
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00528
+			locus_tag	JENIMKAA_00351
+			product	dTTP/UTP pyrophosphatase
+49262	48798	CDS
+			gene	mntR
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00732
+			locus_tag	JENIMKAA_00352
+			product	HTH-type transcriptional regulator MntR
+49692	49264	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00353
+			product	hypothetical protein
+49884	50654	CDS
+			db_xref	COG:COG0396
+			gene	sufC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P80866
+			locus_tag	JENIMKAA_00354
+			product	Vegetative protein 296
+50704	52113	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7A6L4
+			locus_tag	JENIMKAA_00355
+			note	UPF0051 protein SA0778
+			product	hypothetical protein
+52136	53239	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00356
+			product	hypothetical protein
+54215	53460	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00357
+			product	hypothetical protein
+54275	55072	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00358
+			product	hypothetical protein
+56458	55118	CDS
+			EC_number	2.7.4.9
+			gene	tmk
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00165
+			locus_tag	JENIMKAA_00359
+			product	Thymidylate kinase
+57197	56460	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00360
+			product	hypothetical protein
+58289	57213	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00361
+			product	hypothetical protein
+58406	62455	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00362
+			product	hypothetical protein
+62518	63333	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00363
+			product	hypothetical protein
+64151	63342	CDS
+			EC_number	4.2.1.10
+			gene	aroD
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00214
+			locus_tag	JENIMKAA_00364
+			product	3-dehydroquinate dehydratase
+64378	66348	CDS
+			EC_number	5.6.2.2
+			db_xref	COG:COG0187
+			gene	gyrB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q839Z1
+			locus_tag	JENIMKAA_00365
+			product	DNA gyrase subunit B
+66358	69063	CDS
+			EC_number	5.6.2.2
+			db_xref	COG:COG0188
+			gene	gyrA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P20831
+			locus_tag	JENIMKAA_00366
+			product	DNA gyrase subunit A
+69110	69196	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00367
+			product	tRNA-Ser(gct)
+69267	70112	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00368
+			product	hypothetical protein
+70255	71373	CDS
+			EC_number	2.5.1.19
+			db_xref	COG:COG0128
+			gene	aroA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WPY5
+			locus_tag	JENIMKAA_00369
+			product	3-phosphoshikimate 1-carboxyvinyltransferase
+73340	71364	CDS
+			gene	mutL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P65492
+			locus_tag	JENIMKAA_00370
+			product	DNA mismatch repair protein MutL
+76039	73343	CDS
+			db_xref	COG:COG0249
+			gene	mutS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A1Y0
+			locus_tag	JENIMKAA_00371
+			product	DNA mismatch repair protein MutS
+76428	76207	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00372
+			product	hypothetical protein
+76519	76920	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00373
+			product	hypothetical protein
+76971	77912	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00374
+			product	hypothetical protein
+78051	78596	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00375
+			product	hypothetical protein
+78609	79187	CDS
+			EC_number	2.4.2.7
+			gene	apt_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00004
+			locus_tag	JENIMKAA_00376
+			product	Adenine phosphoribosyltransferase
+79195	80247	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00377
+			product	hypothetical protein
+80244	81398	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00378
+			product	hypothetical protein
+81487	82662	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00379
+			product	hypothetical protein
+82732	83229	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00380
+			product	hypothetical protein
+>Feature k105_33489
+99	22	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00381
+			product	tRNA-Ile(gat)
+214	1143	CDS
+			EC_number	2.7.6.1
+			db_xref	COG:COG0462
+			gene	prs
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q63XL8
+			locus_tag	JENIMKAA_00382
+			product	Ribose-phosphate pyrophosphokinase
+1253	1633	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00383
+			product	hypothetical protein
+1667	1888	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00384
+			product	hypothetical protein
+1899	2090	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00385
+			product	hypothetical protein
+4270	2234	CDS
+			EC_number	3.4.14.11
+			gene	pepX_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00698
+			locus_tag	JENIMKAA_00386
+			product	Xaa-Pro dipeptidyl-peptidase
+4370	4822	CDS
+			EC_number	2.7.4.6
+			gene	ndk
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P74494
+			locus_tag	JENIMKAA_00387
+			product	Nucleoside diphosphate kinase
+5783	5238	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00388
+			product	hypothetical protein
+>Feature k105_44757
+1299	424	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00389
+			product	hypothetical protein
+1456	2640	CDS
+			EC_number	2.4.1.11
+			db_xref	COG:COG0438
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WMY9
+			locus_tag	JENIMKAA_00390
+			product	Glycogen synthase
+2660	3901	CDS
+			EC_number	2.4.1.250
+			gene	mshA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01695
+			locus_tag	JENIMKAA_00391
+			product	D-inositol-3-phosphate glycosyltransferase
+3979	5454	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00392
+			product	hypothetical protein
+6048	5470	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00393
+			product	hypothetical protein
+7223	6045	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00394
+			product	hypothetical protein
+9841	7223	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00395
+			product	hypothetical protein
+9993	12059	CDS
+			EC_number	5.3.3.8
+			gene	fadB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01621
+			locus_tag	JENIMKAA_00396
+			product	Fatty acid oxidation complex subunit alpha
+12445	12882	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00397
+			product	hypothetical protein
+13015	13668	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00398
+			product	hypothetical protein
+13779	14873	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00399
+			product	hypothetical protein
+15229	14858	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00400
+			product	hypothetical protein
+16209	15229	CDS
+			EC_number	1.3.1.-
+			gene	dusB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02042
+			locus_tag	JENIMKAA_00401
+			product	tRNA-dihydrouridine synthase B
+17812	16274	CDS
+			EC_number	3.6.4.13
+			db_xref	COG:COG0513
+			gene	dbpA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P42305
+			locus_tag	JENIMKAA_00402
+			product	ATP-dependent RNA helicase DbpA
+18543	17929	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00403
+			product	hypothetical protein
+19244	18624	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00404
+			product	hypothetical protein
+20162	19464	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00405
+			product	hypothetical protein
+20337	21623	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00406
+			product	hypothetical protein
+24020	21624	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00407
+			product	hypothetical protein
+25252	24020	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00408
+			product	hypothetical protein
+26145	25432	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00409
+			product	hypothetical protein
+>Feature k105_23605
+804	547	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00410
+			product	hypothetical protein
+1330	779	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00411
+			product	hypothetical protein
+1406	1987	CDS
+			EC_number	3.1.3.3
+			db_xref	COG:COG0560
+			gene	thrH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9I2Y2
+			locus_tag	JENIMKAA_00412
+			product	Phosphoserine phosphatase ThrH
+2078	2473	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00413
+			product	hypothetical protein
+2523	2966	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00414
+			product	hypothetical protein
+>Feature k105_45038
+20	93	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00415
+			product	tRNA-Cys(gca)
+475	113	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00416
+			product	hypothetical protein
+1466	525	CDS
+			EC_number	4.3.1.16
+			gene	thadh
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A4F2N8
+			locus_tag	JENIMKAA_00417
+			product	L-threo-3-hydroxyaspartate ammonia-lyase
+1592	2017	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00418
+			product	hypothetical protein
+2591	2052	CDS
+			EC_number	3.1.26.4
+			gene	rnhA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00042
+			locus_tag	JENIMKAA_00419
+			product	Ribonuclease H
+2967	2584	CDS
+			gene	gcvH_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P64214
+			locus_tag	JENIMKAA_00420
+			product	Glycine cleavage system H protein
+3497	3114	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00421
+			product	hypothetical protein
+4183	3599	CDS
+			EC_number	3.6.1.15
+			db_xref	COG:COG1618
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O67322
+			locus_tag	JENIMKAA_00422
+			product	Nucleoside-triphosphatase THEP1
+6432	4462	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00423
+			product	hypothetical protein
+7130	6510	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00424
+			product	hypothetical protein
+7308	8498	CDS
+			EC_number	1.1.1.85
+			db_xref	COG:COG0473
+			gene	leuB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9WZ26
+			locus_tag	JENIMKAA_00425
+			product	3-isopropylmalate dehydrogenase
+9284	8499	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00426
+			product	hypothetical protein
+10274	9285	CDS
+			EC_number	2.4.2.19
+			db_xref	COG:COG0157
+			gene	nadC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P39666
+			locus_tag	JENIMKAA_00427
+			product	putative nicotinate-nucleotide pyrophosphorylase [carboxylating]
+10304	11383	CDS
+			EC_number	2.1.1.61
+			gene	mnmC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01102
+			locus_tag	JENIMKAA_00428
+			product	tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC
+11634	11389	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00429
+			product	hypothetical protein
+12536	11739	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00430
+			product	hypothetical protein
+12680	13918	CDS
+			EC_number	2.5.1.6
+			db_xref	COG:COG0192
+			gene	metK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q72I53
+			locus_tag	JENIMKAA_00431
+			product	S-adenosylmethionine synthase
+13956	15602	CDS
+			db_xref	COG:COG0488
+			gene	ettA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A9W3
+			locus_tag	JENIMKAA_00432
+			product	Energy-dependent translational throttle protein EttA
+15696	20576	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00433
+			product	hypothetical protein
+20693	21343	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00434
+			product	hypothetical protein
+22575	21388	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00435
+			product	hypothetical protein
+22721	23155	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00436
+			product	hypothetical protein
+24433	23213	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00437
+			product	hypothetical protein
+25626	24433	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00438
+			product	hypothetical protein
+25694	26452	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00439
+			product	hypothetical protein
+30483	26515	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00440
+			product	hypothetical protein
+30624	31208	CDS
+			EC_number	2.4.2.10
+			db_xref	COG:COG0461
+			gene	pyrE_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8NM11
+			locus_tag	JENIMKAA_00441
+			product	Orotate phosphoribosyltransferase
+31227	31622	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00442
+			product	hypothetical protein
+31661	32194	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00443
+			product	hypothetical protein
+32250	32732	CDS
+			EC_number	5.2.1.8
+			db_xref	COG:COG0652
+			gene	ppiB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O66105
+			locus_tag	JENIMKAA_00444
+			product	putative peptidyl-prolyl cis-trans isomerase
+32789	34390	CDS
+			EC_number	4.2.1.2
+			db_xref	COG:COG0114
+			gene	fumC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q92PB6
+			locus_tag	JENIMKAA_00445
+			product	Fumarate hydratase class II
+35200	34796	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00446
+			product	hypothetical protein
+36371	35283	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00447
+			product	hypothetical protein
+37912	36410	CDS
+			EC_number	3.4.17.19
+			db_xref	COG:COG2317
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5SLM3
+			locus_tag	JENIMKAA_00448
+			product	Thermostable carboxypeptidase 1
+38065	39858	CDS
+			EC_number	3.4.14.11
+			gene	pepX_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00698
+			locus_tag	JENIMKAA_00449
+			product	Xaa-Pro dipeptidyl-peptidase
+39863	41413	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00450
+			product	hypothetical protein
+41765	41448	CDS
+			db_xref	COG:COG0526
+			gene	trxA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AA28
+			locus_tag	JENIMKAA_00451
+			product	Thioredoxin 1
+41804	42559	CDS
+			EC_number	5.1.3.1
+			gene	rpe
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P74061
+			locus_tag	JENIMKAA_00452
+			product	Ribulose-phosphate 3-epimerase
+42611	42937	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00453
+			product	hypothetical protein
+42942	43274	CDS
+			db_xref	COG:COG0278
+			gene	grxD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AC69
+			locus_tag	JENIMKAA_00454
+			product	Glutaredoxin 4
+43284	44222	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00455
+			product	hypothetical protein
+45495	44482	CDS
+			EC_number	3.4.11.18
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01974
+			locus_tag	JENIMKAA_00456
+			product	Methionine aminopeptidase 1, mitochondrial
+46076	45447	CDS
+			EC_number	2.7.7.87
+			db_xref	COG:COG0009
+			gene	ywlC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P39153
+			locus_tag	JENIMKAA_00457
+			product	Threonylcarbamoyl-AMP synthase
+46662	46087	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00458
+			product	hypothetical protein
+48530	46671	CDS
+			EC_number	3.1.11.5
+			gene	recD
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01487
+			locus_tag	JENIMKAA_00459
+			product	RecBCD enzyme subunit RecD
+48819	50351	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00460
+			product	hypothetical protein
+50511	51011	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00461
+			product	hypothetical protein
+51086	53740	CDS
+			EC_number	1.2.4.1
+			db_xref	COG:COG2609
+			gene	aceE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0R0B0
+			locus_tag	JENIMKAA_00462
+			product	Pyruvate dehydrogenase E1 component
+54592	53861	CDS
+			EC_number	3.1.2.6
+			gene	gloB_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01374
+			locus_tag	JENIMKAA_00463
+			product	Hydroxyacylglutathione hydrolase
+54829	57744	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00464
+			product	hypothetical protein
+57765	58133	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00465
+			product	hypothetical protein
+58183	59271	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00466
+			product	hypothetical protein
+60240	59266	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00467
+			product	hypothetical protein
+61273	60284	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00468
+			product	hypothetical protein
+61664	61284	CDS
+			gene	rpsK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P66357
+			locus_tag	JENIMKAA_00469
+			product	30S ribosomal protein S11
+62371	61664	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00470
+			product	hypothetical protein
+62848	62381	CDS
+			gene	rpsM
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P66388
+			locus_tag	JENIMKAA_00471
+			product	30S ribosomal protein S13
+64362	63058	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00472
+			product	hypothetical protein
+65394	64411	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00473
+			product	hypothetical protein
+69295	65468	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00474
+			product	hypothetical protein
+69384	71033	CDS
+			EC_number	4.1.1.49
+			db_xref	COG:COG1866
+			gene	pckA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5SLL5
+			locus_tag	JENIMKAA_00475
+			product	Phosphoenolpyruvate carboxykinase (ATP)
+71138	72082	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00476
+			product	hypothetical protein
+74374	72092	CDS
+			EC_number	1.1.1.40
+			db_xref	COG:COG0280
+			gene	maeB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P76558
+			locus_tag	JENIMKAA_00477
+			product	NADP-dependent malic enzyme
+74564	83164	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00478
+			product	hypothetical protein
+83350	84129	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00479
+			product	hypothetical protein
+84126	86402	CDS
+			EC_number	5.4.4.2
+			gene	menF
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01935
+			locus_tag	JENIMKAA_00480
+			product	Isochorismate synthase MenF
+86541	86798	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00481
+			product	hypothetical protein
+87054	86848	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00482
+			product	hypothetical protein
+87159	88850	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00483
+			product	hypothetical protein
+>Feature k105_131963
+1378	47	CDS
+			EC_number	3.1.-.-
+			db_xref	COG:COG1236
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5SLP1
+			locus_tag	JENIMKAA_00484
+			product	Ribonuclease
+1851	2489	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00485
+			product	hypothetical protein
+2538	3350	CDS
+			EC_number	2.5.1.41
+			db_xref	COG:COG1646
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:D2QS27
+			locus_tag	JENIMKAA_00486
+			product	Geranylgeranylglyceryl phosphate synthase
+4346	3360	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00487
+			product	hypothetical protein
+5021	4389	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00488
+			product	hypothetical protein
+5148	4981	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00489
+			product	hypothetical protein
+5456	6262	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00490
+			product	hypothetical protein
+6275	6907	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00491
+			product	hypothetical protein
+6922	7722	CDS
+			EC_number	3.1.3.7
+			db_xref	COG:COG1218
+			gene	cysQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P26264
+			locus_tag	JENIMKAA_00492
+			product	3'(2'),5'-bisphosphate nucleotidase CysQ
+8606	7713	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00493
+			product	hypothetical protein
+8750	9568	CDS
+			EC_number	2.7.7.4
+			db_xref	COG:COG0175
+			gene	cysD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q87WW0
+			locus_tag	JENIMKAA_00494
+			product	Sulfate adenylyltransferase subunit 2
+9649	11433	CDS
+			db_xref	COG:COG0529
+			gene	cysNC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WNM5
+			locus_tag	JENIMKAA_00495
+			product	Bifunctional enzyme CysN/CysC
+11503	12042	CDS
+			gene	pfdA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00308
+			locus_tag	JENIMKAA_00496
+			product	Prefoldin subunit alpha
+12063	13370	CDS
+			gene	ftsY
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00920
+			locus_tag	JENIMKAA_00497
+			product	Signal recognition particle receptor FtsY
+13412	14143	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00498
+			product	hypothetical protein
+15185	14385	CDS
+			gene	pyrF
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01200_A
+			locus_tag	JENIMKAA_00499
+			product	Orotidine 5'-phosphate decarboxylase
+15562	15212	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00500
+			product	hypothetical protein
+15688	18750	CDS
+			EC_number	6.3.5.3
+			gene	purL
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00420
+			locus_tag	JENIMKAA_00501
+			product	Phosphoribosylformylglycinamidine synthase subunit PurL
+18747	19568	CDS
+			EC_number	6.3.5.3
+			gene	purQ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P99166
+			locus_tag	JENIMKAA_00502
+			product	Phosphoribosylformylglycinamidine synthase subunit PurQ
+19610	20659	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00503
+			product	hypothetical protein
+20696	21592	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00504
+			product	hypothetical protein
+21652	23841	CDS
+			db_xref	COG:COG2409
+			gene	mmpL3
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WJV5
+			locus_tag	JENIMKAA_00505
+			product	Trehalose monomycolate exporter MmpL3
+25396	23843	CDS
+			db_xref	COG:COG0477
+			gene	qacA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A0J9
+			locus_tag	JENIMKAA_00506
+			product	Antiseptic resistance protein
+25529	26107	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00507
+			product	hypothetical protein
+26104	26295	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00508
+			product	hypothetical protein
+26252	28015	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00509
+			product	hypothetical protein
+28030	30501	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00510
+			product	hypothetical protein
+30884	30516	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00511
+			product	hypothetical protein
+31036	31527	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00512
+			product	hypothetical protein
+31572	32435	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00513
+			product	hypothetical protein
+32444	32971	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00514
+			product	hypothetical protein
+34694	32976	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00515
+			product	hypothetical protein
+35624	34770	CDS
+			EC_number	3.5.3.18
+			db_xref	COG:COG1834
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9I4E3
+			locus_tag	JENIMKAA_00516
+			product	N(G),N(G)-dimethylarginine dimethylaminohydrolase
+35736	36191	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00517
+			product	hypothetical protein
+36184	37455	CDS
+			EC_number	4.1.1.64
+			gene	dgdA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P16932
+			locus_tag	JENIMKAA_00518
+			product	2,2-dialkylglycine decarboxylase
+37828	37448	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00519
+			product	hypothetical protein
+37934	38572	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P67143
+			locus_tag	JENIMKAA_00520
+			note	UPF0056 inner membrane protein YhgN
+			product	hypothetical protein
+38695	38611	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00521
+			product	tRNA-Leu(gag)
+39203	38742	CDS
+			db_xref	COG:COG2258
+			gene	yiiM
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32157
+			locus_tag	JENIMKAA_00522
+			product	Protein YiiM
+39847	39215	CDS
+			EC_number	2.7.1.39
+			db_xref	COG:COG2334
+			gene	thrB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8UHA8
+			locus_tag	JENIMKAA_00523
+			product	Homoserine kinase
+>Feature k105_121598
+1135	425	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00524
+			product	hypothetical protein
+1263	2423	CDS
+			EC_number	2.4.1.250
+			gene	mshA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01695
+			locus_tag	JENIMKAA_00525
+			product	D-inositol-3-phosphate glycosyltransferase
+>Feature k105_121626
+461	1186	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00526
+			product	hypothetical protein
+2419	1175	CDS
+			EC_number	2.4.1.250
+			gene	mshA_3
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01695
+			locus_tag	JENIMKAA_00527
+			product	D-inositol-3-phosphate glycosyltransferase
+>Feature k105_165108
+2325	400	CDS
+			gene	secY
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01465
+			locus_tag	JENIMKAA_00528
+			product	Protein translocase subunit SecY
+2813	2385	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00529
+			product	hypothetical protein
+3294	2824	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00530
+			product	hypothetical protein
+4061	3291	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00531
+			product	hypothetical protein
+4573	4058	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00532
+			product	hypothetical protein
+5049	4573	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00533
+			product	hypothetical protein
+5729	5046	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00534
+			product	hypothetical protein
+6295	5741	CDS
+			gene	rplF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P02391
+			locus_tag	JENIMKAA_00535
+			product	50S ribosomal protein L6
+6698	6309	CDS
+			db_xref	COG:COG0096
+			gene	rpsH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P12879
+			locus_tag	JENIMKAA_00536
+			product	30S ribosomal protein S8
+7393	6866	CDS
+			gene	rplE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7A465
+			locus_tag	JENIMKAA_00537
+			product	50S ribosomal protein L5
+8088	7390	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00538
+			product	hypothetical protein
+8522	8085	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00539
+			product	hypothetical protein
+8931	8533	CDS
+			db_xref	COG:COG0093
+			gene	rplN
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O83229
+			locus_tag	JENIMKAA_00540
+			product	50S ribosomal protein L14
+9260	8928	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00541
+			product	hypothetical protein
+9519	9262	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00542
+			product	hypothetical protein
+9819	9520	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00543
+			product	hypothetical protein
+10035	9826	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00544
+			product	hypothetical protein
+10919	10032	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00545
+			product	hypothetical protein
+11451	10927	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00546
+			product	hypothetical protein
+11963	11463	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00547
+			product	hypothetical protein
+12690	11974	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00548
+			product	hypothetical protein
+13002	12703	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00549
+			product	hypothetical protein
+13877	12999	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00550
+			product	hypothetical protein
+14958	13882	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00551
+			product	hypothetical protein
+15252	17906	CDS
+			EC_number	3.6.4.13
+			gene	dbpA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00965
+			locus_tag	JENIMKAA_00552
+			product	ATP-dependent RNA helicase DbpA
+18867	18007	CDS
+			EC_number	1.3.5.-
+			db_xref	COG:COG2048
+			gene	sdhE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7M825
+			locus_tag	JENIMKAA_00553
+			product	8-methylmenaquinol:fumarate reductase membrane anchor subunit
+20955	18877	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00554
+			product	hypothetical protein
+22562	20952	CDS
+			db_xref	COG:COG0459
+			gene	groL_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P48212
+			locus_tag	JENIMKAA_00555
+			product	60 kDa chaperonin
+26284	22670	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00556
+			product	hypothetical protein
+26408	27598	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00557
+			product	hypothetical protein
+27886	27668	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00558
+			product	hypothetical protein
+28984	27899	CDS
+			EC_number	2.6.1.1
+			db_xref	COG:COG0436
+			gene	aspC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q56232
+			locus_tag	JENIMKAA_00559
+			product	Aspartate/prephenate aminotransferase
+31312	29159	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00560
+			product	hypothetical protein
+33995	31671	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00561
+			product	hypothetical protein
+34839	34102	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00562
+			product	hypothetical protein
+36527	34896	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00563
+			product	hypothetical protein
+36826	37812	CDS
+			EC_number	1.4.3.3
+			db_xref	COG:COG0665
+			gene	aao
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WP27
+			locus_tag	JENIMKAA_00564
+			product	putative D-amino-acid oxidase
+40370	37800	CDS
+			EC_number	2.4.2.14
+			gene	purF_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01931
+			locus_tag	JENIMKAA_00565
+			product	Amidophosphoribosyltransferase
+41767	40367	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00566
+			product	hypothetical protein
+43275	41767	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00567
+			product	hypothetical protein
+43549	44802	CDS
+			gene	entS
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01436
+			locus_tag	JENIMKAA_00568
+			product	Enterobactin exporter EntS
+45145	44774	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00569
+			product	hypothetical protein
+46219	45155	CDS
+			EC_number	7.6.2.8
+			gene	btuD_4
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01005
+			locus_tag	JENIMKAA_00570
+			product	Vitamin B12 import ATP-binding protein BtuD
+47951	46221	CDS
+			EC_number	7.6.2.8
+			gene	btuD_5
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01005
+			locus_tag	JENIMKAA_00571
+			product	Vitamin B12 import ATP-binding protein BtuD
+49722	47956	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00572
+			product	hypothetical protein
+50873	49719	CDS
+			db_xref	COG:COG0601
+			gene	dppB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AEF8
+			locus_tag	JENIMKAA_00573
+			product	Dipeptide transport system permease protein DppB
+53243	51024	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00574
+			product	hypothetical protein
+53618	53542	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00575
+			product	tRNA-Ala(ggc)
+53672	54229	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00576
+			product	hypothetical protein
+54432	55055	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00577
+			product	hypothetical protein
+55116	55192	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00578
+			product	tRNA-Arg(tct)
+55501	56304	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00579
+			product	hypothetical protein
+56911	56249	CDS
+			gene	tpiA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00147_A
+			locus_tag	JENIMKAA_00580
+			product	Triosephosphate isomerase
+>Feature k105_24081
+78	1	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00581
+			product	tRNA-Glu(ctc)
+567	821	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00582
+			product	hypothetical protein
+818	1753	CDS
+			EC_number	2.5.1.74
+			gene	menA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01937
+			locus_tag	JENIMKAA_00583
+			product	1,4-dihydroxy-2-naphthoate octaprenyltransferase
+2719	1769	CDS
+			EC_number	2.1.3.3
+			db_xref	COG:COG0078
+			gene	argF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q81M99
+			locus_tag	JENIMKAA_00584
+			product	Ornithine carbamoyltransferase
+3551	2706	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00585
+			product	hypothetical protein
+3678	6563	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00586
+			product	hypothetical protein
+6663	7592	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00587
+			product	hypothetical protein
+7567	8133	CDS
+			EC_number	2.7.4.25
+			gene	cmk
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00239
+			locus_tag	JENIMKAA_00588
+			product	Cytidylate kinase
+8138	9103	CDS
+			EC_number	5.4.99.25
+			db_xref	COG:COG0130
+			gene	truB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9WZW0
+			locus_tag	JENIMKAA_00589
+			product	tRNA pseudouridine synthase B
+11695	9323	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00590
+			product	hypothetical protein
+11804	11878	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00591
+			product	tRNA-His(gtg)
+12664	12029	CDS
+			EC_number	3.5.4.25
+			db_xref	COG:COG0807
+			gene	ribA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A7I7
+			locus_tag	JENIMKAA_00592
+			product	GTP cyclohydrolase-2
+13172	12714	CDS
+			gene	tusA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00413
+			locus_tag	JENIMKAA_00593
+			product	Sulfur carrier protein TusA
+14608	13184	CDS
+			EC_number	3.6.4.13
+			db_xref	COG:COG0513
+			gene	cshA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8Y8N0
+			locus_tag	JENIMKAA_00594
+			product	ATP-dependent RNA helicase CshA
+14902	14618	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00595
+			product	hypothetical protein
+16431	15049	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00596
+			product	hypothetical protein
+16579	17253	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00597
+			product	hypothetical protein
+19830	17278	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00598
+			product	hypothetical protein
+19899	20198	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00599
+			product	hypothetical protein
+20212	21633	CDS
+			EC_number	5.4.99.27
+			gene	truD
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01082
+			locus_tag	JENIMKAA_00600
+			product	tRNA pseudouridine synthase D
+21958	21692	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00601
+			product	hypothetical protein
+22283	22747	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00602
+			product	hypothetical protein
+23161	22772	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00603
+			product	hypothetical protein
+24056	23307	CDS
+			EC_number	2.1.1.166
+			db_xref	COG:COG0293
+			gene	rlmE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0C0R7
+			locus_tag	JENIMKAA_00604
+			product	Ribosomal RNA large subunit methyltransferase E
+25091	24150	CDS
+			EC_number	5.1.3.2
+			db_xref	COG:COG1088
+			gene	galE1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WN67
+			locus_tag	JENIMKAA_00605
+			product	UDP-glucose 4-epimerase
+25786	25217	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00606
+			product	hypothetical protein
+26563	25787	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00607
+			product	hypothetical protein
+26636	26890	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00608
+			product	hypothetical protein
+26960	30355	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00609
+			product	hypothetical protein
+30849	31577	CDS
+			EC_number	5.3.1.6
+			db_xref	COG:COG0120
+			gene	rpiA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q72J47
+			locus_tag	JENIMKAA_00610
+			product	Ribose-5-phosphate isomerase A
+31628	31704	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00611
+			product	tRNA-Lys(ctt)
+31768	33096	CDS
+			EC_number	6.1.1.22
+			gene	asnS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P67572
+			locus_tag	JENIMKAA_00612
+			product	Asparagine--tRNA ligase
+33175	34386	CDS
+			EC_number	1.3.99.-
+			db_xref	COG:COG1960
+			gene	mmgC_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45857
+			locus_tag	JENIMKAA_00613
+			product	Acyl-CoA dehydrogenase
+34555	34480	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00614
+			product	tRNA-Gln(ttg)
+34556	40915	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00615
+			product	hypothetical protein
+40940	41821	CDS
+			EC_number	1.1.1.35
+			db_xref	COG:COG1250
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q0AVM2
+			locus_tag	JENIMKAA_00616
+			product	3-hydroxybutyryl-CoA dehydrogenase
+41938	45762	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00617
+			product	hypothetical protein
+>Feature k105_165389
+227	586	CDS
+			EC_number	2.1.2.2
+			db_xref	COG:COG0299
+			gene	purN
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08179
+			locus_tag	JENIMKAA_00618
+			product	Phosphoribosylglycinamide formyltransferase
+1099	578	CDS
+			EC_number	2.7.7.77
+			gene	mobA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00316
+			locus_tag	JENIMKAA_00619
+			product	Molybdenum cofactor guanylyltransferase
+1352	1143	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00620
+			product	hypothetical protein
+2029	1388	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00621
+			product	hypothetical protein
+2516	2058	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00622
+			product	hypothetical protein
+2808	3974	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00623
+			product	hypothetical protein
+4115	6412	CDS
+			EC_number	3.4.-.-
+			gene	bepA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00997
+			locus_tag	JENIMKAA_00624
+			product	Beta-barrel assembly-enhancing protease
+>Feature k105_111234
+14	1111	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00625
+			product	hypothetical protein
+1152	1826	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00626
+			product	hypothetical protein
+2016	2222	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00627
+			product	hypothetical protein
+3703	3548	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00628
+			product	hypothetical protein
+>Feature k105_35114
+46	951	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00629
+			product	hypothetical protein
+1028	1615	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00630
+			product	hypothetical protein
+1664	1918	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00631
+			product	hypothetical protein
+2026	4611	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00632
+			product	hypothetical protein
+4731	9098	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00633
+			product	hypothetical protein
+9100	9675	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00634
+			product	hypothetical protein
+9650	14239	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00635
+			product	hypothetical protein
+14303	16987	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00636
+			product	hypothetical protein
+17231	17677	CDS
+			EC_number	7.1.1.-
+			gene	ndhC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P19045
+			locus_tag	JENIMKAA_00637
+			product	NAD(P)H-quinone oxidoreductase subunit 3
+17687	18283	CDS
+			EC_number	7.1.1.-
+			gene	ndhK
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01356
+			locus_tag	JENIMKAA_00638
+			product	NAD(P)H-quinone oxidoreductase subunit K, chloroplastic
+18297	18971	CDS
+			EC_number	7.1.1.-
+			gene	ndhJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01357
+			locus_tag	JENIMKAA_00639
+			product	NAD(P)H-quinone oxidoreductase subunit J, chloroplastic
+18984	20120	CDS
+			EC_number	7.1.1.-
+			db_xref	COG:COG0649
+			gene	nqo4
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q56220
+			locus_tag	JENIMKAA_00640
+			product	NADH-quinone oxidoreductase subunit 4
+20130	21668	CDS
+			EC_number	7.1.1.-
+			gene	ndhA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01350
+			locus_tag	JENIMKAA_00641
+			product	NAD(P)H-quinone oxidoreductase subunit 1, chloroplastic
+21684	22667	CDS
+			EC_number	7.1.1.-
+			gene	ndhI
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01351
+			locus_tag	JENIMKAA_00642
+			product	NAD(P)H-quinone oxidoreductase subunit I, chloroplastic
+22673	22942	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00643
+			product	hypothetical protein
+22939	23205	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00644
+			product	hypothetical protein
+23205	23507	CDS
+			EC_number	7.1.1.-
+			db_xref	COG:COG0713
+			gene	nuoK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A1B482
+			locus_tag	JENIMKAA_00645
+			product	NADH-quinone oxidoreductase subunit K
+23518	25824	CDS
+			EC_number	7.1.1.-
+			db_xref	COG:COG1009
+			gene	nuoL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WIW1
+			locus_tag	JENIMKAA_00646
+			product	NADH-quinone oxidoreductase subunit L
+>Feature k105_154713
+14	556	CDS
+			EC_number	2.4.2.7
+			db_xref	COG:COG0503
+			gene	apt_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5NII9
+			locus_tag	JENIMKAA_00647
+			product	Adenine phosphoribosyltransferase
+617	1258	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00648
+			product	hypothetical protein
+2075	1284	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00649
+			product	hypothetical protein
+2114	3307	CDS
+			EC_number	2.10.1.1
+			db_xref	COG:COG0303
+			gene	moeA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P12281
+			locus_tag	JENIMKAA_00650
+			product	Molybdopterin molybdenumtransferase
+5643	5559	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00651
+			product	tRNA-Ser(gga)
+6422	7165	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00652
+			product	hypothetical protein
+7176	7811	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00653
+			product	hypothetical protein
+9308	7815	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00654
+			product	hypothetical protein
+10888	9350	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00655
+			product	hypothetical protein
+11982	10954	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00656
+			product	hypothetical protein
+13446	12019	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00657
+			product	hypothetical protein
+13651	13487	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00658
+			product	hypothetical protein
+14477	13689	CDS
+			EC_number	3.1.3.-
+			db_xref	COG:COG0647
+			gene	yutF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O32125
+			locus_tag	JENIMKAA_00659
+			product	Acid sugar phosphatase
+15905	14493	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00660
+			product	hypothetical protein
+15953	16270	CDS
+			db_xref	COG:COG1324
+			gene	cutA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7SIA8
+			locus_tag	JENIMKAA_00661
+			product	Divalent-cation tolerance protein CutA
+16751	16281	CDS
+			db_xref	COG:COG1522
+			gene	lrpC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P96582
+			locus_tag	JENIMKAA_00662
+			product	HTH-type transcriptional regulator LrpC
+>Feature k105_56976
+88	534	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00663
+			product	hypothetical protein
+601	879	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00664
+			product	hypothetical protein
+1680	799	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00665
+			product	hypothetical protein
+1722	4718	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00666
+			product	hypothetical protein
+6481	4724	CDS
+			db_xref	COG:COG0322
+			gene	uvrC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5KWH6
+			locus_tag	JENIMKAA_00667
+			product	UvrABC system protein C
+6507	8660	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00668
+			product	hypothetical protein
+8902	8669	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00669
+			product	hypothetical protein
+9199	8906	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00670
+			product	hypothetical protein
+9301	13956	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00671
+			product	hypothetical protein
+>Feature k105_68415
+1143	544	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00672
+			product	hypothetical protein
+1259	1741	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00673
+			product	hypothetical protein
+2019	1789	CDS
+			gene	tatA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00236
+			locus_tag	JENIMKAA_00674
+			product	Sec-independent protein translocase protein TatA
+2337	2071	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00675
+			product	hypothetical protein
+2421	3116	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00676
+			product	hypothetical protein
+4723	3125	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00677
+			product	hypothetical protein
+5543	4857	CDS
+			gene	cinA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00226_B
+			locus_tag	JENIMKAA_00678
+			product	Putative competence-damage inducible protein
+5896	5821	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00679
+			product	tRNA-Val(tac)
+5964	6956	CDS
+			EC_number	2.1.1.77
+			gene	pcm
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00090
+			locus_tag	JENIMKAA_00680
+			product	Protein-L-isoaspartate O-methyltransferase
+7036	8031	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00681
+			product	hypothetical protein
+8491	8093	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00682
+			product	hypothetical protein
+8653	9912	CDS
+			EC_number	2.7.7.72
+			gene	cca
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01263
+			locus_tag	JENIMKAA_00683
+			product	CCA-adding enzyme
+10411	9914	CDS
+			db_xref	COG:COG0509
+			gene	gcvH_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O32174
+			locus_tag	JENIMKAA_00684
+			product	Glycine cleavage system H protein
+10531	11706	CDS
+			EC_number	1.3.99.-
+			db_xref	COG:COG1960
+			gene	acdA_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45867
+			locus_tag	JENIMKAA_00685
+			product	Acyl-CoA dehydrogenase
+13272	11722	CDS
+			EC_number	2.3.3.10
+			db_xref	COG:COG3425
+			gene	mvaS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9FD71
+			locus_tag	JENIMKAA_00686
+			product	Hydroxymethylglutaryl-CoA synthase
+14483	13362	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00687
+			product	hypothetical protein
+15011	14493	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00688
+			product	hypothetical protein
+15146	16372	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00689
+			product	hypothetical protein
+16511	17683	CDS
+			EC_number	1.3.99.-
+			db_xref	COG:COG1960
+			gene	mmgC_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45857
+			locus_tag	JENIMKAA_00690
+			product	Acyl-CoA dehydrogenase
+19056	17791	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00691
+			product	hypothetical protein
+20308	19268	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00692
+			product	hypothetical protein
+>Feature k105_112335
+178	103	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00693
+			product	tRNA-Gln(ctg)
+1284	247	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00694
+			product	hypothetical protein
+3143	1281	CDS
+			EC_number	1.2.7.3
+			db_xref	COG:COG0674
+			gene	korA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O53182
+			locus_tag	JENIMKAA_00695
+			product	2-oxoglutarate oxidoreductase subunit KorA
+3287	4351	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00696
+			product	hypothetical protein
+4441	7167	CDS
+			EC_number	4.2.1.-
+			db_xref	COG:COG1048
+			gene	citB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P09339
+			locus_tag	JENIMKAA_00697
+			product	Aconitate/2-methylaconitate hydratase
+7199	7825	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00698
+			product	hypothetical protein
+7914	14333	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00699
+			product	hypothetical protein
+14456	15721	CDS
+			EC_number	3.3.1.1
+			db_xref	COG:COG0499
+			gene	ahcY
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O51933
+			locus_tag	JENIMKAA_00700
+			product	Adenosylhomocysteinase
+16819	15746	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00701
+			product	hypothetical protein
+17762	16923	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00702
+			product	hypothetical protein
+19960	17957	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00703
+			product	hypothetical protein
+20147	21133	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00704
+			product	hypothetical protein
+21136	21897	CDS
+			EC_number	7.2.2.-
+			db_xref	COG:COG1121
+			gene	znuC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O34946
+			locus_tag	JENIMKAA_00705
+			product	High-affinity zinc uptake system ATP-binding protein ZnuC
+21914	22840	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00706
+			product	hypothetical protein
+23904	22894	CDS
+			EC_number	1.1.1.94
+			gene	gpsA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P64191
+			locus_tag	JENIMKAA_00707
+			product	Glycerol-3-phosphate dehydrogenase [NAD(P)+]
+24009	24093	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00708
+			product	tRNA-Leu(tag)
+>Feature k105_57696
+1956	1081	CDS
+			EC_number	2.7.1.168
+			gene	hddA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9AGY8
+			locus_tag	JENIMKAA_00709
+			product	D-glycero-alpha-D-manno-heptose 7-phosphate kinase
+2103	2825	CDS
+			db_xref	COG:COG0108
+			gene	ribBA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WHF1
+			locus_tag	JENIMKAA_00710
+			product	Riboflavin biosynthesis protein RibBA
+2874	3332	CDS
+			EC_number	2.7.7.70
+			gene	hldE
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01603
+			locus_tag	JENIMKAA_00711
+			product	Bifunctional protein HldE
+3335	3934	CDS
+			EC_number	2.5.1.9
+			db_xref	COG:COG0307
+			gene	ribC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AFU8
+			locus_tag	JENIMKAA_00712
+			product	Riboflavin synthase
+3934	4329	CDS
+			EC_number	2.5.1.78
+			db_xref	COG:COG0054
+			gene	ribH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O66529
+			locus_tag	JENIMKAA_00713
+			product	6,7-dimethyl-8-ribityllumazine synthase
+5206	4346	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00714
+			product	hypothetical protein
+5286	6248	CDS
+			EC_number	1.8.1.9
+			db_xref	COG:COG0492
+			gene	trxB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q05741
+			locus_tag	JENIMKAA_00715
+			product	Thioredoxin reductase
+6329	7483	CDS
+			db_xref	COG:COG0476
+			gene	moeZ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WMN7
+			locus_tag	JENIMKAA_00716
+			product	putative adenylyltransferase/sulfurtransferase MoeZ
+7951	10611	CDS
+			EC_number	2.2.1.7
+			gene	dxs
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00315
+			locus_tag	JENIMKAA_00717
+			product	1-deoxy-D-xylulose-5-phosphate synthase
+10659	11603	CDS
+			db_xref	COG:COG0530
+			gene	yrbG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45394
+			locus_tag	JENIMKAA_00718
+			product	Inner membrane protein YrbG
+11699	12814	CDS
+			EC_number	1.3.99.-
+			db_xref	COG:COG1960
+			gene	acdA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45867
+			locus_tag	JENIMKAA_00719
+			product	Acyl-CoA dehydrogenase
+12925	14955	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00720
+			product	hypothetical protein
+14945	15502	CDS
+			EC_number	2.7.7.77
+			gene	mobA_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00316
+			locus_tag	JENIMKAA_00721
+			product	Molybdenum cofactor guanylyltransferase
+16794	15526	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00722
+			product	hypothetical protein
+16925	17761	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00723
+			product	hypothetical protein
+17788	19014	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00724
+			product	hypothetical protein
+19121	19768	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00725
+			product	hypothetical protein
+19852	20421	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00726
+			product	hypothetical protein
+20427	23207	CDS
+			EC_number	1.3.7.9
+			gene	hcrA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O33819
+			locus_tag	JENIMKAA_00727
+			product	4-hydroxybenzoyl-CoA reductase subunit alpha
+23207	24187	CDS
+			EC_number	1.3.7.9
+			gene	hcrB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O33820
+			locus_tag	JENIMKAA_00728
+			product	4-hydroxybenzoyl-CoA reductase subunit beta
+24193	25131	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00729
+			product	hypothetical protein
+25323	26912	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00730
+			product	hypothetical protein
+26940	27944	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00731
+			product	hypothetical protein
+27982	29298	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00732
+			product	hypothetical protein
+29308	30240	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00733
+			product	hypothetical protein
+31402	30290	CDS
+			EC_number	4.2.3.5
+			db_xref	COG:COG0082
+			gene	aroC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9PM41
+			locus_tag	JENIMKAA_00734
+			product	Chorismate synthase
+32259	31393	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00735
+			product	hypothetical protein
+33188	32256	CDS
+			EC_number	4.1.99.20
+			db_xref	COG:COG1465
+			gene	griH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0JC76
+			locus_tag	JENIMKAA_00736
+			product	3-amino-4-hydroxybenzoic acid synthase
+33997	33200	CDS
+			EC_number	4.1.2.56
+			db_xref	COG:COG1830
+			gene	griI
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0JC77
+			locus_tag	JENIMKAA_00737
+			product	2-amino-4,5-dihydroxy-6-oxo-7-(phosphonooxy)heptanoate synthase
+>Feature k105_25820
+909	256	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00738
+			product	hypothetical protein
+1519	968	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00739
+			product	hypothetical protein
+3723	1582	CDS
+			EC_number	6.3.5.-
+			gene	GATB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00121
+			locus_tag	JENIMKAA_00740
+			product	Glutamyl-tRNA(Gln) amidotransferase subunit B, chloroplastic/mitochondrial
+5887	3728	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00741
+			product	hypothetical protein
+6150	6578	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00742
+			product	hypothetical protein
+6583	7194	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00743
+			product	hypothetical protein
+7915	7199	CDS
+			db_xref	COG:COG0410
+			gene	livF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P22731
+			locus_tag	JENIMKAA_00744
+			product	High-affinity branched-chain amino acid transport ATP-binding protein LivF
+8763	7912	CDS
+			EC_number	3.6.3.-
+			db_xref	COG:COG1137
+			gene	lptB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45073
+			locus_tag	JENIMKAA_00745
+			product	Lipopolysaccharide export system ATP-binding protein LptB
+12484	8756	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00746
+			product	hypothetical protein
+15680	12609	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00747
+			product	hypothetical protein
+15982	17127	CDS
+			EC_number	6.3.3.1
+			db_xref	COG:COG0150
+			gene	purM
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q97TA2
+			locus_tag	JENIMKAA_00748
+			product	Phosphoribosylformylglycinamidine cyclo-ligase
+>Feature k105_133973
+361	173	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00749
+			product	hypothetical protein
+534	1133	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00750
+			product	hypothetical protein
+1130	1861	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00751
+			product	hypothetical protein
+1864	2928	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00752
+			product	hypothetical protein
+3589	3368	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00753
+			product	hypothetical protein
+>Feature k105_26216
+52	852	CDS
+			EC_number	3.6.5.-
+			gene	obg_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01454
+			locus_tag	JENIMKAA_00754
+			product	GTPase Obg
+958	1728	CDS
+			db_xref	COG:COG0805
+			gene	tatC2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O05523
+			locus_tag	JENIMKAA_00755
+			product	Sec-independent protein translocase protein TatCy
+3697	1745	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00756
+			product	hypothetical protein
+3722	4918	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00757
+			product	hypothetical protein
+6089	4920	CDS
+			EC_number	2.3.3.16
+			gene	gltA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0A0S3QTD0
+			locus_tag	JENIMKAA_00758
+			product	Citrate synthase
+6171	6617	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00759
+			product	hypothetical protein
+6614	7288	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00760
+			product	hypothetical protein
+8463	7303	CDS
+			EC_number	2.3.1.29
+			db_xref	COG:COG0156
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5SHZ8
+			locus_tag	JENIMKAA_00761
+			product	8-amino-7-oxononanoate synthase/2-amino-3-ketobutyrate coenzyme A ligase
+8589	9476	CDS
+			gene	pqqB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00653
+			locus_tag	JENIMKAA_00762
+			product	Coenzyme PQQ synthesis protein B
+9521	9955	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00763
+			product	hypothetical protein
+10802	9936	CDS
+			EC_number	5.4.99.12
+			db_xref	COG:COG0101
+			gene	truA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WHP9
+			locus_tag	JENIMKAA_00764
+			product	tRNA pseudouridine synthase A
+11378	10830	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00765
+			product	hypothetical protein
+12684	11491	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00766
+			product	hypothetical protein
+14331	12709	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00767
+			product	hypothetical protein
+15272	14331	CDS
+			gene	bcrA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5WNX0
+			locus_tag	JENIMKAA_00768
+			product	Bacitracin transport ATP-binding protein BcrA
+16396	15269	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00769
+			product	hypothetical protein
+17384	16389	CDS
+			EC_number	3.6.3.-
+			db_xref	COG:COG1131
+			gene	lnrL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P94440
+			locus_tag	JENIMKAA_00770
+			product	Linearmycin resistance ATP-binding protein LnrL
+19660	17492	CDS
+			EC_number	2.4.2.29
+			gene	QTRT1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00168
+			locus_tag	JENIMKAA_00771
+			product	Queuine tRNA-ribosyltransferase catalytic subunit 1
+21405	19660	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00772
+			product	hypothetical protein
+21891	21466	CDS
+			gene	nikR
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00476
+			locus_tag	JENIMKAA_00773
+			product	Nickel-responsive regulator
+21955	23115	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00774
+			product	hypothetical protein
+23166	24068	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00775
+			product	hypothetical protein
+25118	24072	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00776
+			product	hypothetical protein
+26065	25352	CDS
+			EC_number	2.1.1.34
+			gene	trmH
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02060
+			locus_tag	JENIMKAA_00777
+			product	tRNA (guanosine(18)-2'-O)-methyltransferase
+26852	26082	CDS
+			EC_number	6.3.1.5
+			db_xref	COG:COG0171
+			gene	nadE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9PPB0
+			locus_tag	JENIMKAA_00778
+			product	NH(3)-dependent NAD(+) synthetase
+27798	26878	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00779
+			product	hypothetical protein
+>Feature k105_36933
+5	298	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00780
+			product	hypothetical protein
+520	1281	CDS
+			gene	etfB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P38975
+			locus_tag	JENIMKAA_00781
+			product	Electron transfer flavoprotein subunit beta
+1294	2208	CDS
+			db_xref	COG:COG2025
+			gene	etfA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q0AZ33
+			locus_tag	JENIMKAA_00782
+			product	Electron transfer flavoprotein subunit alpha
+3715	2255	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00783
+			product	hypothetical protein
+5396	3900	CDS
+			EC_number	2.4.2.14
+			db_xref	COG:COG0034
+			gene	purF_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AG16
+			locus_tag	JENIMKAA_00784
+			product	Amidophosphoribosyltransferase
+6197	5811	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00785
+			product	hypothetical protein
+6802	6194	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00786
+			product	hypothetical protein
+6960	7241	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00787
+			product	hypothetical protein
+7409	7158	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00788
+			product	hypothetical protein
+7446	8234	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00789
+			product	hypothetical protein
+8301	8513	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00790
+			product	hypothetical protein
+8510	9268	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00791
+			product	hypothetical protein
+9302	10030	CDS
+			EC_number	3.4.13.21
+			db_xref	COG:COG3340
+			gene	pepE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P36936
+			locus_tag	JENIMKAA_00792
+			product	Peptidase E
+10219	10016	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00793
+			product	hypothetical protein
+10274	10359	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00794
+			product	tRNA-Ser(cga)
+12278	10437	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00795
+			product	hypothetical protein
+13477	12326	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00796
+			product	hypothetical protein
+14055	13474	CDS
+			EC_number	4.3.3.6
+			db_xref	COG:COG0311
+			gene	pdxT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9WYU3
+			locus_tag	JENIMKAA_00797
+			product	Pyridoxal 5'-phosphate synthase subunit PdxT
+14130	15263	CDS
+			EC_number	2.6.1.52
+			gene	serC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9RME2
+			locus_tag	JENIMKAA_00798
+			product	Phosphoserine aminotransferase
+15273	15974	CDS
+			EC_number	4.1.2.4
+			db_xref	COG:COG0274
+			gene	deoC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P39121
+			locus_tag	JENIMKAA_00799
+			product	Deoxyribose-phosphate aldolase
+16083	16008	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00800
+			product	tRNA-Val(cac)
+16120	17643	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00801
+			product	hypothetical protein
+17896	17705	CDS
+			db_xref	COG:COG1278
+			gene	cspLA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A355
+			locus_tag	JENIMKAA_00802
+			product	Cold shock-like protein CspLA
+18993	17947	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00803
+			product	hypothetical protein
+19128	21239	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00804
+			product	hypothetical protein
+21867	21247	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00805
+			product	hypothetical protein
+21977	22435	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00806
+			product	hypothetical protein
+23283	22276	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00807
+			product	hypothetical protein
+>Feature k105_47491
+840	16	CDS
+			EC_number	4.2.1.150
+			db_xref	COG:COG1024
+			gene	crt
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P52046
+			locus_tag	JENIMKAA_00808
+			product	Short-chain-enoyl-CoA hydratase
+1865	921	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00809
+			product	hypothetical protein
+2523	1903	CDS
+			EC_number	3.6.1.66
+			db_xref	COG:COG0127
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q83FA3
+			locus_tag	JENIMKAA_00810
+			product	dITP/XTP pyrophosphatase
+3171	2533	CDS
+			EC_number	2.7.1.166
+			gene	kdkA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00521
+			locus_tag	JENIMKAA_00811
+			product	3-deoxy-D-manno-octulosonic acid kinase
+3251	4336	CDS
+			EC_number	2.5.1.72
+			db_xref	COG:COG0379
+			gene	nadA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WJK1
+			locus_tag	JENIMKAA_00812
+			product	Quinolinate synthase A
+6534	4387	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00813
+			product	hypothetical protein
+7711	6713	CDS
+			db_xref	COG:COG0489
+			gene	apbC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8ZNN5
+			locus_tag	JENIMKAA_00814
+			product	Iron-sulfur cluster carrier protein
+7960	8268	CDS
+			EC_number	1.20.4.1
+			gene	arsC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P74313
+			locus_tag	JENIMKAA_00815
+			product	Glutaredoxin arsenate reductase
+8298	8372	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00816
+			product	tRNA-Gly(gcc)
+10752	8383	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00817
+			product	hypothetical protein
+13827	10813	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00818
+			product	hypothetical protein
+14356	13931	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00819
+			product	hypothetical protein
+14458	15441	CDS
+			EC_number	3.5.3.24
+			db_xref	COG:COG0010
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5SJ85
+			locus_tag	JENIMKAA_00820
+			product	N(1)-aminopropylagmatine ureohydrolase
+15505	16857	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00821
+			product	hypothetical protein
+16939	18444	CDS
+			EC_number	3.4.11.10
+			gene	pepA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00181
+			locus_tag	JENIMKAA_00822
+			product	cytosol aminopeptidase
+20344	18446	CDS
+			db_xref	COG:COG0443
+			gene	dnaK
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P17820
+			locus_tag	JENIMKAA_00823
+			product	Chaperone protein DnaK
+20955	20365	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00824
+			product	hypothetical protein
+21228	22823	CDS
+			db_xref	COG:COG0459
+			gene	groL_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O50305
+			locus_tag	JENIMKAA_00825
+			product	60 kDa chaperonin
+23767	22805	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q7A788
+			locus_tag	JENIMKAA_00826
+			product	putative epimerase/dehydratase
+23794	25536	CDS
+			EC_number	6.3.4.2
+			gene	pyrG
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P99072
+			locus_tag	JENIMKAA_00827
+			product	CTP synthase
+25573	25758	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00828
+			product	hypothetical protein
+25838	26053	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00829
+			product	hypothetical protein
+26185	26967	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00830
+			product	hypothetical protein
+26969	27376	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00831
+			product	hypothetical protein
+>Feature k105_27298
+3229	236	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00832
+			product	hypothetical protein
+3432	4640	CDS
+			EC_number	2.6.1.83
+			gene	dapL
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01642
+			locus_tag	JENIMKAA_00833
+			product	LL-diaminopimelate aminotransferase
+5201	4665	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00834
+			product	hypothetical protein
+>Feature k105_135877
+253	41	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00835
+			product	hypothetical protein
+1126	263	CDS
+			EC_number	1.-.-.-
+			db_xref	COG:COG0656
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0QV10
+			locus_tag	JENIMKAA_00836
+			product	putative oxidoreductase/MSMEI_2347
+1183	2691	CDS
+			EC_number	3.1.2.6
+			gene	gloB_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01374
+			locus_tag	JENIMKAA_00837
+			product	Hydroxyacylglutathione hydrolase
+2697	3551	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00838
+			product	hypothetical protein
+4586	3552	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00839
+			product	hypothetical protein
+4622	6799	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00840
+			product	hypothetical protein
+7396	6800	CDS
+			EC_number	2.3.1.-
+			db_xref	COG:COG1670
+			gene	rimL
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P13857
+			locus_tag	JENIMKAA_00841
+			product	Ribosomal-protein-serine acetyltransferase
+7560	8645	CDS
+			EC_number	1.13.11.11
+			db_xref	COG:COG3483
+			gene	kynA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q1LK00
+			locus_tag	JENIMKAA_00842
+			product	Tryptophan 2,3-dioxygenase
+8705	9862	CDS
+			EC_number	2.3.1.9
+			db_xref	COG:COG0183
+			gene	mmgA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45855
+			locus_tag	JENIMKAA_00843
+			product	Acetyl-CoA acetyltransferase
+9942	10202	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00844
+			product	hypothetical protein
+10263	11324	CDS
+			EC_number	1.3.-.-
+			gene	ctaA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01664
+			locus_tag	JENIMKAA_00845
+			product	Heme A synthase
+11450	12526	CDS
+			EC_number	2.5.1.141
+			db_xref	COG:COG0109
+			gene	ctaB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q3J5F9
+			locus_tag	JENIMKAA_00846
+			product	Protoheme IX farnesyltransferase
+12649	13905	CDS
+			EC_number	2.3.3.13
+			gene	leuA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q71Y35
+			locus_tag	JENIMKAA_00847
+			product	2-isopropylmalate synthase
+13951	17766	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00848
+			product	hypothetical protein
+19180	17819	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00849
+			product	hypothetical protein
+19288	19764	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00850
+			product	hypothetical protein
+19885	22443	CDS
+			EC_number	3.6.4.13
+			gene	rhlB_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00661
+			locus_tag	JENIMKAA_00851
+			product	ATP-dependent RNA helicase RhlB
+22480	23067	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00852
+			product	hypothetical protein
+23120	23368	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00853
+			product	hypothetical protein
+23378	25060	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00854
+			product	hypothetical protein
+25127	26347	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00855
+			product	hypothetical protein
+27344	26337	CDS
+			gene	recA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00268
+			locus_tag	JENIMKAA_00856
+			product	Protein RecA
+27599	27522	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00857
+			product	tRNA-Met(cat)
+27709	29082	CDS
+			EC_number	3.5.2.3
+			db_xref	COG:COG0044
+			gene	pyrC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q81WF0
+			locus_tag	JENIMKAA_00858
+			product	Dihydroorotase
+31500	29098	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00859
+			product	hypothetical protein
+31815	31615	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00860
+			product	hypothetical protein
+32850	31963	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00861
+			product	hypothetical protein
+32996	34027	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00862
+			product	hypothetical protein
+34028	34633	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00863
+			product	hypothetical protein
+35741	34635	CDS
+			db_xref	COG:COG0628
+			gene	yhhT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AGM0
+			locus_tag	JENIMKAA_00864
+			product	Putative transport protein YhhT
+36897	35758	CDS
+			EC_number	2.4.1.250
+			gene	mshA_4
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01695
+			locus_tag	JENIMKAA_00865
+			product	D-inositol-3-phosphate glycosyltransferase
+37028	37780	CDS
+			EC_number	2.4.-.-
+			db_xref	COG:COG0463
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WMY1
+			locus_tag	JENIMKAA_00866
+			product	putative glycosyltransferase
+38567	37845	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00867
+			product	hypothetical protein
+39135	38557	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00868
+			product	hypothetical protein
+39703	39194	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00869
+			product	hypothetical protein
+>Feature k105_136273
+68	433	CDS
+			EC_number	3.5.5.1
+			db_xref	COG:COG0388
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q500U1
+			locus_tag	JENIMKAA_00870
+			product	Nitrilase
+473	1021	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00871
+			product	hypothetical protein
+1014	1694	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00872
+			product	hypothetical protein
+1699	2892	CDS
+			gene	ftsZ
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00909
+			locus_tag	JENIMKAA_00873
+			product	Cell division protein FtsZ
+3005	3265	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00874
+			product	hypothetical protein
+3276	4175	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00875
+			product	hypothetical protein
+4284	4562	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00876
+			product	hypothetical protein
+4616	5260	CDS
+			db_xref	COG:COG0081
+			gene	rplA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9RSS8
+			locus_tag	JENIMKAA_00877
+			product	50S ribosomal protein L1
+5257	6282	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00878
+			product	hypothetical protein
+6303	6614	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00879
+			product	hypothetical protein
+8185	6878	CDS
+			db_xref	COG:COG0012
+			gene	ychF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37518
+			locus_tag	JENIMKAA_00880
+			product	Ribosome-binding ATPase YchF
+9912	8248	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00881
+			product	hypothetical protein
+10180	9923	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00882
+			product	hypothetical protein
+11442	10303	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00883
+			product	hypothetical protein
+11524	12243	CDS
+			EC_number	2.3.1.89
+			gene	dapH
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01691
+			locus_tag	JENIMKAA_00884
+			product	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase
+12936	12301	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00885
+			product	hypothetical protein
+13344	13012	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00886
+			product	hypothetical protein
+14805	13393	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00887
+			product	hypothetical protein
+19906	14864	CDS
+			EC_number	3.6.4.12
+			gene	addA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01451
+			locus_tag	JENIMKAA_00888
+			product	ATP-dependent helicase/nuclease subunit A
+23505	19903	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00889
+			product	hypothetical protein
+24507	23575	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00890
+			product	hypothetical protein
+25639	24572	CDS
+			EC_number	4.1.2.49
+			gene	ltaA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O07051
+			locus_tag	JENIMKAA_00891
+			product	L-allo-threonine aldolase
+28806	25678	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00892
+			product	hypothetical protein
+30425	28803	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00893
+			product	hypothetical protein
+>Feature k105_38731
+1113	316	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00894
+			product	hypothetical protein
+2692	1142	CDS
+			EC_number	6.4.1.3
+			db_xref	COG:COG4799
+			gene	accD5
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WQH7
+			locus_tag	JENIMKAA_00895
+			product	putative propionyl-CoA carboxylase beta chain 5
+3830	2742	CDS
+			EC_number	1.-.-.-
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P32382
+			locus_tag	JENIMKAA_00896
+			product	NADH oxidase
+4336	3845	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00897
+			product	hypothetical protein
+>Feature k105_147044
+225	1094	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00898
+			product	hypothetical protein
+2074	1118	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00899
+			product	hypothetical protein
+2953	2138	CDS
+			EC_number	2.1.2.11
+			db_xref	COG:COG0413
+			gene	panB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9X712
+			locus_tag	JENIMKAA_00900
+			product	3-methyl-2-oxobutanoate hydroxymethyltransferase
+4665	3013	CDS
+			gene	potE
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02073
+			locus_tag	JENIMKAA_00901
+			product	Putrescine transporter PotE
+4806	5294	CDS
+			EC_number	5.2.1.8
+			db_xref	COG:COG1047
+			gene	slyD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9KNX6
+			locus_tag	JENIMKAA_00902
+			product	FKBP-type peptidyl-prolyl cis-trans isomerase SlyD
+5390	6388	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00903
+			product	hypothetical protein
+7069	6398	CDS
+			EC_number	1.-.-.-
+			gene	rutC
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00831
+			locus_tag	JENIMKAA_00904
+			product	Putative aminoacrylate peracid reductase RutC
+8001	7066	CDS
+			gene	cnbCa
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q6J1Z5
+			locus_tag	JENIMKAA_00905
+			product	2-aminophenol 1,6-dioxygenase subunit alpha
+8924	8010	CDS
+			EC_number	1.13.11.74
+			gene	cnbCb
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q6J1Z6
+			locus_tag	JENIMKAA_00906
+			product	2-aminophenol 1,6-dioxygenase subunit beta
+8931	9428	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00907
+			product	hypothetical protein
+10877	9384	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00908
+			product	hypothetical protein
+11675	10926	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00909
+			product	hypothetical protein
+11729	12238	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00910
+			product	hypothetical protein
+12247	12993	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00911
+			product	hypothetical protein
+13074	14855	CDS
+			EC_number	6.2.1.3
+			db_xref	COG:COG1022
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O53521
+			locus_tag	JENIMKAA_00912
+			product	Long-chain-fatty-acid--CoA ligase FadD15
+14960	15526	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00913
+			product	hypothetical protein
+16172	15606	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00914
+			product	hypothetical protein
+16321	17919	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00915
+			product	hypothetical protein
+17916	19895	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00916
+			product	hypothetical protein
+20981	19959	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00917
+			product	hypothetical protein
+21421	21182	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00918
+			product	hypothetical protein
+22619	21411	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00919
+			product	hypothetical protein
+23053	22808	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00920
+			product	hypothetical protein
+23338	23925	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00921
+			product	hypothetical protein
+23970	27275	CDS
+			db_xref	COG:COG1703
+			gene	icmF
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q5KUG0
+			locus_tag	JENIMKAA_00922
+			product	Fused isobutyryl-CoA mutase
+27946	27278	CDS
+			gene	aqpZ
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01146
+			locus_tag	JENIMKAA_00923
+			product	Aquaporin Z
+28584	27961	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00924
+			product	hypothetical protein
+28816	29586	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00925
+			product	hypothetical protein
+30435	29587	CDS
+			EC_number	3.2.2.23
+			db_xref	COG:COG0266
+			gene	mutM
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P05523
+			locus_tag	JENIMKAA_00926
+			product	Formamidopyrimidine-DNA glycosylase
+30511	30897	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00927
+			product	hypothetical protein
+30938	31312	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00928
+			product	hypothetical protein
+31329	31685	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00929
+			product	hypothetical protein
+32376	31672	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00930
+			product	hypothetical protein
+33385	32381	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00931
+			product	hypothetical protein
+33478	33852	CDS
+			gene	crcB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00454
+			locus_tag	JENIMKAA_00932
+			product	Putative fluoride ion transporter CrcB
+33993	34373	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00933
+			product	hypothetical protein
+34484	35275	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00934
+			product	hypothetical protein
+35304	36428	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00935
+			product	hypothetical protein
+36548	37369	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00936
+			product	hypothetical protein
+>Feature k105_17807
+62	2272	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00937
+			product	hypothetical protein
+2335	3387	CDS
+			EC_number	1.7.1.7
+			db_xref	COG:COG0516
+			gene	guaC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P60560
+			locus_tag	JENIMKAA_00938
+			product	GMP reductase
+3891	3406	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01222
+			locus_tag	JENIMKAA_00939
+			product	Protein archease
+6994	3944	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00940
+			product	hypothetical protein
+8167	7058	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00941
+			product	hypothetical protein
+9387	8188	CDS
+			EC_number	2.6.1.1
+			db_xref	COG:COG0436
+			gene	aspC_3
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WQ91
+			locus_tag	JENIMKAA_00942
+			product	putative aspartate aminotransferase
+10506	9433	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00943
+			product	hypothetical protein
+>Feature k105_82316
+1046	624	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00944
+			product	hypothetical protein
+2136	1090	CDS
+			EC_number	1.14.15.3
+			gene	alkB2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q0VTH3
+			locus_tag	JENIMKAA_00945
+			product	Alkane 1-monooxygenase 2
+2653	2129	CDS
+			EC_number	1.8.4.11
+			db_xref	COG:COG0225
+			gene	msrA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P47648
+			locus_tag	JENIMKAA_00946
+			product	Peptide methionine sulfoxide reductase MsrA
+2973	4445	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00947
+			product	hypothetical protein
+5911	4448	CDS
+			EC_number	1.1.1.205
+			db_xref	COG:COG0516
+			gene	guaB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P21879
+			locus_tag	JENIMKAA_00948
+			product	Inosine-5'-monophosphate dehydrogenase
+6090	6533	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00949
+			product	hypothetical protein
+6530	6943	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00950
+			product	hypothetical protein
+6953	7480	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00951
+			product	hypothetical protein
+7518	7652	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00952
+			product	hypothetical protein
+8430	7747	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00953
+			product	hypothetical protein
+8503	9522	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00954
+			product	hypothetical protein
+9856	9524	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00955
+			product	hypothetical protein
+>Feature k105_49650
+255	521	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00956
+			product	hypothetical protein
+1101	1024	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00957
+			product	tRNA-Pro(ggg)
+1361	1155	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00958
+			product	hypothetical protein
+1805	1368	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00959
+			product	hypothetical protein
+2293	1805	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00960
+			product	hypothetical protein
+2651	2286	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00961
+			product	hypothetical protein
+3153	2800	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00962
+			product	hypothetical protein
+>Feature k105_147378
+1566	664	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00963
+			product	hypothetical protein
+2239	1670	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00964
+			product	hypothetical protein
+5214	2332	CDS
+			EC_number	6.1.1.7
+			db_xref	COG:COG0013
+			gene	alaS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O67323
+			locus_tag	JENIMKAA_00965
+			product	Alanine--tRNA ligase
+5352	6824	CDS
+			EC_number	6.5.1.-
+			gene	rtcB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WGW4
+			locus_tag	JENIMKAA_00966
+			product	RNA-splicing ligase RtcB
+7385	6894	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00967
+			product	hypothetical protein
+7434	8063	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00968
+			product	hypothetical protein
+8234	8064	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00969
+			product	hypothetical protein
+15187	8387	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00970
+			product	hypothetical protein
+15422	15348	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00971
+			product	tRNA-Thr(ggt)
+15551	15636	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00972
+			product	tRNA-Ser(gga)
+15712	16866	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00973
+			product	hypothetical protein
+16918	18351	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00974
+			product	hypothetical protein
+19016	18222	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00975
+			product	hypothetical protein
+19041	19757	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00976
+			product	hypothetical protein
+20744	19770	CDS
+			EC_number	1.5.5.2
+			db_xref	COG:COG0506
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q72IB8
+			locus_tag	JENIMKAA_00977
+			product	Proline dehydrogenase
+21714	20782	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00978
+			product	hypothetical protein
+21818	22711	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00979
+			product	hypothetical protein
+22862	22698	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00980
+			product	hypothetical protein
+23164	22862	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00981
+			product	hypothetical protein
+23396	23178	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00982
+			product	hypothetical protein
+23947	23399	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00983
+			product	hypothetical protein
+24251	29959	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00984
+			product	hypothetical protein
+29956	30600	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00985
+			product	hypothetical protein
+31344	30604	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00986
+			product	hypothetical protein
+32254	31346	CDS
+			EC_number	2.6.1.42
+			db_xref	COG:COG0115
+			gene	ilvE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O86428
+			locus_tag	JENIMKAA_00987
+			product	Branched-chain-amino-acid aminotransferase
+33214	32303	CDS
+			EC_number	6.3.2.6
+			db_xref	COG:COG0152
+			gene	purC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WHN1
+			locus_tag	JENIMKAA_00988
+			product	Phosphoribosylaminoimidazole-succinocarboxamide synthase
+33241	35403	CDS
+			gene	hcf136
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01348
+			locus_tag	JENIMKAA_00989
+			product	Ycf48-like protein
+35404	36234	CDS
+			EC_number	3.6.3.-
+			db_xref	COG:COG1126
+			gene	glnQ_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O34677
+			locus_tag	JENIMKAA_00990
+			product	Glutamine transport ATP-binding protein GlnQ
+37697	36243	CDS
+			EC_number	1.4.1.3
+			gene	gdhA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P95544
+			locus_tag	JENIMKAA_00991
+			product	NAD(P)-specific glutamate dehydrogenase
+39063	37747	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00992
+			product	hypothetical protein
+39250	39615	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00993
+			product	hypothetical protein
+39994	42906	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00994
+			product	hypothetical protein
+42998	45013	CDS
+			EC_number	3.6.4.12
+			gene	dinG_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_02205
+			locus_tag	JENIMKAA_00995
+			product	ATP-dependent DNA helicase DinG
+45065	45523	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00996
+			product	hypothetical protein
+54492	45553	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00997
+			product	hypothetical protein
+57519	54580	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_00998
+			product	hypothetical protein
+57652	57737	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_00999
+			product	tRNA-Leu(taa)
+58184	57783	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01000
+			product	hypothetical protein
+58948	58181	CDS
+			EC_number	1.1.1.100
+			gene	fabG_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P99093
+			locus_tag	JENIMKAA_01001
+			product	3-oxoacyl-[acyl-carrier-protein] reductase FabG
+59122	60165	CDS
+			EC_number	2.8.1.8
+			gene	lipA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P65286
+			locus_tag	JENIMKAA_01002
+			product	Lipoyl synthase
+60182	61432	CDS
+			EC_number	1.2.4.4
+			db_xref	COG:COG1071
+			gene	bkdA1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P09060
+			locus_tag	JENIMKAA_01003
+			product	2-oxoisovalerate dehydrogenase subunit alpha
+61434	62444	CDS
+			EC_number	1.2.4.4
+			db_xref	COG:COG0022
+			gene	bkdA2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P09061
+			locus_tag	JENIMKAA_01004
+			product	2-oxoisovalerate dehydrogenase subunit beta
+62447	63781	CDS
+			EC_number	2.3.1.168
+			db_xref	COG:COG0508
+			gene	bkdB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9I1M0
+			locus_tag	JENIMKAA_01005
+			product	Lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex
+63792	65228	CDS
+			EC_number	1.8.1.4
+			db_xref	COG:COG1249
+			gene	lpdV
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9I1L9
+			locus_tag	JENIMKAA_01006
+			product	Dihydrolipoyl dehydrogenase
+65259	65945	CDS
+			EC_number	2.3.1.181
+			gene	lipB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00013
+			locus_tag	JENIMKAA_01007
+			product	Octanoyltransferase
+66071	67126	CDS
+			EC_number	5.1.1.17
+			db_xref	COG:COG0520
+			gene	cefD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P18549
+			locus_tag	JENIMKAA_01008
+			product	Isopenicillin N epimerase
+67162	67737	CDS
+			EC_number	2.5.1.129
+			db_xref	COG:COG0163
+			gene	ubiX
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9HX08
+			locus_tag	JENIMKAA_01009
+			product	Flavin prenyltransferase UbiX
+67815	69425	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01010
+			product	hypothetical protein
+69940	69482	CDS
+			EC_number	1.11.1.15
+			db_xref	COG:COG1225
+			gene	bcp_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AE52
+			locus_tag	JENIMKAA_01011
+			product	Peroxiredoxin Bcp
+71721	69994	CDS
+			EC_number	6.1.1.19
+			gene	argS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:B4RL22
+			locus_tag	JENIMKAA_01012
+			product	Arginine--tRNA ligase
+72979	71732	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01013
+			product	hypothetical protein
+73080	73790	CDS
+			EC_number	2.7.4.22
+			db_xref	COG:COG0528
+			gene	pyrH
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0A7E9
+			locus_tag	JENIMKAA_01014
+			product	Uridylate kinase
+74044	73847	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01015
+			product	hypothetical protein
+74146	74730	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01016
+			product	hypothetical protein
+76053	74920	CDS
+			EC_number	3.6.5.-
+			gene	obg_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01454
+			locus_tag	JENIMKAA_01017
+			product	GTPase Obg
+76133	76588	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01018
+			product	hypothetical protein
+76646	76918	CDS
+			EC_number	4.2.1.96
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q02I31
+			locus_tag	JENIMKAA_01019
+			product	Putative pterin-4-alpha-carbinolamine dehydratase
+76928	77242	CDS
+			db_xref	COG:COG3411
+			gene	fdx4
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O66511
+			locus_tag	JENIMKAA_01020
+			product	Ferredoxin, 2Fe-2S
+77246	78262	CDS
+			EC_number	2.3.1.41
+			gene	ppsC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P96202
+			locus_tag	JENIMKAA_01021
+			product	Phthiocerol synthesis polyketide synthase type I PpsC
+78596	78264	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01022
+			product	hypothetical protein
+79110	78700	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01023
+			product	hypothetical protein
+79204	79653	CDS
+			EC_number	3.6.1.23
+			gene	dut
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q2YRG4
+			locus_tag	JENIMKAA_01024
+			product	Deoxyuridine 5'-triphosphate nucleotidohydrolase
+79739	80323	CDS
+			EC_number	2.4.2.10
+			gene	pyrE_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01208
+			locus_tag	JENIMKAA_01025
+			product	Orotate phosphoribosyltransferase
+80335	81912	CDS
+			EC_number	6.1.1.6
+			db_xref	COG:COG1384
+			gene	lysS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O51603
+			locus_tag	JENIMKAA_01026
+			product	Lysine--tRNA ligase
+85642	82274	CDS
+			EC_number	6.3.5.5
+			gene	carB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P63740
+			locus_tag	JENIMKAA_01027
+			product	Carbamoyl-phosphate synthase large chain
+87030	85642	CDS
+			EC_number	6.3.5.5
+			gene	carA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P99147
+			locus_tag	JENIMKAA_01028
+			product	Carbamoyl-phosphate synthase small chain
+87744	87163	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01029
+			product	hypothetical protein
+88390	87722	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01030
+			product	hypothetical protein
+88446	89279	CDS
+			EC_number	2.5.1.15
+			db_xref	COG:COG0294
+			gene	folP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P0AC13
+			locus_tag	JENIMKAA_01031
+			product	Dihydropteroate synthase
+89393	89250	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01032
+			product	hypothetical protein
+>Feature k105_29174
+381	2363	CDS
+			EC_number	6.3.4.3
+			db_xref	COG:COG2759
+			gene	fhs
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q2RM91
+			locus_tag	JENIMKAA_01033
+			product	Formate--tetrahydrofolate ligase
+2377	3435	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01034
+			product	hypothetical protein
+3436	4062	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01035
+			product	hypothetical protein
+4188	5345	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01036
+			product	hypothetical protein
+5421	5496	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_01037
+			product	tRNA-Phe(gaa)
+6384	5557	CDS
+			EC_number	2.7.7.56
+			db_xref	COG:COG0689
+			gene	rph
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P28619
+			locus_tag	JENIMKAA_01038
+			product	Ribonuclease PH
+7006	6461	CDS
+			EC_number	2.7.7.75
+			db_xref	COG:COG0521
+			gene	mog
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9ZL45
+			locus_tag	JENIMKAA_01039
+			product	Molybdopterin adenylyltransferase
+7246	8937	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01040
+			product	hypothetical protein
+8937	9887	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01041
+			product	hypothetical protein
+10900	9905	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01042
+			product	hypothetical protein
+12072	11002	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01043
+			product	hypothetical protein
+12162	13142	CDS
+			EC_number	2.5.1.84
+			gene	sdsA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O24743
+			locus_tag	JENIMKAA_01044
+			product	All-trans-nonaprenyl-diphosphate synthase (geranyl-diphosphate specific)
+13179	14279	CDS
+			db_xref	COG:COG0644
+			gene	cbrA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P31456
+			locus_tag	JENIMKAA_01045
+			product	Protein CbrA
+>Feature k105_147951
+506	1204	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01046
+			product	hypothetical protein
+1246	1899	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01047
+			product	hypothetical protein
+1951	3093	CDS
+			EC_number	1.14.13.208
+			gene	boxB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9AIX7
+			locus_tag	JENIMKAA_01048
+			product	Benzoyl-CoA oxygenase component B
+3109	3669	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01049
+			product	hypothetical protein
+3675	4565	CDS
+			EC_number	1.1.1.35
+			db_xref	COG:COG1250
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q0AVM2
+			locus_tag	JENIMKAA_01050
+			product	3-hydroxybutyryl-CoA dehydrogenase
+5650	4853	CDS
+			EC_number	4.2.1.17
+			db_xref	COG:COG1024
+			gene	paaF_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P76082
+			locus_tag	JENIMKAA_01051
+			product	2,3-dehydroadipyl-CoA hydratase
+5719	7137	CDS
+			EC_number	1.2.1.83
+			gene	ald
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:H8ZPX2
+			locus_tag	JENIMKAA_01052
+			product	3-succinoylsemialdehyde-pyridine dehydrogenase
+7150	7731	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01053
+			product	hypothetical protein
+>Feature k105_159632
+22	570	CDS
+			gene	infB
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00100_A
+			locus_tag	JENIMKAA_01054
+			product	Translation initiation factor IF-2
+659	1636	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01055
+			product	hypothetical protein
+1688	2362	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01056
+			product	hypothetical protein
+2389	3300	CDS
+			EC_number	3.6.-.-
+			db_xref	COG:COG1192
+			gene	soj
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37522
+			locus_tag	JENIMKAA_01057
+			product	Sporulation initiation inhibitor protein Soj
+4455	3355	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01058
+			product	hypothetical protein
+5101	4712	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01059
+			product	hypothetical protein
+7890	5128	CDS
+			EC_number	7.2.2.9
+			gene	actP
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9X5X3
+			locus_tag	JENIMKAA_01060
+			product	Copper-transporting P-type ATPase
+8031	8756	CDS
+			EC_number	3.1.3.104
+			gene	ycsE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P42962
+			locus_tag	JENIMKAA_01061
+			product	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase YcsE
+8797	8985	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01062
+			product	hypothetical protein
+9201	9117	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_01063
+			product	tRNA-Leu(caa)
+9371	10276	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01064
+			product	hypothetical protein
+10366	11712	CDS
+			EC_number	3.4.22.40
+			db_xref	COG:COG3579
+			gene	pepC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q04723
+			locus_tag	JENIMKAA_01065
+			product	Aminopeptidase C
+12192	11863	CDS
+			db_xref	COG:COG0051
+			gene	rpsJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P80375
+			locus_tag	JENIMKAA_01066
+			product	30S ribosomal protein S10
+13513	12230	CDS
+			db_xref	COG:COG0050
+			gene	tuf_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P22679
+			locus_tag	JENIMKAA_01067
+			product	Elongation factor Tu
+14825	13623	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01068
+			product	hypothetical protein
+17546	14850	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01069
+			product	hypothetical protein
+>Feature k105_171281
+181	292	rRNA
+			locus_tag	JENIMKAA_01070
+			product	5S ribosomal RNA
+			score	7.8e-14
+373	1035	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01071
+			product	hypothetical protein
+2302	1076	CDS
+			EC_number	4.2.3.1
+			db_xref	COG:COG0498
+			gene	thrC
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0R220
+			locus_tag	JENIMKAA_01072
+			product	Threonine synthase
+2583	2353	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01073
+			product	hypothetical protein
+3007	2600	CDS
+			EC_number	6.4.1.7
+			db_xref	COG:COG0511
+			gene	cfiA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:D3DJ41
+			locus_tag	JENIMKAA_01074
+			product	2-oxoglutarate carboxylase large subunit
+3209	3012	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01075
+			product	hypothetical protein
+4811	3258	CDS
+			EC_number	6.4.1.3
+			db_xref	COG:COG4799
+			gene	pccB_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q3J4E3
+			locus_tag	JENIMKAA_01076
+			product	Propionyl-CoA carboxylase beta chain
+4930	5364	CDS
+			EC_number	5.4.99.2
+			db_xref	COG:COG1884
+			gene	scpA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27253
+			locus_tag	JENIMKAA_01077
+			product	Methylmalonyl-CoA mutase
+5352	6230	CDS
+			EC_number	3.6.-.-
+			db_xref	COG:COG1703
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WPZ1
+			locus_tag	JENIMKAA_01078
+			product	putative GTPase
+6236	6871	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01079
+			product	hypothetical protein
+6952	7071	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01080
+			product	hypothetical protein
+7578	7093	CDS
+			EC_number	2.1.1.63
+			db_xref	COG:COG0350
+			gene	ogt
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P11742
+			locus_tag	JENIMKAA_01081
+			product	Methylated-DNA--protein-cysteine methyltransferase, constitutive
+7920	7588	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01082
+			product	hypothetical protein
+8428	7925	CDS
+			EC_number	7.-.-.-
+			gene	rsxB_1
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00463
+			locus_tag	JENIMKAA_01083
+			product	Ion-translocating oxidoreductase complex subunit B
+11189	8412	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01084
+			product	hypothetical protein
+12071	11205	CDS
+			db_xref	COG:COG1290
+			gene	qcrB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P46912
+			locus_tag	JENIMKAA_01085
+			product	Menaquinol-cytochrome c reductase cytochrome b subunit
+12935	12081	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01086
+			product	hypothetical protein
+13388	12939	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01087
+			product	hypothetical protein
+13972	13385	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01088
+			product	hypothetical protein
+>Feature k105_118024
+2923	479	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01089
+			product	hypothetical protein
+3634	2933	CDS
+			db_xref	COG:COG1136
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WQK1
+			locus_tag	JENIMKAA_01090
+			product	putative ABC transporter ATP-binding protein
+5717	3654	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01091
+			product	hypothetical protein
+7782	5779	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01092
+			product	hypothetical protein
+>Feature k105_96547
+417	1553	CDS
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q75XW3
+			locus_tag	JENIMKAA_01093
+			product	Ca(2+)/H(+) antiporter
+2336	1572	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01094
+			product	hypothetical protein
+2930	2457	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01095
+			product	hypothetical protein
+4235	2949	CDS
+			EC_number	3.5.4.28
+			db_xref	COG:COG0402
+			gene	mtaD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9X034
+			locus_tag	JENIMKAA_01096
+			product	5-methylthioadenosine/S-adenosylhomocysteine deaminase
+4465	4848	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01097
+			product	hypothetical protein
+4994	6013	CDS
+			db_xref	COG:COG0484
+			gene	dnaJ_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P08622
+			locus_tag	JENIMKAA_01098
+			product	Chaperone protein DnaJ
+6147	7148	CDS
+			EC_number	2.5.1.32
+			gene	crtB
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P37294
+			locus_tag	JENIMKAA_01099
+			product	15-cis-phytoene synthase
+7151	8737	CDS
+			EC_number	1.3.8.2
+			gene	crtN
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q4VKV1
+			locus_tag	JENIMKAA_01100
+			product	4,4'-diapophytoene desaturase (4,4'-diapolycopene-forming)
+>Feature k105_42898
+100	645	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01101
+			product	hypothetical protein
+2083	590	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01102
+			product	hypothetical protein
+2653	2198	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01103
+			product	hypothetical protein
+2711	2787	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_01104
+			product	tRNA-Thr(tgt)
+2977	3852	CDS
+			db_xref	COG:COG0190
+			gene	folD
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q0PA35
+			locus_tag	JENIMKAA_01105
+			product	Bifunctional protein FolD protein
+4160	3858	CDS
+			gene	sufT
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:A0A0H2XI17
+			locus_tag	JENIMKAA_01106
+			product	Fe-S protein maturation auxiliary factor SufT
+4586	4161	CDS
+			db_xref	COG:COG2166
+			gene	sufE
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q8ZPQ1
+			locus_tag	JENIMKAA_01107
+			product	Cysteine desulfuration protein SufE
+5924	4698	CDS
+			EC_number	2.8.1.7
+			db_xref	COG:COG0520
+			gene	csd
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WQ69
+			locus_tag	JENIMKAA_01108
+			product	putative cysteine desulfurase
+6051	6500	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01109
+			product	hypothetical protein
+6497	7045	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01110
+			product	hypothetical protein
+7258	7181	tRNA
+			inference	COORDINATES:profile:Aragorn:001002
+			locus_tag	JENIMKAA_01111
+			product	tRNA-Glu(ttc)
+10313	7335	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01112
+			product	hypothetical protein
+10459	10313	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01113
+			product	hypothetical protein
+11280	10456	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01114
+			product	hypothetical protein
+>Feature k105_140963
+1546	269	CDS
+			EC_number	1.8.1.2
+			db_xref	COG:COG0369
+			gene	cysJ
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:O32214
+			locus_tag	JENIMKAA_01115
+			product	Sulfite reductase [NADPH] flavoprotein alpha-component
+1755	2486	CDS
+			EC_number	3.1.26.11
+			gene	rbn
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01818
+			locus_tag	JENIMKAA_01116
+			product	Ribonuclease BN
+2797	2546	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01117
+			product	hypothetical protein
+2893	4131	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01118
+			product	hypothetical protein
+4218	4748	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01119
+			product	hypothetical protein
+5791	4778	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01120
+			product	hypothetical protein
+6073	5864	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01121
+			product	hypothetical protein
+8863	6245	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01122
+			product	hypothetical protein
+9123	9398	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01123
+			product	hypothetical protein
+9401	9655	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01124
+			product	hypothetical protein
+10721	9702	CDS
+			EC_number	4.1.2.13
+			gene	fda
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00729
+			locus_tag	JENIMKAA_01125
+			product	Fructose-bisphosphate aldolase class 1
+11744	10791	CDS
+			EC_number	3.1.3.11
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P73922
+			locus_tag	JENIMKAA_01126
+			product	D-fructose 1,6-bisphosphatase class 2/sedoheptulose 1,7-bisphosphatase
+12286	11825	CDS
+			EC_number	4.6.1.17
+			db_xref	COG:COG0315
+			gene	moaC2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P9WJR7
+			locus_tag	JENIMKAA_01127
+			product	Cyclic pyranopterin monophosphate synthase 2
+12396	12656	CDS
+			EC_number	7.-.-.-
+			gene	rsxB_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00463
+			locus_tag	JENIMKAA_01128
+			product	Ion-translocating oxidoreductase complex subunit B
+12649	14004	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01129
+			product	hypothetical protein
+14449	14027	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01130
+			product	hypothetical protein
+14495	15766	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01131
+			product	hypothetical protein
+15865	16722	CDS
+			EC_number	4.2.1.17
+			db_xref	COG:COG1024
+			gene	paaF_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P76082
+			locus_tag	JENIMKAA_01132
+			product	2,3-dehydroadipyl-CoA hydratase
+16892	17323	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01133
+			product	hypothetical protein
+17820	17362	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01134
+			product	hypothetical protein
+17961	19409	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01135
+			product	hypothetical protein
+19452	19964	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01136
+			product	hypothetical protein
+>Feature k105_65038
+41	751	CDS
+			gene	glnQ_2
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P27675
+			locus_tag	JENIMKAA_01137
+			product	Glutamine transport ATP-binding protein GlnQ
+824	1894	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01138
+			product	hypothetical protein
+2311	1907	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01139
+			product	hypothetical protein
+3219	2347	CDS
+			EC_number	2.7.1.23
+			gene	nadK
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_00361
+			locus_tag	JENIMKAA_01140
+			product	NAD kinase
+3371	4441	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01141
+			product	hypothetical protein
+4496	5947	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01142
+			product	hypothetical protein
+6039	7817	CDS
+			db_xref	COG:COG1132
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:Q9WYC4
+			locus_tag	JENIMKAA_01143
+			product	putative ABC transporter ATP-binding protein
+7898	8242	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01144
+			product	hypothetical protein
+8605	9204	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01145
+			product	hypothetical protein
+9287	10684	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01146
+			product	hypothetical protein
+10772	11989	CDS
+			EC_number	2.3.1.9
+			db_xref	COG:COG0183
+			gene	thlA
+			inference	ab initio prediction:Prodigal:002006
+			inference	similar to AA sequence:UniProtKB:P45359
+			locus_tag	JENIMKAA_01147
+			product	Acetyl-CoA acetyltransferase
+12083	12313	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01148
+			product	hypothetical protein
+13158	12337	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01149
+			product	hypothetical protein
+15945	13159	CDS
+			EC_number	1.9.6.1
+			gene	napA
+			inference	ab initio prediction:Prodigal:002006
+			inference	protein motif:HAMAP:MF_01630
+			locus_tag	JENIMKAA_01150
+			product	Periplasmic nitrate reductase
+16723	15956	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	JENIMKAA_01151
+			product	hypothetical protein
