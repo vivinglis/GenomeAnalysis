@@ -42,8 +42,4 @@ ln -s /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D1_pro
 cd ../D3_prokka_output
 ln -s /home/vinglis/genome_analysis/GenomeAnalysis/analysis/04_annotation/D3_prokka_output/*prokka_out*/*.faa .
 
-# Finally actually running phylophlan!
-# Ran for both sites and saved standard error to .out files.
-
-phylophlan.py -i -t --nproc 2 D1_prokka_output 2>../D1_phylophlan.out
-phylophlan.py -i -t --nproc 2 D3_prokka_output 2>../D3_phylophlan.out
+# Ran phylophlan as slurm job - see script 6b.

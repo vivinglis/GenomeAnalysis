@@ -1,0 +1,8 @@
+bin.21.fa_prokka_out	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
+bin.5.fa_prokka_out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__?.f__?.g__?.s__?.t__?
+bin.8.fa_prokka_out	d__Bacteria.p__Planctomycetes.c__Planctomycetacia.o__Pirellulales.f__Pirellulaceae.g__?.s__?.t__?
+bin.18.fa_prokka_out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__?.f__?.g__?.s__?.t__?
+bin.1.fa_prokka_out	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?
+bin.10.fa_prokka_out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__?.f__?.g__?.s__?.t__?
+bin.12.fa_prokka_out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__?.f__?.g__?.s__?.t__?
+bin.2.fa_prokka_out	d__Archaea.p__Crenarchaeota.c__Thaumarchaeota.o__?.f__?.g__?.s__?.t__?

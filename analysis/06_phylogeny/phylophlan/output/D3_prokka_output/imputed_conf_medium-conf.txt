@@ -1,0 +1,1 @@
+bin.20.fa_prokka_out	d__Bacteria.p__Proteobacteria.c__Gammaproteobacteria.o__?.f__?.g__?.s__?.t__?
