@@ -1,0 +1,13 @@
+	trimmomatic 0.36 loaded, see 'module help trimmomatic/0.36' for more information.
+TrimmomaticPE: Started with arguments:
+ /home/vinglis/genome_analysis/GenomeAnalysis/data/raw_data/RNA_raw/SRR4342137.1.fastq.gz /home/vinglis/genome_analysis/GenomeAnalysis/data/raw_data/RNA_raw/SRR4342137.2.fastq.gz RNA_trim_D1_1.paired.trimmed.fastq.gz RNA_trim_D1_2.paired.trimmed.fastq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:keepBothReads LEADING:3 TRAILING:3 MINLEN:36
+Multiple cores found: Using 2 threads
+Quality encoding detected as phred33
+Input Read Pairs: 1304686 Both Surviving: 1239006 (94.97%) Forward Only Surviving: 61773 (4.73%) Reverse Only Surviving: 1878 (0.14%) Dropped: 2029 (0.16%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ /home/vinglis/genome_analysis/GenomeAnalysis/data/raw_data/RNA_raw/SRR4342139.1.fastq.gz /home/vinglis/genome_analysis/GenomeAnalysis/data/raw_data/RNA_raw/SRR4342139.2.fastq.gz RNA_trim_D3_1.paired.trimmed.fastq.gz RNA_trim_D3_2.paired.trimmed.fastq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:keepBothReads LEADING:3 TRAILING:3 MINLEN:36
+Multiple cores found: Using 2 threads
+Quality encoding detected as phred33
+Input Read Pairs: 1213040 Both Surviving: 1151799 (94.95%) Forward Only Surviving: 58152 (4.79%) Reverse Only Surviving: 1488 (0.12%) Dropped: 1601 (0.13%)
+TrimmomaticPE: Completed successfully
